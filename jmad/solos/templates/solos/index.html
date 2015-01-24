@@ -1,0 +1,18 @@
+<a class="navbar-brand">JMAD</a>
+
+<form>
+    <label for="jmad-instrument-input">Instrument</label>
+    <input type="text" class="form-control" id="jmad-instrument-input"
+           name="instrument" placeholder="i.e. trumpet" />
+    <label for="jmad-artist-input">Artist</label>
+    <input type="text" class="form-control" id="jmad-artist-input"
+           name="artist" placeholder="i.e. Davis" />
+</form>
+
+{% for solo in solos %}
+    <div class="jmad-search-result">
+        <a href="/solos/{{ solo.pk }}/">
+            {{ solo.track }}: {{ solo.artist }} on {{ solo.instrument }}
+        </a>
+    </div>
+{% endfor %}

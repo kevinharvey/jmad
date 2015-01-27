@@ -65,19 +65,25 @@ class StudentTestCase(LiveServerTestCase):
         # He clicks on one of the search results.
         second_search_results[0].click()
 
-        # On the solo page he sees the title, artist and album for this particular solo.
-        self.assertEqual(self.browser.current_url, self.live_server_url + '/solos/2/')
+        # On the solo page...
+        self.assertEqual(self.browser.current_url,
+                         self.live_server_url + '/recordings/kind-of-blue/all-blues/cannonball-adderley/')
+
+        # he sees the artist...
         self.assertEqual(
             self.browser.find_element_by_css_selector('#jmad-artist').text,
-            "Adderley"
+            'Adderley'
         )
+        # track title (with a count of solos)...
         self.assertEqual(
             self.browser.find_element_by_css_selector('#jmad-track').text,
-            "All Blues"
+            'All Blues [2 solos]'
         )
+
+        # and album title (with track count) for this solo.
         self.assertEqual(
             self.browser.find_element_by_css_selector('#jmad-album').text,
-            "Kind of Blue"
+            'Kind of Blue [3 tracks]'
         )
 
         # He also sees the start time and end time of the solo.
@@ -89,3 +95,8 @@ class StudentTestCase(LiveServerTestCase):
             self.browser.find_element_by_css_selector('#jmad-end-time').text,
             '4:01'
         )
+
+        # Steve is interested in seeing the other solos on the track, so he clicks it's title
+        self.browser.find_element_by_css_selector('#jmad-track')
+
+

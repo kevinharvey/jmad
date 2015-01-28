@@ -43,10 +43,7 @@ class SoloModelTestCase(TestCase):
         """
         Test that we can build a URL for a solo
         """
-        with self.assertNumQueries(1):
-            url = self.solo.get_absolute_url()
-
         self.assertEqual(
-            url,
+            self.solo.get_absolute_url(),
             '/recordings/at-the-stratford-shakespearean-festival/falling-in-love-with-love/oscar-peterson/'
         )

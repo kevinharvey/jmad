@@ -3,6 +3,7 @@ from django.test import LiveServerTestCase
 from selenium import webdriver
 
 from solos.models import Solo
+from albums.models import Album, Track
 
 
 class StudentTestCase(LiveServerTestCase):
@@ -11,16 +12,25 @@ class StudentTestCase(LiveServerTestCase):
         self.browser = webdriver.Firefox()
         self.browser.implicitly_wait(2)
 
-        self.solo1 = Solo.objects.create(
-            instrument='saxophone',
-            artist='Coltrane',
-            track='My Favorite Things',
-            album='My Favorite Things'
-        )
-        self.solo2 = Solo.objects.create(instrument='saxophone', artist='Adderley', track='All Blues',
-                                         album='Kind of Blue', start_time='2:06', end_time='4:01')
-        self.solo3 = Solo.objects.create(instrument='saxophone', artist='Adderley', track='Waltz for Debby',
-                                         album='Know What I Mean?')
+        self.album1 = Album.objects.create(name='My Favorite Things', slug='my-favorite-things')
+        self.track1 = Track.objects.create(name='My Favorite Things', slug='my-favorite-things', album=self.album1)
+        self.solo1 = Solo.objects.create(instrument='saxophone', artist='John Coltrane',
+                                         track=self.track1, slug='john-coltrane')
+
+        self.album2 = Album.objects.create(name='Kind of Blue', slug='kind-of-blue')
+        self.track2 = Track.objects.create(name='All Blues', slug='all-blues', album= self.album2)
+        self.solo2 = Solo.objects.create(instrument='saxophone', artist='Cannonball Adderley', track=self.track2,
+                                         start_time='2:06', end_time='4:01', slug='cannonball-adderley')
+
+        self.album3 = Album.objects.create(name='Know What I Mean?', slug='know-what-i-mean')
+        self.track3 = Track.objects.create(name='Waltz for Debby', slug='waltz-for-debby', album= self.album3)
+        self.solo3 = Solo.objects.create(instrument='saxophone', artist='Cannonball Adderley', track=self.track3,
+                                         slug='cannonball-adderley')
+
+        self.solo4 = Solo.objects.create(instrument='trumpet', artist='Miles Davis', track=self.track2,
+                                         slug='miles-davis')
+        self.track4 = Track.objects.create(name='Freddie Freeloader', album=self.album2)
+        self.track5 = Track.objects.create(name='Blue in Green', album=self.album2)
 
     def tearDown(self):
         self.browser.quit()
@@ -56,7 +66,7 @@ class StudentTestCase(LiveServerTestCase):
 
         # ... so he adds a particular artist to his search query and gets a more manageable list.
         second_artist_input = self.browser.find_element_by_css_selector('input#jmad-artist-input')
-        second_artist_input.send_keys('Adderley')
+        second_artist_input.send_keys('Cannonball Adderley')
         second_artist_input.submit()
 
         second_search_results = self.browser.find_elements_by_css_selector('.jmad-search-result a')
@@ -72,7 +82,7 @@ class StudentTestCase(LiveServerTestCase):
         # he sees the artist...
         self.assertEqual(
             self.browser.find_element_by_css_selector('#jmad-artist').text,
-            'Adderley'
+            'Cannonball Adderley'
         )
         # track title (with a count of solos)...
         self.assertEqual(

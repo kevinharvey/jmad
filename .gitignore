@@ -58,3 +58,6 @@ target/
 
 # SQLite
 *.sqlite3
+
+# Django
+jmad/stati/c

@@ -13,7 +13,10 @@ def index(request):
     if request.GET.get('artist', None):
         solos_queryset = solos_queryset.filter(artist=request.GET.get('artist', None))
 
-    context = {'solos': solos_queryset}
+    context = {
+        'solos': solos_queryset,
+        'mb_tracks': {}
+    }
     return render_to_response('solos/index.html', context)
 
 

@@ -60,4 +60,4 @@ target/
 *.sqlite3
 
 # Django
-jmad/stati/c
+stati/c

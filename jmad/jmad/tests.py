@@ -287,3 +287,26 @@ class StudentTestCase(LiveServerTestCase):
             self.browser.find_elements_by_css_selector('#result_list tr')[5].text,
             'In Walked Bud Johnny Griffin 0:59-6:21'
         )
+
+    def test_student_finds_new_recordings(self):
+        """
+        Tests that user input will trigger API calls to MusicBrainz and cache the results
+        """
+        # Bryan comes to JMAD and searches for an artist we don't have in the database yet
+        self.browser.get(self.live_server_url + '/')
+        artist_input = self.browser.find_element_by_css_selector('input#jmad-artist-input')
+        artist_input.send_keys('Jaco Pastorius')
+        artist_input.submit()
+
+        # He sees a single search result
+        search_results = self.browser.find_elements_by_css_selector('.jmad-search-result a')
+        self.assertEqual(len(search_results), 1)
+
+        # He clicks on the artist's name, and is taken to his page
+        self.fail('Incomplete Test')
+
+        # He sees the artist's discography
+
+        # He clicks on the name of an album and is taken to the album page
+
+        # He clicks a track and is taken to the track page, where there are no solos

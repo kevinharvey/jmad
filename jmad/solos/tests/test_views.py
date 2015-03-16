@@ -52,11 +52,11 @@ class IndexViewTestCase(TestCase):
         """
         Test that the index view will return artists from the MusicBrainz API if none are returned from our database
         """
-        response = self.client.get('/', {'artist': 'Bill Evans'}) # Bill Evans is not currently in our database
+        response = self.client.get('/', {'artist': 'Jaco Pastorius'}) # Jaco Pastorius is not currently in our database
 
         mb_tracks = response.context['mb_tracks']
         self.assertEqual(len(mb_tracks), 1)
-        self.assertEqual(mb_tracks[0].artist, 'Bill Evans')
+        self.assertEqual(mb_tracks[0].artist, 'Jaco Pastorius')
 
 
 class SoloViewTestCase(TestCase):

@@ -302,11 +302,5 @@ class StudentTestCase(LiveServerTestCase):
         search_results = self.browser.find_elements_by_css_selector('.jmad-search-result a')
         self.assertEqual(len(search_results), 1)
 
-        # He clicks on the artist's name, and is taken to his page
+        # He clicks on the result and is taken to the solo page, where he sees the album and track title
         self.fail('Incomplete Test')
-
-        # He sees the artist's discography
-
-        # He clicks on the name of an album and is taken to the album page
-
-        # He clicks a track and is taken to the track page, where there are no solos

@@ -105,8 +105,7 @@ class SoloModelTestCase(TestCase):
             ]
         }
 
-        with self.assertNumQueries(2):
-            created_solos = Solo.get_artist_tracks_from_musicbrainz('Jaco Pastorius')
+        created_solos = Solo.get_artist_tracks_from_musicbrainz('Jaco Pastorius')
 
         mock_mb_search_artists.assert_called_with('Jaco Pastorius')
         mock_mb_browse_releases.assert_called_with('12345678-1234-1234-1234-123456789012', includes=['recordings'])

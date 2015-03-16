@@ -1,3 +1,5 @@
+from unittest.mock import patch, Mock
+
 from django.test import TestCase, RequestFactory, Client
 from django.db.models.query import QuerySet
 
@@ -48,15 +50,23 @@ class IndexViewTestCase(TestCase):
         self.assertEqual(len(solos), 1)
         self.assertEqual(solos[0].artist, 'Buddy Rich')
 
-    def test_index_view_returns_external_tracks(self):
+    @patch('solos.models.Solo.get_artist_tracks_from_musicbrainz')
+    def test_index_view_returns_external_tracks(self, mock_solos_get_from_mb):
         """
         Test that the index view will return artists from the MusicBrainz API if none are returned from our database
         """
-        response = self.client.get('/', {'artist': 'Jaco Pastorius'}) # Jaco Pastorius is not currently in our database
+        mock_solo = Mock()
+        mock_solo.artist = 'Jaco Pastorius'
+        mock_solos_get_from_mb.return_value = [mock_solo]
 
-        mb_tracks = response.context['mb_tracks']
-        self.assertEqual(len(mb_tracks), 1)
-        self.assertEqual(mb_tracks[0].artist, 'Jaco Pastorius')
+        response = self.client.get('/', {
+            'instrument': 'Bass',
+            'artist': 'Jaco Pastorius' # Jaco Pastorius is not currently in our database
+        })
+
+        solos = response.context['solos']
+        self.assertEqual(len(solos), 1)
+        self.assertEqual(solos[0].artist, 'Jaco Pastorius')
 
 
 class SoloViewTestCase(TestCase):

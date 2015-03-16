@@ -13,14 +13,11 @@ def index(request):
     if artist_kwarg:
         solos_queryset = solos_queryset.filter(artist=artist_kwarg)
 
-    mb_tracks = {}
-    if solos_queryset.count() == 0 and artist_kwarg:
-        mb_tracks = Solo.get_artist_tracks_from_musicbrainz(artist_kwarg)
+    context = {'solos': solos_queryset}
 
-    context = {
-        'solos': solos_queryset,
-        'mb_tracks': mb_tracks
-    }
+    if context['solos'].count() == 0 and artist_kwarg:
+        context['solos'] = Solo.get_artist_tracks_from_musicbrainz(artist_kwarg)
+
     return render_to_response('solos/index.html', context)
 
 

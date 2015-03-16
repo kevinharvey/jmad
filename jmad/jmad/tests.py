@@ -1,3 +1,5 @@
+from unittest import skip
+
 from django.test import LiveServerTestCase
 from django.contrib.auth import get_user_model
 
@@ -288,6 +290,7 @@ class StudentTestCase(LiveServerTestCase):
             'In Walked Bud Johnny Griffin 0:59-6:21'
         )
 
+    @skip('This test is not included in the book text')
     def test_student_finds_new_recordings(self):
         """
         Tests that user input will trigger API calls to MusicBrainz and cache the results

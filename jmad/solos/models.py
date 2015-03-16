@@ -1,5 +1,6 @@
-from django.db import models, transaction
+from django.db import models
 from django.core.urlresolvers import reverse
+from django.utils.text import slugify
 
 import musicbrainzngs as mb
 
@@ -49,13 +50,14 @@ class Solo(models.Model):
         instrument = Solo.get_instrument_from_musicbrainz_tags(search_results)
 
         for album_dict in mb.browse_releases(best_result['id'], includes=['recordings'])['release-list']:
-            album = Album(name=album_dict['title'], artist=artist)
+            album = Album(name=album_dict['title'], artist=artist, slug=slugify(album_dict['title']))
             album.save()
 
             for track_dict in album_dict['medium-list'][0]['track-list']:
-                track = Track(album=album, name=track_dict['recording']['title'], track_number=track_dict['position'])
+                track = Track(album=album, name=track_dict['recording']['title'], track_number=track_dict['position'],
+                              slug=slugify(track_dict['recording']['title']))
                 track.save()
-                solo = Solo(track=track, artist=artist, instrument=instrument)
+                solo = Solo(track=track, artist=artist, instrument=instrument, slug=slugify(artist))
                 solo.save()
 
         return Solo.objects.filter(artist=artist)

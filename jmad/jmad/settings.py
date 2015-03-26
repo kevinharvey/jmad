@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'albums',
     'solos',
+    'rest_framework'
 )
 
 MIDDLEWARE_CLASSES = (

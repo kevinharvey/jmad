@@ -21,7 +21,7 @@ class StudentTestCase(LiveServerTestCase):
                                          track=self.track1, slug='john-coltrane')
 
         self.album2 = Album.objects.create(name='Kind of Blue', slug='kind-of-blue')
-        self.track2 = Track.objects.create(name='All Blues', slug='all-blues', album= self.album2, track_number=4)
+        self.track2 = Track.objects.create(name='All Blues', slug='all-blues', album=self.album2, track_number=4)
         self.solo2 = Solo.objects.create(instrument='saxophone', artist='Cannonball Adderley', track=self.track2,
                                          start_time='4:05', end_time='6:04', slug='cannonball-adderley')
 

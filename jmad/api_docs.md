@@ -14,7 +14,7 @@
         {
             "name": "Kind of Blue",
             "slug": "kind-of-blue",
-            "url": "http://jmad.us/api/albums/2/
+            "url": "http://jmad.us/api/albums/2/"
         }
         ...
     ]

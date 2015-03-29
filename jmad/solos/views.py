@@ -1,6 +1,9 @@
 from django.shortcuts import render_to_response
 
+from rest_framework import viewsets, mixins
+
 from .models import Solo
+from .serializers import SoloSerializer
 
 
 def index(request):
@@ -26,3 +29,8 @@ def solo_detail(request, album, track, artist):
         'solo': Solo.objects.get(slug=artist, track__slug=track, track__album__slug=album)
     }
     return render_to_response('solos/solo_detail.html', context)
+
+
+class SoloViewSet(viewsets.GenericViewSet, mixins.CreateModelMixin):
+    queryset = Solo.objects.all()
+    serializer_class = SoloSerializer

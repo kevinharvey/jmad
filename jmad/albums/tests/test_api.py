@@ -3,6 +3,7 @@ from django.core.urlresolvers import resolve
 from rest_framework.test import APITestCase
 
 from albums.models import Album
+from solos.tests.test_views import setup_models
 
 
 class AlbumAPITestCase(APITestCase):
@@ -26,3 +27,24 @@ class AlbumAPITestCase(APITestCase):
         route = resolve('/api/albums/')
 
         self.assertEqual(route.func.__name__, 'AlbumViewSet')
+
+
+class TrackAPITestCase(APITestCase):
+
+    def setUp(self):
+        setup_models(self)
+
+    def test_retrieve_track(self):
+        """ Test that we can get a list of tracks
+        """
+        response = self.client.get('/api/tracks/1/')
+
+        self.assertEqual(response.status_code, 200)
+
+
+    def test_album_list_route(self):
+        """ Test that we've got routing set up for Albums
+        """
+        route = resolve('/api/tracks/1/')
+
+        self.assertEqual(route.func.__name__, 'TrackViewSet')

@@ -75,7 +75,7 @@
 ## Example Request
 
     {
-        "track": 64,
+        "track": "/api/tracks/83/",
         "artist": "Don Cherry",
         "instrument": "cornet",
         "start_time": "2:13",

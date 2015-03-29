@@ -86,14 +86,13 @@
 
     HTTP 201 Created
     {
+        "url": "http://jmad.us/api/solos/64/",
         "artist": "Don Cherry",
+        "slug": "don-cherry",
         "instrument": "cornet",
         "start_time": "2:13",
         "end_time": "3:54",
-        "track": {
-            "name": "Eventually",
-            "url": "http://jmad.us/api/tracks/83/"
-        }
+        "track": "http://jmad.us/api/tracks/83/"
     }
     
 # Update a Solo

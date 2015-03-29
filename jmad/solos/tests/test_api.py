@@ -24,14 +24,13 @@ class SoloAPITestCase(APITestCase):
 
         self.assertEqual(response.status_code, 201, response.data)
         self.assertEqual(response.data, {
+            'url': 'http://testserver/api/solos/3/',
             'artist': 'John Coltrane',
+            'slug': 'john-coltrane',
             'instrument': 'saxophone',
             'start_time': '0:24',
             'end_time': '3:21',
-            'track': {
-                'name': 'Mr. P.C.',
-                'url': 'http://jmad.us/api/tracks/2/'
-            }
+            'track': 'http://testserver/api/tracks/2/'
         })
 
     def test_solo_create_route(self):

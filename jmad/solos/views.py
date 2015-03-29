@@ -31,6 +31,6 @@ def solo_detail(request, album, track, artist):
     return render_to_response('solos/solo_detail.html', context)
 
 
-class SoloViewSet(viewsets.GenericViewSet, mixins.CreateModelMixin):
+class SoloViewSet(viewsets.GenericViewSet, mixins.CreateModelMixin, mixins.RetrieveModelMixin):
     queryset = Solo.objects.all()
     serializer_class = SoloSerializer

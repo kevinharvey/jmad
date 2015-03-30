@@ -11,7 +11,7 @@ class SoloAPITestCase(APITestCase):
         setup_models(self)
 
     def test_create_solo(self):
-        """ Test that we can post a solo
+        """ Test that we can create a solo
         """
         post_data= {
             'track': '/api/tracks/2/',

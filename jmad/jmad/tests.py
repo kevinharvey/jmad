@@ -2,12 +2,18 @@ from django.test import LiveServerTestCase
 
 from selenium import webdriver
 
+from solos.models import Solo
+
 
 class StudentTestCase(LiveServerTestCase):
 
     def setUp(self):
         self.browser = webdriver.Firefox()
         self.browser.implicitly_wait(2)
+
+        self.solo1 = Solo.objects.create(instrument='saxophone', artist='John Coltrane', track='My Favorite Things')
+        self.solo2 = Solo.objects.create(instrument='saxophone', artist='Cannonball Adderley', track='All Blues')
+        self.solo3 = Solo.objects.create(instrument='saxophone', artist='Cannonball Adderley', track='Waltz for Debby')
 
     def tearDown(self):
         self.browser.quit()

@@ -5,13 +5,18 @@ from solos.views import index, SoloDetailView
 from solos.models import Solo
 
 
-class IndexViewTestCase(TestCase):
+class SolosBaseTestCase(TestCase):
 
     def setUp(self):
         self.factory = RequestFactory()
 
-        self.drum_solo = Solo.objects.create(instrument='drums', artist='Rich', track='Bugle Call Rag')
-        self.sax_solo = Solo.objects.create(instrument='saxophone', artist='Coltrane', track='Mr. PC')
+    @classmethod
+    def setUpClass(cls):
+        super().setUpClass()
+        cls.drum_solo = Solo.objects.create(instrument='drums', artist='Rich', track='Bugle Call Rag')
+        cls.sax_solo = Solo.objects.create(instrument='saxophone', artist='Coltrane', track='Mr. PC')
+
+class IndexViewTestCase(SolosBaseTestCase):
 
     def test_index_view_basic(self):
         """

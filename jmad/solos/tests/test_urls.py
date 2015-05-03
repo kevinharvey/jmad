@@ -12,3 +12,13 @@ class SolosURLsTestCase(TestCase):
         """
         root = resolve('/')
         self.assertEqual(root.func, index)
+
+    def test_solo_details_url(self):
+        """
+        Test that the URL for SoloDetail resolves to the correct view function
+        """
+        solo_detail = resolve('/solos/1/')
+
+        self.assertEqual(solo_detail.func.__name__, 'SoloDetailView')
+        self.assertEqual(solo_detail.kwargs['pk'], '1')
+

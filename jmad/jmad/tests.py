@@ -11,9 +11,12 @@ class StudentTestCase(LiveServerTestCase):
         self.browser = webdriver.Firefox()
         self.browser.implicitly_wait(2)
 
-        self.solo1 = Solo.objects.create(instrument='saxophone', artist='John Coltrane', track='My Favorite Things')
-        self.solo2 = Solo.objects.create(instrument='saxophone', artist='Cannonball Adderley', track='All Blues')
-        self.solo3 = Solo.objects.create(instrument='saxophone', artist='Cannonball Adderley', track='Waltz for Debby')
+        self.solo1 = Solo.objects.create(instrument='saxophone', artist='John Coltrane', track='My Favorite Things',
+                                         album='My Favorite Things')
+        self.solo2 = Solo.objects.create(instrument='saxophone', artist='Cannonball Adderley', track='All Blues',
+                                         album='Kind of Blue', start_time='2:06', end_time='4:01')
+        self.solo3 = Solo.objects.create(instrument='saxophone', artist='Cannonball Adderley', track='Waltz for Debby',
+                                         album='Know What I Mean?')
 
     def tearDown(self):
         self.browser.quit()

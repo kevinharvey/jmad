@@ -1,5 +1,18 @@
 <p id="jmad-artist">{{ solo.artist }}</p>
-<p id="jmad-track">{{ solo.track }}</p>
-<p id="jmad-album">{{ solo.album }}</p>
+
+<p id="jmad-track">
+    {{ solo.track.name }}
+    {% with solos=solo.track.solo_set.count %}
+        [{{solos}} solo{{ solos|pluralize }}]
+    {% endwith %}
+</p>
+
+<p id="jmad-album">
+    {{ solo.track.album.name }}
+    {% with tracks=solo.track.album.track_set.count %}
+        [{{tracks}} track{{ tracks|pluralize }}]
+    {% endwith %}
+</p>
+
 <p id="jmad-start-time">{{ solo.start_time }}</p>
 <p id="jmad-end-time">{{ solo.end_time }}</p>

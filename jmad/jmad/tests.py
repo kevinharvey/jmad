@@ -193,14 +193,55 @@ class StudentTestCase(LiveServerTestCase):
         self.assertEqual(solo_rows[2].text, 'All Blues Cannonball Adderley 4:05-6:04')
         self.assertEqual(solo_rows[3].text.strip(), 'Waltz for Debby Cannonball Adderley')
         self.assertEqual(solo_rows[4].text.strip(), 'My Favorite Things John Coltrane')
-        self.fail('Incomplete Test')
 
         # He adds a Solo to a Track that already exists
+        self.browser.find_element_by_link_text('Add solo').click()
+        solo_form = self.browser.find_element_by_id('solo_form')
+        solo_form.find_element_by_name('track').find_elements_by_tag_name('option')[6].click()
+        solo_form.find_element_by_name('artist').send_keys('McCoy Tyner')
+        solo_form.find_element_by_name('instrument').send_keys('Piano')
+        solo_form.find_element_by_name('start_time').send_keys('2:19')
+        solo_form.find_element_by_name('end_time').send_keys('7:01')
+        solo_form.find_element_by_name('slug').send_keys('mcoy-tyner')
+        solo_form.find_element_by_css_selector('.submit-row input').click()
+
+        self.assertEqual(self.browser.find_elements_by_css_selector('#result_list tr')[5].text,
+                        'My Favorite Things McCoy Tyner 2:19-7:01')
 
         # He then adds a Solo for which the Track and Album do not yet exist
+        self.browser.find_element_by_link_text('Add solo').click()
+        solo_form = self.browser.find_element_by_id('solo_form')
 
         # He adds a Track from the Solo page
+        solo_form.find_element_by_id('add_id_track').click()
+        self.browser.switch_to.window(self.browser.window_handles[1])
+        track_form = self.browser.find_element_by_id('track_form')
+        track_form.find_element_by_name('name').send_keys('In Walked Bud')
 
         # He adds an Album from the Track popup
+        track_form.find_element_by_id('add_id_album').click()
+        self.browser.switch_to.window(self.browser.window_handles[2])
+        album_form = self.browser.find_element_by_id('album_form')
+        album_form.find_element_by_name('name').send_keys('Misterioso')
+        album_form.find_element_by_name('artist').send_keys('Thelonious Monk Quartet')
+        album_form.find_element_by_name('slug').send_keys('misterioso')
+        album_form.find_element_by_css_selector('.submit-row input').click()
 
         # He finishes up both parent objects, and saves the Solo
+        self.browser.switch_to.window(self.browser.window_handles[1])
+        track_form = self.browser.find_element_by_id('track_form')
+        track_form.find_element_by_name('track_number').send_keys('4')
+        track_form.find_element_by_name('slug').send_keys('in-walked-bud')
+        track_form.find_element_by_css_selector('.submit-row input').click()
+
+        self.browser.switch_to.window(self.browser.window_handles[0])
+        solo_form = self.browser.find_element_by_id('solo_form')
+        solo_form.find_element_by_name('artist').send_keys('Johnny Griffin')
+        solo_form.find_element_by_name('instrument').send_keys('Tenor Saxophone')
+        solo_form.find_element_by_name('start_time').send_keys('0:59')
+        solo_form.find_element_by_name('end_time').send_keys('6:21')
+        solo_form.find_element_by_name('slug').send_keys('johnny-griffin')
+        solo_form.find_element_by_css_selector('.submit-row input').click()
+
+        self.assertEqual(self.browser.find_elements_by_css_selector('#result_list tr')[4].text,
+                         'In Walked Bud Johnny Griffin 0:59-6:21')

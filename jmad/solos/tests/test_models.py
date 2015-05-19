@@ -49,3 +49,10 @@ class SoloModelTestCase(TestCase):
         Test that we can print the duration of a Solo
         """
         self.assertEqual(self.solo.get_duration(), '1:24-4:06')
+    def test_get_instrument_from_musicbrainz_tags(self):
+        """
+        Test that we can map tags from MusicBrainz to instruments
+        """
+        tag_list = [{'count': '1', 'name': 'pianist'}, {'count': '1', 'name': 'jazz'}]
+
+        self.assertEqual(Solo.get_instrument_from_musicbrainz_tags(tag_list), 'piano')

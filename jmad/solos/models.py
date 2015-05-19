@@ -24,3 +24,13 @@ class Solo(models.Model):
         if self.start_time and self.end_time:
             duration_string = '{}-{}'.format(self.start_time, self.end_time)
         return duration_string
+    @classmethod
+    def get_instrument_from_musicbrainz_tags(cls, tag_list):
+        """
+        Return a single instrument from a list of dict-tags as returned in the MusicBrainzNGS API
+
+        :param tag_list: a list of dicts with keys 'count' and 'name'
+        :return: a string
+        """
+        map = {'pianist': 'piano', 'bassist': 'bass'}
+        return map[set(map.keys()).intersection([tag['name'] for tag in tag_list]).pop()]

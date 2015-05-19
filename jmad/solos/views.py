@@ -1,7 +1,11 @@
 from django.shortcuts import render_to_response
 
+import musicbrainzngs as mb
+
 from .models import Solo
 
+
+mb.set_useragent('JMAD - http://jmad.us/', version='0.0.1')
 
 def index(request):
     context = {'solos': []}
@@ -12,10 +16,14 @@ def index(request):
         if request.GET.get('instrument'):
             solos_queryset = solos_queryset.filter(instrument=request.GET['instrument'])
 
-        if request.GET.get('artist', None):
-            solos_queryset = solos_queryset.filter(artist=request.GET['artist'])
+        artist_kwarg = request.GET.get('artist', None)
+        if artist_kwarg:
+            solos_queryset = solos_queryset.filter(artist=artist_kwarg)
 
         context['solos'] = solos_queryset
+
+        if context['solos'].count() == 0 and artist_kwarg:
+            context['solos'] = Solo.get_artist_tracks_from_musicbrainz(artist_kwarg)
 
     return render_to_response('solos/index.html', context)
 

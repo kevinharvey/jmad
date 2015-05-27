@@ -4,11 +4,13 @@ from django.contrib import admin
 from rest_framework import routers
 
 from albums.views import AlbumViewSet, TrackViewSet
+from solos.views import SoloViewSet
 
 
 router = routers.SimpleRouter()
 router.register(r'albums', AlbumViewSet)
 router.register(r'tracks', TrackViewSet)
+router.register(r'solos', SoloViewSet)
 
 
 urlpatterns = [

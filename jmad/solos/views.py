@@ -1,8 +1,10 @@
 from django.shortcuts import render_to_response
 
 import musicbrainzngs as mb
+from rest_framework import viewsets, mixins
 
 from .models import Solo
+from .serializers import SoloSerializer
 
 
 mb.set_useragent('JMAD - http://jmad.us/', version='0.0.1')
@@ -34,4 +36,9 @@ def solo_detail(request, album, track, artist):
     }
 
     return render_to_response('solos/solo_detail.html', context)
+
+
+class SoloViewSet(viewsets.GenericViewSet, mixins.CreateModelMixin):
+    queryset = Solo.objects.all()
+    serializer_class = SoloSerializer
 

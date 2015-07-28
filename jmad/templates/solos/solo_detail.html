@@ -1,3 +1,6 @@
+{% extends 'base.html' %}
+
+{% block content %}
 <p id="jmad-artist">{{ solo.artist }}</p>
 
 <p id="jmad-track">
@@ -16,3 +19,4 @@
 
 <p id="jmad-start-time">{{ solo.start_time }}</p>
 <p id="jmad-end-time">{{ solo.end_time }}</p>
+{% endblock content %}

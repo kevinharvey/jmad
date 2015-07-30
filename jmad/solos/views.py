@@ -1,13 +1,11 @@
 from django.shortcuts import render_to_response
 
-import musicbrainzngs as mb
 from rest_framework import viewsets, mixins
 
 from .models import Solo
+from .tasks import get_artist_tracks_from_musicbrainz
 from .serializers import SoloSerializer
 
-
-mb.set_useragent('JMAD - http://jmad.us/', version='0.0.1')
 
 def index(request):
     context = {'solos': []}
@@ -25,7 +23,7 @@ def index(request):
         context['solos'] = solos_queryset
 
         if context['solos'].count() == 0 and artist_kwarg:
-            context['solos'] = Solo.get_artist_tracks_from_musicbrainz(artist_kwarg)
+            get_artist_tracks_from_musicbrainz.delay(artist=artist_kwarg)
 
     return render_to_response('solos/index.html', context)
 

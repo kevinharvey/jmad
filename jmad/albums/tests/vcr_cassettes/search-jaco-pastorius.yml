@@ -1,0 +1,620 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection: [close]
+      Content-Length: ['0']
+      Host: [musicbrainz.org]
+      User-Agent: ['JMAD - https://jmad.us//0.0.1 python-musicbrainzngs/0.5']
+    method: GET
+    uri: http://musicbrainz.org/ws/2/artist/?query=Jaco+Pastorius
+  response:
+    body: {string: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><metadata
+        created=\"2015-08-04T03:12:14.012Z\" xmlns=\"http://musicbrainz.org/ns/mmd-2.0#\"
+        xmlns:ext=\"http://musicbrainz.org/ns/ext#-2.0\"><artist-list count=\"25\"
+        offset=\"0\"><artist id=\"46a6fac0-2e14-4214-b08e-3bdb1cffa5aa\" type=\"Person\"
+        ext:score=\"100\"><name>Jaco Pastorius</name><sort-name>Pastorius, Jaco</sort-name><gender>male</gender><country>US</country><area
+        id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United States</name><sort-name>United
+        States</sort-name></area><begin-area id=\"0b345109-5a24-4e47-8bc5-44227f0bdcc3\"><name>Norristown</name><sort-name>Norristown</sort-name></begin-area><end-area
+        id=\"a2993fdb-6cc6-49da-abe6-831142053fd1\"><name>Fort Lauderdale</name><sort-name>Fort
+        Lauderdale</sort-name></end-area><ipi-list><ipi>00049970439</ipi></ipi-list><life-span><begin>1951-12-01</begin><end>1987-09-21</end><ended>true</ended></life-span><alias-list><alias
+        sort-name=\"Jaco Pastorious\">Jaco Pastorious</alias></alias-list><tag-list><tag
+        count=\"1\"><name>funk</name></tag><tag count=\"1\"><name>jazz fusion</name></tag><tag
+        count=\"1\"><name>jazz</name></tag><tag count=\"1\"><name>american</name></tag><tag
+        count=\"1\"><name>bassist</name></tag><tag count=\"1\"><name>jaco pastorius</name></tag></tag-list></artist><artist
+        id=\"c403e44b-76f5-40de-937d-e15e3dd9b565\" type=\"Group\" ext:score=\"76\"><name>Jaco
+        Pastorius Big Band</name><sort-name>Pastorius, Jaco Big Band</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id=\"db1e6f90-3918-4ae7-a688-556f03ee9148\" type=\"Group\" ext:score=\"76\"><name>Jaco
+        Pastorius Trio</name><sort-name>Pastorius, Jaco, Trio</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id=\"6df49a4a-c0bf-4b7b-aa1a-9a3a3190a5a9\" type=\"Person\" ext:score=\"32\"><name>Jaco</name><sort-name>Jaco</sort-name><gender>male</gender><area
+        id=\"d7916885-2577-4bcc-ae7b-52f2e93df949\"><name>Fredrikstad</name><sort-name>Fredrikstad</sort-name></area><disambiguation>Trance/Progressive
+        DJ &amp; producer from Fredrikstad, Norway</disambiguation><life-span><begin>1986-09-21</begin><ended>false</ended></life-span></artist><artist
+        id=\"1c72ad30-8c09-4fbf-9f4b-784edc49c1e6\" type=\"Group\" ext:score=\"32\"><name>Jaco</name><sort-name>Jaco</sort-name><country>GB</country><area
+        id=\"8a754a16-0027-3a29-b6d7-2b40ea0481ed\"><name>United Kingdom</name><sort-name>United
+        Kingdom</sort-name></area><life-span><ended>false</ended></life-span><tag-list><tag
+        count=\"1\"><name>british</name></tag><tag count=\"1\"><name>uk</name></tag><tag
+        count=\"1\"><name>english</name></tag><tag count=\"1\"><name>warp</name></tag></tag-list></artist><artist
+        id=\"f5ad01b9-ceaf-4f95-a9a7-593bf474d9a7\" type=\"Person\" ext:score=\"32\"><name>Jaco</name><sort-name>Jaco</sort-name><disambiguation>Polish
+        rapper</disambiguation><life-span><ended>false</ended></life-span></artist><artist
+        id=\"aef506c9-dc6c-4441-b416-ab176c87f357\" ext:score=\"32\"><name>Jaco</name><sort-name>Jaco</sort-name><disambiguation>Italo-disco</disambiguation><life-span><ended>false</ended></life-span></artist><artist
+        id=\"44dfbdbd-f84b-46b4-ae15-ec39045ac814\" type=\"Person\" ext:score=\"21\"><name>Ayesha
+        Jaco</name><sort-name>Jaco, Ayesha</sort-name><gender>female</gender><life-span><ended>false</ended></life-span></artist><artist
+        id=\"75e4f270-8933-4658-bca2-4bb74964e663\" ext:score=\"20\"><name>Jaco Rojzo</name><sort-name>Jaco
+        Rojzo</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id=\"3d33c0a0-e3f5-405d-a341-9ab1dc36cc84\" type=\"Group\" ext:score=\"19\"><name>Jaco:neco</name><sort-name>Jaco:neco</sort-name><country>JP</country><area
+        id=\"2db42837-c832-3c27-b4a3-08198f75693c\"><name>Japan</name><sort-name>Japan</sort-name></area><life-span><begin>1980</begin><end>1993</end><ended>true</ended></life-span><alias-list><alias
+        sort-name=\"\u3058\u3083\u3053\u3046\u306D\u3053\" type=\"Artist name\">\u9E9D\u9999\u732B</alias></alias-list></artist><artist
+        id=\"04760a50-6de6-4e68-ad66-4d410284ad99\" type=\"Person\" ext:score=\"19\"><name>Jaco
+        Loren</name><sort-name>Loren, Jaco</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id=\"4840333b-0ed8-498a-97e5-045f84fb1a54\" type=\"Person\" ext:score=\"19\"><name>Jaco
+        Caraco</name><sort-name>Caraco, Jaco</sort-name><life-span><ended>false</ended></life-span><tag-list><tag
+        count=\"1\"><name>production music</name></tag></tag-list></artist><artist
+        id=\"95791f54-c263-41f3-8c89-828164dfc2e3\" type=\"Person\" ext:score=\"19\"><name>Jaco
+        Maria</name><sort-name>Maria, Jaco</sort-name><disambiguation>african jazz
+        artist</disambiguation><life-span><ended>false</ended></life-span></artist><artist
+        id=\"fc9b1a41-6209-4783-80a8-1f54b46f406f\" type=\"Person\" ext:score=\"19\"><name>Jaco
+        Abel</name><sort-name>Abel, Jaco</sort-name><gender>male</gender><country>ES</country><area
+        id=\"471c46a7-afc5-31c4-923c-d0444f5053a4\"><name>Spain</name><sort-name>Spain</sort-name></area><disambiguation>Spanish
+        Electric Flamenco Guitar player</disambiguation><life-span><begin>1966</begin><ended>false</ended></life-span></artist><artist
+        id=\"ee1a3cdd-d907-4e76-bfe8-f60a8bbd5ba4\" type=\"Person\" ext:score=\"17\"><name>Wasalu
+        Muhammad Jaco</name><sort-name>Jaco, Wasalu Muhammad</sort-name><gender>male</gender><country>US</country><area
+        id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United States</name><sort-name>United
+        States</sort-name></area><begin-area id=\"29a709d8-0320-493e-8d0c-f2c386662b7f\"><name>Chicago</name><sort-name>Chicago</sort-name></begin-area><life-span><begin>1982-02-16</begin><ended>false</ended></life-span></artist><artist
+        id=\"d7fe2327-ea34-4ac7-9bca-0a6ac9fc10d5\" type=\"Other\" ext:score=\"16\"><name>Jaco,
+        der Papagei</name><sort-name>Jaco, der Papagei</sort-name><disambiguation>singing
+        parrot</disambiguation><life-span><ended>false</ended></life-span><tag-list><tag
+        count=\"1\"><name>type=animal</name></tag></tag-list></artist><artist id=\"a55b1402-da2f-4c54-8843-49e5fe67375b\"
+        ext:score=\"16\"><name>Jaco &amp; Mixxmaster</name><sort-name>Jaco &amp; Mixxmaster</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id=\"264f8459-d1fb-4b2c-bee8-09c2e271a6f4\" type=\"Group\" ext:score=\"16\"><name>Jac\xF3
+        e Jacozinho</name><sort-name>Jac\xF3 e Jacozinho</sort-name><country>BR</country><area
+        id=\"f45b47f8-5796-386e-b172-6c31b009a5d8\"><name>Brazil</name><sort-name>Brazil</sort-name></area><life-span><begin>1964</begin><end>1980</end><ended>true</ended></life-span></artist><artist
+        id=\"0394ff8c-05ef-4263-be6a-3782fc44dffc\" type=\"Person\" ext:score=\"13\"><name>Jaco
+        Venter</name><sort-name>Venter, Jaco</sort-name><country>ZA</country><area
+        id=\"50cc7852-862e-30ae-aa82-385fe7135b7f\"><name>South Africa</name><sort-name>South
+        Africa</sort-name></area><disambiguation>South African</disambiguation><life-span><ended>false</ended></life-span><tag-list><tag
+        count=\"1\"><name>drums</name></tag><tag count=\"1\"><name>south african</name></tag></tag-list></artist><artist
+        id=\"82b267ea-87ff-4449-a51b-f2c78823ad44\" type=\"Person\" ext:score=\"13\"><name>Jaco
+        Ayache</name><sort-name>Ayache, Jaco</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id=\"a3b163be-af59-4935-b21c-30389429fe99\" type=\"Person\" ext:score=\"13\"><name>Jaco
+        Largent</name><sort-name>Largent, Jaco</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id=\"7a08b449-8b21-4a77-84fd-f9c2dcdb7e2e\" type=\"Person\" ext:score=\"13\"><name>Jaco
+        Huijpen</name><sort-name>Huijpen, Jaco</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id=\"7b5ceeae-401a-4500-bf30-fcde556b6572\" type=\"Person\" ext:score=\"10\"><name>Jaco
+        van Rijswijk</name><sort-name>van Rijswijk, Jaco</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id=\"6cf51d77-e32a-470c-b0f2-fa5288606774\" ext:score=\"8\"><name>Barnard
+        Jerry &amp; Grogan Ryan &amp; Maria Jaco</name><sort-name>splitme</sort-name><life-span><ended>false</ended></life-span><tag-list><tag
+        count=\"1\"><name>split me up</name></tag></tag-list></artist><artist id=\"93c01a5a-412d-4eed-9207-4287e3cbd05f\"
+        type=\"Person\" ext:score=\"5\"><name>Jacob do Bandolim</name><sort-name>Bandolim,
+        Jacob do</sort-name><country>BR</country><area id=\"f45b47f8-5796-386e-b172-6c31b009a5d8\"><name>Brazil</name><sort-name>Brazil</sort-name></area><life-span><begin>1918-02-14</begin><end>1969-08-13</end><ended>true</ended></life-span><alias-list><alias
+        sort-name=\"Bittencourt, Jacob\" type=\"Artist name\">Jacob Bittencourt</alias><alias
+        sort-name=\"Jacob Do Bandolin\">Jacob Do Bandolin</alias><alias sort-name=\"Bittencourt,
+        Jacob Do\">Jacob Do Bittencourt</alias><alias sort-name=\"Bittencourt, Jacob
+        Pick\" type=\"Legal name\">Jacob Pick Bittencourt</alias><alias sort-name=\"Jac\xF3
+        do Bandolim\">Jac\xF3 do Bandolim</alias></alias-list></artist></artist-list></metadata>"}
+    headers:
+      Access-Control-Allow-Origin: ['*']
+      Connection: [close]
+      Content-Type: [application/xml;charset=UTF-8]
+      Date: ['Tue, 04 Aug 2015 05:07:22 GMT']
+      Last-Modified: ['Tue, 04 Aug 2015 03:12:14 GMT']
+      Server: [nginx/1.1.19]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Connection: [close]
+      Content-Length: ['0']
+      Host: [musicbrainz.org]
+      User-Agent: ['JMAD - https://jmad.us//0.0.1 python-musicbrainzngs/0.5']
+    method: GET
+    uri: http://musicbrainz.org/ws/2/release/?artist=46a6fac0-2e14-4214-b08e-3bdb1cffa5aa&inc=recordings
+  response:
+    body: {string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><metadata xmlns=\"http://musicbrainz.org/ns/mmd-2.0#\"><release-list
+        count=\"60\"><release id=\"07ae48b5-8ebe-4453-86db-9c45d602c3fe\"><title>PDB</title><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1986</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1986</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"6\" offset=\"0\"><track
+        id=\"4e99538a-cf20-3c24-a297-f306f8e1648d\"><position>1</position><number>1</number><length>582826</length><recording
+        id=\"db029dd5-4dfe-4713-a1da-0bdeaac137d8\"><title>Invitation</title><length>582826</length></recording></track><track
+        id=\"e026497c-586b-33f4-9a0e-ff331937276f\"><position>2</position><number>2</number><length>456666</length><recording
+        id=\"4cf45323-bd86-4d80-9b00-98fa9d8399a4\"><title>Three Views of a Secret</title><length>456666</length></recording></track><track
+        id=\"593b02c3-2756-3079-b67a-a97a7083461e\"><position>3</position><number>3</number><length>360666</length><recording
+        id=\"77ba1f0c-a222-47bf-a3fd-136008494314\"><title>Son of Creeper</title><length>360666</length></recording></track><track
+        id=\"eb6a95f1-f7b1-3377-9b4b-1a07e38ffc23\"><position>4</position><number>4</number><length>216933</length><recording
+        id=\"a6283837-da46-4ab4-9e06-1cf7cba05573\"><title>Ode to Billy Joe</title><length>216933</length></recording></track><track
+        id=\"d41c54d5-a3a8-3164-b09b-12f7c0d329f3\"><position>5</position><number>5</number><length>276173</length><recording
+        id=\"70407b74-e4a3-4248-bf76-d56bd4e52276\"><title>Continuum</title><length>276173</length></recording></track><track
+        id=\"3c656de4-8655-33c7-a2a2-387a8ae64b1a\"><position>6</position><number>6</number><length>621400</length><recording
+        id=\"e2e0bdde-316b-4148-a813-7fe8a8e48d33\"><title>Dolphin Dance</title><length>621400</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"0dfb72cb-66d7-44f6-8385-9e1519ede2ad\"><title>Across the Atlantic Ocean</title><status>Bootleg</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1985</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1985</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"11\" offset=\"0\"><track
+        id=\"7affe221-9357-35b4-9322-8ef418026a08\"><position>1</position><number>1</number><recording
+        id=\"dc0f4ce1-8482-4f3a-b046-c7b782707745\"><title>Broadway Blues</title></recording></track><track
+        id=\"f01473ed-7b73-30d0-9c63-104cf56d15da\"><position>2</position><number>2</number><recording
+        id=\"1168542d-cf91-435c-bff4-042849c689f3\"><title>The High and the Mighty
+        / If You Could See Me Now</title></recording></track><track id=\"2c0b4ca8-0a4a-360a-b9c7-0ea5559ffbc2\"><position>3</position><number>3</number><recording
+        id=\"467ce768-cbc7-4457-bf56-8757e3227f4b\"><title>Purple Haze</title></recording></track><track
+        id=\"78c5a7c5-ffca-321a-aae5-5d6c4a7d5736\"><position>4</position><number>4</number><recording
+        id=\"aecda378-bfaa-49be-9d6a-6f9426e74fc2\"><title>Blackbird / Alfie</title></recording></track><track
+        id=\"88b3675f-47b6-3805-8c86-043b367ba3d6\"><position>5</position><number>5</number><recording
+        id=\"5acb4322-b7ae-407d-8123-0121e5cf62f7\"><title>Donna Lee</title></recording></track><track
+        id=\"4ce76c79-2a4e-36bf-a93f-f22a08d270aa\"><position>6</position><number>6</number><recording
+        id=\"3526b1db-5057-4357-b86f-bc4a048df03a\"><title>Naima</title></recording></track><track
+        id=\"92485f41-52c0-3326-bff0-a1b8d0f9d4ff\"><position>7</position><number>7</number><recording
+        id=\"9d14055b-fb39-4026-8ce8-7381014e2b93\"><title>Fannie Mae</title></recording></track><track
+        id=\"030293fc-73ea-34b0-9b4d-8a204c7d3318\"><position>8</position><number>8</number><recording
+        id=\"6a19c579-1000-4bc2-93f8-2e242fad9057\"><title>Continuum</title></recording></track><track
+        id=\"114ff570-aa12-315a-ae8a-492f332e389f\"><position>9</position><number>9</number><recording
+        id=\"9593fe79-dd4f-45c2-af84-7bb4be2543d4\"><title>Jimmy Page's Session, Part
+        1 (feat. Jimmy Page)</title></recording></track><track id=\"1b0cf66e-6475-3925-82c7-9c711be854bc\"><position>10</position><number>10</number><recording
+        id=\"435eb032-1810-4ef7-a2a9-fb7b880e887f\"><title>Jimmy Page's Session, Part
+        2 (feat. Jimmy Page)</title></recording></track><track id=\"6a3e4213-8c36-3d26-9765-d24ba81cd55a\"><position>11</position><number>11</number><recording
+        id=\"521ff0bf-63a0-4522-af34-182dd896d30e\"><title>Jimmy Page's Session, Part
+        3 (feat. Jimmy Page)</title></recording></track></track-list></medium></medium-list></release><release
+        id=\"18e2069c-7e69-4535-a153-24d423759be6\"><title>Word of Mouth</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1981-12</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1981-12</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><barcode>093624824626</barcode><asin>B000002KM3</asin><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"7\" offset=\"0\"><track
+        id=\"7afd9df8-4a9c-328b-a466-5a85cdb0ae61\"><position>1</position><number>1</number><length>320226</length><recording
+        id=\"584da5f1-dbf3-4d9d-a65f-e183cbc47e3a\"><title>Crisis</title><length>320226</length></recording></track><track
+        id=\"e0515854-b9e6-3462-8f54-0b9e6b59a7b8\"><position>2</position><number>2</number><length>369773</length><recording
+        id=\"35abc4a2-4e61-4ca9-a819-85b80d584428\"><title>3 Views of a Secret</title><length>369773</length></recording></track><track
+        id=\"aaa50192-e660-30c1-a169-5921ddcdea8d\"><position>3</position><number>3</number><length>719800</length><recording
+        id=\"3a073a52-611c-4175-b83b-526515f26e03\"><title>Liberty City</title><length>719800</length></recording></track><track
+        id=\"65187a1b-cdb1-35cc-9edf-b00867c07bfd\"><position>4</position><number>4</number><length>181360</length><recording
+        id=\"34339abb-1aa6-4646-ac8a-ee3def5a9b24\"><title>Chromatic Fantasy</title><length>181360</length></recording></track><track
+        id=\"0750ad10-67cc-3076-893a-d2a8f4aa1cc3\"><position>5</position><number>5</number><length>167706</length><recording
+        id=\"f01f9b38-b783-4c9e-a115-f29456b6ade7\"><title>Blackbird</title><length>167706</length></recording></track><track
+        id=\"6ddc9f8d-cda0-3cb4-919c-15e231e4fb78\"><position>6</position><number>6</number><length>233360</length><recording
+        id=\"59937566-9d69-4b61-95b1-27bd61b7d953\"><title>Word of Mouth</title><length>233360</length></recording></track><track
+        id=\"c1a76397-5f42-3c97-953b-767d5f6bf33b\"><position>7</position><number>7</number><length>653533</length><recording
+        id=\"22094498-d4ca-48cb-bbfc-e44a4dbeaf07\"><title>John and Mary</title><length>653533</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"1d2b16dc-7d2a-408f-8bb0-5ff4073fddf4\"><title>Jazz Street</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1989</date><country>DE</country><release-event-list
+        count=\"1\"><release-event><date>1989</date><area id=\"85752fda-13c4-31a3-bee5-0e5cb1f51dad\"><name>Germany</name><sort-name>Germany</sort-name><iso-3166-1-code-list><iso-3166-1-code>DE</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><asin>B00005MIBH</asin><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"7\" offset=\"0\"><track
+        id=\"ec7a2502-63b7-33d9-8bd9-45b896ca6a41\"><position>1</position><number>1</number><length>166933</length><recording
+        id=\"dea93845-2b0c-4ed6-be33-902680312afe\"><title>No Slack</title><length>166933</length></recording></track><track
+        id=\"cc7c0fa9-f6d6-3958-b850-fe81980652db\"><position>2</position><number>2</number><length>234800</length><recording
+        id=\"33f28b9d-9d90-4696-9a73-ad37d74c4d1e\"><title>Jazz Street</title><length>234800</length></recording></track><track
+        id=\"1d4edc03-f518-36b8-9e58-9f9aee92f3c8\"><position>3</position><number>3</number><length>307173</length><recording
+        id=\"aa520489-1f1b-4212-b10a-040d4476a887\"><title>Miles Mode</title><length>307173</length></recording></track><track
+        id=\"ac41d68e-c872-3320-98e9-361e070c28f0\"><position>4</position><number>4</number><length>395600</length><recording
+        id=\"b59e1001-ce68-4b44-b6c3-7ce1808b2f6c\"><title>May Day</title><length>395600</length></recording></track><track
+        id=\"e33a4e4a-83be-320f-890d-31f9f2f6ea1b\"><position>5</position><number>5</number><length>382200</length><recording
+        id=\"800c5d2d-2baf-46f7-a250-9b891d42cf28\"><title>Wedding Waltz</title><length>382200</length></recording></track><track
+        id=\"a53bb0e6-583b-354b-964f-78e16c91c936\"><position>6</position><number>6</number><length>388466</length><recording
+        id=\"4e6efbc8-2bb6-48cc-85bd-0b8fcaa21f03\"><title>Out of the Night</title><length>388466</length></recording></track><track
+        id=\"c26d6248-4ac7-3a16-8a98-c1d3f4c919f4\"><position>7</position><number>7</number><length>489666</length><recording
+        id=\"d8a17c08-ea40-427c-ba82-023a5c52f574\"><title>Drums of Yadzarah</title><length>489666</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"2061e9b3-36ea-4294-b4e9-ba205e6cf0b4\"><title>Heavy'n Jazz</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1992</date><country>DE</country><release-event-list
+        count=\"1\"><release-event><date>1992</date><area id=\"85752fda-13c4-31a3-bee5-0e5cb1f51dad\"><name>Germany</name><sort-name>Germany</sort-name><iso-3166-1-code-list><iso-3166-1-code>DE</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><barcode>722746703624</barcode><asin>B000007WB2</asin><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"8\" offset=\"0\"><track
+        id=\"5892a4c4-63b3-3156-9c23-928d7434cda2\"><position>1</position><number>1</number><length>766733</length><recording
+        id=\"03e036a7-c79b-4f1e-adc4-6faf9db3a588\"><title>Broadman Blues</title><length>766733</length></recording></track><track
+        id=\"3a669da7-5b71-33fb-bb1c-cc148f42cbc7\"><position>2</position><number>2</number><length>408693</length><recording
+        id=\"658cfe43-3eef-47d5-963a-0157848628d3\"><title>Bluma / Smoke on the Water</title><length>408693</length></recording></track><track
+        id=\"828cfe04-acac-343d-8cf5-13e99aeb9049\"><position>3</position><number>3</number><length>1068240</length><recording
+        id=\"539a6c69-2263-4d21-99ad-b3fb93747fce\"><title>The Medley: Purple Haze
+        / The Third Stone From the Sun / Teen Town</title><length>1068240</length></recording></track><track
+        id=\"f52b6f95-01f6-3752-83b2-4814c24de2d1\"><position>4</position><number>4</number><length>306560</length><recording
+        id=\"975129c3-ba20-44be-b51f-ed552aa4d7e0\"><title>Star Spangled Banner</title><length>306560</length></recording></track><track
+        id=\"3d6ce19a-fca0-3bc1-adbc-211d6424b1ea\"><position>5</position><number>5</number><length>339333</length><recording
+        id=\"ec169ff3-0332-4ce4-af36-834335261931\"><title>Reza</title><length>339333</length></recording></track><track
+        id=\"5b31b54d-0696-3512-a2d6-d1a5d1e9bc9f\"><position>6</position><number>6</number><length>389906</length><recording
+        id=\"80d81fdd-ff2e-4125-a0ac-173b20cea5bc\"><title>Honestly</title><length>389906</length></recording></track><track
+        id=\"25b9db4e-886b-3b17-b43c-459cdf22fd16\"><position>7</position><number>7</number><length>473866</length><recording
+        id=\"174be370-2c98-4c29-85c2-15d257f35f7f\"><title>Invitation</title><length>473866</length></recording></track><track
+        id=\"4401d7a7-b5d5-3c73-86da-7352f72f8f61\"><position>8</position><number>8</number><length>357493</length><recording
+        id=\"1f388fbd-b8fb-40af-987b-3a2decf45784\"><title>Jaco Reggae</title><length>357493</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"247bc9dd-03b3-30a6-aa30-443937c1ecda\"><title>Jaco Pastorius</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1976-08</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1976-08</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>true</artwork><count>1</count><front>true</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"9\" offset=\"0\"><track
+        id=\"9fec467f-3b50-3f28-a62f-437029038203\"><position>1</position><number>1</number><length>146893</length><recording
+        id=\"377c02db-7d65-488d-91f0-c3a126db6f27\"><title>Donna Lee</title><length>147466</length></recording></track><track
+        id=\"24a5fcc3-1426-3a26-9763-2ea19f2e6afd\"><position>2</position><number>2</number><length>232906</length><recording
+        id=\"ea7948fc-eb3f-466f-981c-a72e88215e6d\"><title>Come On, Come Over</title><length>234426</length></recording></track><track
+        id=\"f9d873d5-ef81-346b-9f11-8436c87924b3\"><position>3</position><number>3</number><length>272426</length><recording
+        id=\"52df315d-09ff-4470-90b1-6046a3b04518\"><title>Continuum</title><length>273346</length></recording></track><track
+        id=\"52a1f837-0fbd-320a-b782-188d139072cf\"><position>4</position><number>4</number><length>461000</length><recording
+        id=\"bc9f7d61-6b40-4639-8886-1c02a2f0312a\"><title>Kuru / Speak Like a Child</title><length>463093</length></recording></track><track
+        id=\"65baa893-8f75-3b79-ac97-69396a8914df\"><position>5</position><number>5</number><length>145106</length><recording
+        id=\"2d7c8108-5f97-44ea-9ede-8cc13ba5306e\"><title>Portrait of Tracy</title><length>142973</length></recording></track><track
+        id=\"3c0973e9-cd5b-3d3d-af92-b456880e6ef5\"><position>6</position><number>6</number><length>328466</length><recording
+        id=\"092ce642-d351-4b39-aadd-8a18f558769d\"><title>Opus Pocus</title><length>328466</length></recording></track><track
+        id=\"afbf1c42-6fe2-3098-9de6-f29c460e5f86\"><position>7</position><number>7</number><length>264693</length><recording
+        id=\"85f4b961-3bb3-4d4d-82c2-a04f04c98f44\"><title>Okonkol\xE9 Y Trompa</title><length>265800</length></recording></track><track
+        id=\"182fd3dc-0aaa-311b-93e4-30ad41bac480\"><position>8</position><number>8</number><length>535933</length><recording
+        id=\"2c836b97-9b6e-4658-9925-a558e874b6d8\"><title>(Used to Be a) Cha-Cha</title><length>536680</length></recording></track><track
+        id=\"a0a296d2-92e1-3264-a2aa-e1b6b907fa04\"><position>9</position><number>9</number><length>134573</length><recording
+        id=\"0309aad5-d386-42b5-8060-3d4acf7d2a98\"><title>Forgotten Love</title><length>134933</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"363f801f-1357-4441-bde5-a5f51f72c375\"><title>Jaco</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1994-02-24</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1994-02-24</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><barcode>002731238462</barcode><asin>B000003ZW9</asin><cover-art-archive><artwork>true</artwork><count>1</count><front>true</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"9\" offset=\"0\"><track
+        id=\"ea50a2a8-696b-3308-bddc-b00288e48d63\"><position>1</position><number>1</number><length>595440</length><recording
+        id=\"4c3f1c45-4726-4f85-832e-86ea6671ecef\"><title>Vashkar</title><length>595000</length></recording></track><track
+        id=\"2ac8ba2f-a6b1-31bc-976f-a46f08e6ee79\"><position>2</position><number>2</number><length>60866</length><recording
+        id=\"4709c49f-c6b0-4673-9dc8-addd435de82d\"><title>Poconos</title><length>60866</length></recording></track><track
+        id=\"f884f6e2-44c1-32f7-a933-069806df17a0\"><position>3</position><number>3</number><length>388066</length><recording
+        id=\"bb2b4ffe-d76e-4bea-a227-cb87c823b42c\"><title>Donkey</title><length>388000</length></recording></track><track
+        id=\"4ba8d558-c130-36c1-8431-c012f78f527c\"><position>4</position><number>4</number><length>434466</length><recording
+        id=\"247c8a09-8b45-4b49-ac71-d1369163bb81\"><title>Vampira</title><length>434000</length></recording></track><track
+        id=\"3c009a68-8ec7-30fb-9921-35eb7daf79c5\"><position>5</position><number>5</number><length>64733</length><recording
+        id=\"934e8bb2-3550-4884-828a-d99be1737f3f\"><title>Overtoned</title><length>64733</length></recording></track><track
+        id=\"a8c827c1-1fbf-326a-ab3b-267f6bc98970\"><position>6</position><number>6</number><length>225026</length><recording
+        id=\"60c5d466-e729-4abb-b65b-6081b18b4784\"><title>Jaco</title><length>225000</length></recording></track><track
+        id=\"18bf6d6d-5da4-3725-918e-e0dfd3a37d59\"><position>7</position><number>7</number><length>312066</length><recording
+        id=\"3d9b5ebf-7241-41cf-a0d6-2549f8c72081\"><title>Batterie</title><length>312000</length></recording></track><track
+        id=\"05c4a11d-1aec-3663-ac4e-8f5f976c236f\"><position>8</position><number>8</number><length>28666</length><recording
+        id=\"a223917a-4577-4390-b194-1986abfa371d\"><title>King Korn</title><length>28666</length></recording></track><track
+        id=\"a1875bcd-699c-3188-855d-ab855834c540\"><position>9</position><number>9</number><length>91507</length><recording
+        id=\"932e5548-0de5-42d1-a44d-2be23685ff61\"><title>Blood</title><length>91507</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"3fe38454-e7db-4cdf-a654-afcea2c24693\"><title>Live in New York City,
+        Volume 5: Ra\xE7a</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1993</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1993</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><asin>B0000019UC</asin><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"9\" offset=\"0\"><track
+        id=\"ba163000-5441-3761-87ca-5106fea0e306\"><position>1</position><number>1</number><length>164693</length><recording
+        id=\"f01f9b38-b783-4c9e-a115-f29456b6ade7\"><title>Blackbird</title><length>167706</length></recording></track><track
+        id=\"7f19dcb3-b33c-3db4-8031-b020e3c5dc38\"><position>2</position><number>2</number><length>348733</length><recording
+        id=\"2d3ff383-1416-4c6a-aa5e-7fb9b691ae14\"><title>Continuum</title><length>348733</length></recording></track><track
+        id=\"296eb5ee-2513-3993-a176-fd6ad4cb759a\"><position>3</position><number>3</number><length>985333</length><recording
+        id=\"4e92124f-f6a0-4af9-9c29-e2e653c5d4d6\"><title>Mood Swings</title><length>985333</length></recording></track><track
+        id=\"28232a98-e9a0-374c-8802-d6fe315c7513\"><position>4</position><number>4</number><length>543306</length><recording
+        id=\"42e01f5d-0578-412d-9312-03b183e2b36a\"><title>After You</title><length>543306</length></recording></track><track
+        id=\"75f8faea-2f6e-3f9c-823c-7f558429d5b4\"><position>5</position><number>5</number><length>842933</length><recording
+        id=\"dc018372-cb0a-425f-9fe5-62951f61a6f0\"><title>Sly Shuffle</title><length>842933</length></recording></track><track
+        id=\"153a651a-8188-307e-8f93-7c423df711c0\"><position>6</position><number>6</number><length>476733</length><recording
+        id=\"4afee1a9-4b41-488a-b037-b771137ae313\"><title>Ra\xE7a</title><length>476733</length></recording></track><track
+        id=\"02b13628-95be-346d-ad08-0a2f2508920d\"><position>7</position><number>7</number><length>830200</length><recording
+        id=\"e095b6ec-fc23-4de7-abf8-eb53c99b8a98\"><title>Teen Town</title><length>830200</length></recording></track><track
+        id=\"5d3189eb-f4d7-3990-8b33-14d70bd11d81\"><position>8</position><number>8</number><length>120893</length><recording
+        id=\"18a86db8-0b6e-42ac-8065-4daa5712a37c\"><title>Three Women</title><length>120893</length></recording></track><track
+        id=\"3750c245-02df-3d4d-b577-306ef1fece2b\"><position>9</position><number>9</number><length>134174</length><recording
+        id=\"e58de399-ad74-4bf1-b6bb-6961953d0a53\"><title>Good Morning Anya</title><length>134174</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"3fedfab7-6ff0-32cb-8a1f-a23211f0087a\"><title>Jaco Pastorius</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1991</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1991</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><barcode>074643394925</barcode><asin>B000002568</asin><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"9\" offset=\"0\"><track
+        id=\"79f4f58a-3b75-30ea-89f9-24c38c003836\"><position>1</position><number>1</number><length>146893</length><recording
+        id=\"377c02db-7d65-488d-91f0-c3a126db6f27\"><title>Donna Lee</title><length>147466</length></recording></track><track
+        id=\"d6fa0520-343a-3db1-bda4-210968480426\"><position>2</position><number>2</number><length>232906</length><recording
+        id=\"ea7948fc-eb3f-466f-981c-a72e88215e6d\"><title>Come On, Come Over</title><length>234426</length></recording></track><track
+        id=\"8a2ae892-dc00-3087-af92-8e3a3f516c0c\"><position>3</position><number>3</number><length>272426</length><recording
+        id=\"52df315d-09ff-4470-90b1-6046a3b04518\"><title>Continuum</title><length>273346</length></recording></track><track
+        id=\"096be875-f0be-38a3-b945-5727aff572d1\"><position>4</position><number>4</number><length>461000</length><recording
+        id=\"bc9f7d61-6b40-4639-8886-1c02a2f0312a\"><title>Kuru / Speak Like a Child</title><length>463093</length></recording></track><track
+        id=\"323faa20-116c-33ac-97f7-3c93e40e8ccc\"><position>5</position><number>5</number><length>145106</length><recording
+        id=\"2d7c8108-5f97-44ea-9ede-8cc13ba5306e\"><title>Portrait of Tracy</title><length>142973</length></recording></track><track
+        id=\"90f0f922-3c87-3adc-ba2d-663381fb9d30\"><position>6</position><number>6</number><length>328466</length><recording
+        id=\"092ce642-d351-4b39-aadd-8a18f558769d\"><title>Opus Pocus</title><length>328466</length></recording></track><track
+        id=\"590a5947-2776-3439-aae3-6af8dab29fa4\"><position>7</position><number>7</number><length>264693</length><recording
+        id=\"85f4b961-3bb3-4d4d-82c2-a04f04c98f44\"><title>Okonkol\xE9 Y Trompa</title><length>265800</length></recording></track><track
+        id=\"f581f705-3360-3ffb-b94d-525533de8f51\"><position>8</position><number>8</number><length>535933</length><recording
+        id=\"2c836b97-9b6e-4658-9925-a558e874b6d8\"><title>(Used to Be a) Cha-Cha</title><length>536680</length></recording></track><track
+        id=\"546ff789-d2b8-305a-9535-02711fd09332\"><position>9</position><number>9</number><length>134573</length><recording
+        id=\"0309aad5-d386-42b5-8060-3d4acf7d2a98\"><title>Forgotten Love</title><length>134933</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"4ddd5618-afb6-4b79-9208-bbf47434b0ec\"><title>Word of Mouth</title><status>Official</status><quality>normal</quality><packaging>Jewel
+        Case</packaging><text-representation><language>eng</language><script>Latn</script></text-representation><date>1995-10-25</date><country>JP</country><release-event-list
+        count=\"1\"><release-event><date>1995-10-25</date><area id=\"2db42837-c832-3c27-b4a3-08198f75693c\"><name>Japan</name><sort-name>Japan</sort-name><iso-3166-1-code-list><iso-3166-1-code>JP</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><barcode>4943674050727</barcode><asin>B00005HG4N</asin><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"7\" offset=\"0\"><track
+        id=\"c48fd8ee-08d6-358f-85b1-62563123ebc9\"><position>1</position><number>1</number><length>320226</length><recording
+        id=\"584da5f1-dbf3-4d9d-a65f-e183cbc47e3a\"><title>Crisis</title><length>320226</length></recording></track><track
+        id=\"9e7b4390-7c7a-36a1-a098-f986ddb5e1ad\"><position>2</position><number>2</number><length>369773</length><recording
+        id=\"35abc4a2-4e61-4ca9-a819-85b80d584428\"><title>3 Views of a Secret</title><length>369773</length></recording></track><track
+        id=\"3a87067a-0c5d-3033-beb7-d1f32831c198\"><position>3</position><number>3</number><length>719800</length><recording
+        id=\"3a073a52-611c-4175-b83b-526515f26e03\"><title>Liberty City</title><length>719800</length></recording></track><track
+        id=\"9f24b7f5-8a83-3dad-98c9-959e094cfb81\"><position>4</position><number>4</number><length>181360</length><recording
+        id=\"34339abb-1aa6-4646-ac8a-ee3def5a9b24\"><title>Chromatic Fantasy</title><length>181360</length></recording></track><track
+        id=\"f2202be8-62cd-357e-afe7-0acf18e7788d\"><position>5</position><number>5</number><length>167706</length><recording
+        id=\"f01f9b38-b783-4c9e-a115-f29456b6ade7\"><title>Blackbird</title><length>167706</length></recording></track><track
+        id=\"6e329e42-2a36-3d5d-8a42-a16ee6ba8360\"><position>6</position><number>6</number><length>233360</length><recording
+        id=\"59937566-9d69-4b61-95b1-27bd61b7d953\"><title>Word of Mouth</title><length>233360</length></recording></track><track
+        id=\"39808d5c-d09b-3075-a709-178e0c3c3fcd\"><position>7</position><number>7</number><length>653533</length><recording
+        id=\"22094498-d4ca-48cb-bbfc-e44a4dbeaf07\"><title>John and Mary</title><length>653533</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"4f5d9424-3e67-4c4a-8b89-ca2da123bb78\"><title>Jaco Pastorius</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1976</date><country>GB</country><release-event-list
+        count=\"1\"><release-event><date>1976</date><area id=\"8a754a16-0027-3a29-b6d7-2b40ea0481ed\"><name>United
+        Kingdom</name><sort-name>United Kingdom</sort-name><iso-3166-1-code-list><iso-3166-1-code>GB</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"9\" offset=\"0\"><track
+        id=\"ba502a50-1c48-3293-9bd1-d3dcfe896fc0\"><position>1</position><number>1</number><length>146893</length><recording
+        id=\"377c02db-7d65-488d-91f0-c3a126db6f27\"><title>Donna Lee</title><length>147466</length></recording></track><track
+        id=\"6a7973e0-2347-3486-9c81-b01d55838a1f\"><position>2</position><number>2</number><length>232906</length><recording
+        id=\"ea7948fc-eb3f-466f-981c-a72e88215e6d\"><title>Come On, Come Over</title><length>234426</length></recording></track><track
+        id=\"ef235397-710e-3272-8e5a-331d293369df\"><position>3</position><number>3</number><length>272426</length><recording
+        id=\"52df315d-09ff-4470-90b1-6046a3b04518\"><title>Continuum</title><length>273346</length></recording></track><track
+        id=\"df7e6a0e-1697-37eb-b960-12c580f49314\"><position>4</position><number>4</number><length>461000</length><recording
+        id=\"bc9f7d61-6b40-4639-8886-1c02a2f0312a\"><title>Kuru / Speak Like a Child</title><length>463093</length></recording></track><track
+        id=\"2546aa9b-8ec9-3995-bf82-ed829545a714\"><position>5</position><number>5</number><length>145106</length><recording
+        id=\"2d7c8108-5f97-44ea-9ede-8cc13ba5306e\"><title>Portrait of Tracy</title><length>142973</length></recording></track><track
+        id=\"95847243-abb9-3e10-855c-044e7efcbb64\"><position>6</position><number>6</number><length>328466</length><recording
+        id=\"092ce642-d351-4b39-aadd-8a18f558769d\"><title>Opus Pocus</title><length>328466</length></recording></track><track
+        id=\"9678adac-e38a-3141-92cd-488b5050bff8\"><position>7</position><number>7</number><length>264693</length><recording
+        id=\"85f4b961-3bb3-4d4d-82c2-a04f04c98f44\"><title>Okonkol\xE9 Y Trompa</title><length>265800</length></recording></track><track
+        id=\"7dce0135-d55b-3bff-a0d1-8312e68ab2ef\"><position>8</position><number>8</number><length>535933</length><recording
+        id=\"2c836b97-9b6e-4658-9925-a558e874b6d8\"><title>(Used to Be a) Cha-Cha</title><length>536680</length></recording></track><track
+        id=\"df7a8213-9611-30b0-8834-b0c708b00d7e\"><position>9</position><number>9</number><length>134573</length><recording
+        id=\"0309aad5-d386-42b5-8060-3d4acf7d2a98\"><title>Forgotten Love</title><length>134933</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"611f775f-9576-4b9e-9629-4ac5fc8586cf\"><title>Natural</title><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1985</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1985</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"4\" offset=\"0\"><track
+        id=\"243276b9-7c4d-32b8-acb9-21aefa08db6f\"><position>1</position><number>1</number><length>701400</length><recording
+        id=\"a3876fdc-2fc9-448c-8a60-f30eec0c1986\"><title>Phlegeton</title><length>701400</length></recording></track><track
+        id=\"7ecfab1c-89e5-3846-ad6e-5042eee03411\"><position>2</position><number>2</number><length>617160</length><recording
+        id=\"951f369e-2636-4db9-b590-2807ff3a8de8\"><title>The Foreigner</title><length>617160</length></recording></track><track
+        id=\"48e831a3-72f0-3127-aaf2-8366faff943c\"><position>3</position><number>3</number><length>328933</length><recording
+        id=\"4bce7fd3-4d45-4d0b-916e-446a17c6c272\"><title>Leap Frog</title><length>328933</length></recording></track><track
+        id=\"5d60da0c-6d08-33a1-af91-11d12b5e38bc\"><position>4</position><number>4</number><length>926200</length><recording
+        id=\"751cbf6b-7f7e-47ff-93bc-857a72a7074e\"><title>Give Me Some</title><length>926200</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"69adaf84-7bf9-4d4b-a42d-c0bc1f3013fc\"><title>The Birthday Concert</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1981</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1981</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><asin>B000002MKA</asin><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"11\" offset=\"0\"><track
+        id=\"10c484f3-20c7-3f5f-9685-24ecd4aadc6b\"><position>1</position><number>1</number><length>482266</length><recording
+        id=\"50251ca3-dcdd-4f2c-8abd-cc90e65ecef7\"><title>Soul Intro / The Chicken</title><length>482266</length></recording></track><track
+        id=\"8ccfec7b-131b-35b7-8f4e-5293fd69b751\"><position>2</position><number>2</number><length>154533</length><recording
+        id=\"a41797ca-eb8e-4ae8-99ff-5df5d1c7d0c3\"><title>Continuum</title><length>154533</length></recording></track><track
+        id=\"3990f20c-d426-385b-8c11-422c086cfed5\"><position>3</position><number>3</number><length>1063000</length><recording
+        id=\"baab3a6d-e404-485e-961a-e6f3235bb1bd\"><title>Invitation</title><length>1063000</length></recording></track><track
+        id=\"7dadf23f-f044-3e6c-9aa3-bbb97f203ef4\"><position>4</position><number>4</number><length>356333</length><recording
+        id=\"44fb820b-fcd9-4049-ad19-b8fa15586012\"><title>Three Views of a Secret</title><length>356333</length></recording></track><track
+        id=\"1be3bdd6-c69e-330a-8ce3-271974df94ad\"><position>5</position><number>5</number><length>492240</length><recording
+        id=\"6e837633-c8f1-4039-aa83-b5ba9ad91e91\"><title>Liberty City</title><length>492240</length></recording></track><track
+        id=\"4c91cc98-6404-36c5-a300-6c91a2c23c0d\"><position>6</position><number>6</number><length>275200</length><recording
+        id=\"ca78c3e3-227e-404c-a0d8-c26cf9641873\"><title>Punk Jazz</title><length>275200</length></recording></track><track
+        id=\"690b337b-4d27-346c-a78c-f9ec9ea51fde\"><position>7</position><number>7</number><length>108400</length><recording
+        id=\"5c0b2c54-9a74-4481-aaf4-4a394f65aceb\"><title>Happy Birthday</title><length>108400</length></recording></track><track
+        id=\"2d5a8019-f42a-3d48-a152-7fb77ea796e7\"><position>8</position><number>8</number><length>636400</length><recording
+        id=\"881fdfd2-d5d9-4102-bd3e-8769c2023f94\"><title>Reza</title><length>636400</length></recording></track><track
+        id=\"ed930814-7b4c-315c-ab01-e6848f6c5b9b\"><position>9</position><number>9</number><length>340693</length><recording
+        id=\"1c0786a7-2ef6-43d8-8250-a6f3ad56cf37\"><title>Domingo</title><length>340693</length></recording></track><track
+        id=\"22ef969f-82bd-335a-a220-8985e35c97c9\"><position>10</position><number>10</number><length>156933</length><recording
+        id=\"4086ac7b-8dc1-4c4c-af38-145e7cd7d9e3\"><title>Band Intros</title><length>156933</length></recording></track><track
+        id=\"3ba01125-7839-3aae-8319-9cf4ea08fa24\"><position>11</position><number>11</number><length>104066</length><recording
+        id=\"19d808e6-42cd-4f03-8bb5-aa2b8559651f\"><title>Amerika</title><length>104066</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"7220bf68-a1b5-48db-9b18-2305a6fff4dc\"><title>In New York</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1993</date><country>DE</country><release-event-list
+        count=\"1\"><release-event><date>1993</date><area id=\"85752fda-13c4-31a3-bee5-0e5cb1f51dad\"><name>Germany</name><sort-name>Germany</sort-name><iso-3166-1-code-list><iso-3166-1-code>DE</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><barcode>4011778600312</barcode><asin>B00002823V</asin><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"2\"><medium><position>1</position><track-list count=\"6\" offset=\"0\"><track
+        id=\"24c12038-1c45-344c-9813-95fac5e0e55a\"><position>1</position><number>1</number><length>602600</length><recording
+        id=\"5ee8a0eb-4981-4e9e-94c7-f3578953dff8\"><title>Dania</title><length>602600</length></recording></track><track
+        id=\"935c4c51-4107-39a5-a2f5-720d41846aca\"><position>2</position><number>2</number><length>476600</length><recording
+        id=\"8b8475b7-845a-4ad1-916c-f05df4d3b8a4\"><title>I Shot the Sheriff</title><length>476600</length></recording></track><track
+        id=\"99c929dd-9af7-35fd-a850-8bbc451f8fd5\"><position>3</position><number>3</number><length>324800</length><recording
+        id=\"8518840e-b75b-4214-8fd8-ba23b8ee7479\"><title>Continuum</title><length>324800</length></recording></track><track
+        id=\"918c4043-6706-33a4-96b9-06bc1922ba8c\"><position>4</position><number>4</number><length>1041266</length><recording
+        id=\"7d670a05-a810-4df8-8621-9645d973415d\"><title>Punk Jazz</title><length>1041266</length></recording></track><track
+        id=\"66d659a4-9cc1-3f17-aba9-bfc099a1cd5c\"><position>5</position><number>5</number><length>508200</length><recording
+        id=\"63005b9d-12e3-4cfb-80eb-d0a74934ea8d\"><title>Promise Land</title><length>508200</length></recording></track><track
+        id=\"be0c7ee1-41f4-3323-a7b3-14ff4e8f43aa\"><position>6</position><number>6</number><length>693666</length><recording
+        id=\"54762c99-32c8-4efb-8fc5-774f57cf049c\"><title>Teen Town</title><length>693666</length></recording></track></track-list></medium><medium><position>2</position><track-list
+        count=\"7\" offset=\"0\"><track id=\"5a4c2922-710d-3bc1-8f3b-d84f6386ba41\"><position>1</position><number>1</number><length>357560</length><recording
+        id=\"d5728d7c-b1e0-4e00-bbfd-ae416e1097ad\"><title>Dear Prudence</title><length>357560</length></recording></track><track
+        id=\"ba82390e-5f6a-306a-be97-c1a78af1b353\"><position>2</position><number>2</number><length>300773</length><recording
+        id=\"33b3d4ff-0635-4ca8-8ac6-64f60ae3dab8\"><title>Why I Sing the Blues</title><length>300773</length></recording></track><track
+        id=\"b553d9ce-3897-371d-8651-81af0b2d6cd4\"><position>3</position><number>3</number><length>274400</length><recording
+        id=\"86396262-cab6-43d5-aee1-6999b26fd3e0\"><title>N.Y.C. Groove</title><length>274400</length></recording></track><track
+        id=\"7fc369e0-f8a5-3ea1-8370-49a19f1c6b99\"><position>4</position><number>4</number><length>571426</length><recording
+        id=\"7343af2e-7e84-4df3-984c-7a9b9ac15fdc\"><title>Son of the Creeper</title><length>571426</length></recording></track><track
+        id=\"cf05ca04-ec88-3c54-8d36-2bfdfe146daa\"><position>5</position><number>5</number><length>635666</length><recording
+        id=\"ecc4a389-f215-4593-af09-e8216bea9ae5\"><title>Invitation</title><length>635666</length></recording></track><track
+        id=\"dd315637-c900-35c2-994e-5f60e3c811c8\"><position>6</position><number>6</number><length>441173</length><recording
+        id=\"c62ed5a8-0d16-4cf8-b5af-3819fada102f\"><title>Three Views of a Secret</title><length>441173</length></recording></track><track
+        id=\"3ac1f879-7c60-32d3-828e-86513d98019a\"><position>7</position><number>7</number><length>224866</length><recording
+        id=\"ce1789d1-d82a-4abb-845e-0a2fc9ba38b2\"><title>Naima</title><length>224866</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"7ae53ec6-0de0-49a8-afe4-955503a1ecba\"><title>Invitation</title><status>Official</status><quality>normal</quality><packaging>Jewel
+        Case</packaging><date>1995</date><release-event-list count=\"1\"><release-event><date>1995</date></release-event></release-event-list><barcode>4011778012962</barcode><asin>B0009JOM7E</asin><cover-art-archive><artwork>true</artwork><count>1</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"9\" offset=\"0\"><track
+        id=\"82fec20e-f7c9-42fa-b1a7-6831edf472ee\"><position>1</position><number>1</number><length>417000</length><recording
+        id=\"0f50814b-e94d-46f5-94ed-421fb34db227\"><title>Invitation</title><length>417960</length></recording></track><track
+        id=\"77c3ab54-77dd-4668-b6e1-e2f2540f83e8\"><position>2</position><number>2</number><length>69333</length><recording
+        id=\"00ff2744-0c5d-4ab6-ae4b-e6843f35c0b4\"><title>Amerika</title><length>69333</length></recording></track><track
+        id=\"8e04f735-fb4b-4734-abf5-2f84d8f279a7\"><position>3</position><number>3</number><length>409000</length><recording
+        id=\"3fa5a8db-20a1-4a63-bfb7-1bed4adfea59\"><title>Soul Intro / The Chicken</title><length>409400</length></recording></track><track
+        id=\"53b86872-43ce-4934-93e9-75bad8d85e1d\"><position>4</position><number>4</number><length>268373</length><recording
+        id=\"5aa4c702-c300-4054-880d-d4dc773eb0e5\"><title>Continuum</title><length>268373</length></recording></track><track
+        id=\"142be98d-49be-46b4-a153-a54f8c6c7935\"><position>5</position><number>5</number><length>275360</length><recording
+        id=\"336d566e-bed4-4542-a761-16e007495f08\"><title>Liberty City</title><length>275360</length></recording></track><track
+        id=\"4f05e555-cb1f-4c91-a008-3ebdcc810ac7\"><position>6</position><number>6</number><length>317600</length><recording
+        id=\"14d689b1-6884-4b72-abec-fd958d99a1ff\"><title>Sophisticated Lady</title><length>317600</length></recording></track><track
+        id=\"270dc3c5-0c6b-482e-a5c2-8ea2402642e6\"><position>7</position><number>7</number><length>623666</length><recording
+        id=\"23a5c04e-b08b-4f39-b899-0cff2f1b8360\"><title>Reza / Giant Steps / Reza
+        (reprise)</title><length>623666</length></recording></track><track id=\"0bc7a382-ab40-4f4c-ae75-002c93537ea8\"><position>8</position><number>8</number><length>158306</length><recording
+        id=\"03e896ef-a8b4-4ffe-b009-a6ed794e919a\"><title>Fannie Mae</title><length>158306</length></recording></track><track
+        id=\"ed481568-41ad-4c59-9b48-f7456a7ff22f\"><position>9</position><number>9</number><length>48733</length><recording
+        id=\"79f31e4e-987d-474d-9028-9dde4bbd293f\"><title>Eleven</title><length>48733</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"82a8fb0a-4d21-4d0a-bbe2-e84ed0638651\"><title>Curtain Call</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1996</date><country>NL</country><release-event-list
+        count=\"1\"><release-event><date>1996</date><area id=\"ef1b7cc0-cd26-36f4-8ea0-04d9623786c7\"><name>Netherlands</name><sort-name>Netherlands</sort-name><iso-3166-1-code-list><iso-3166-1-code>NL</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><asin>B000003TJ4</asin><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"6\" offset=\"0\"><track
+        id=\"8f6ce565-718c-3d41-b4f8-20ee2124955a\"><position>1</position><number>1</number><length>837440</length><recording
+        id=\"aea27204-fac9-49ab-afec-dbe5e9d17ced\"><title>Speak Like a Child/Invitation</title><length>837440</length></recording></track><track
+        id=\"c8b17c67-9984-3e9e-b895-2d33cc6c9b30\"><position>2</position><number>2</number><length>214533</length><recording
+        id=\"5ac7d67c-a1d4-405f-aae9-e0375644f8fa\"><title>Donna Lee</title><length>214533</length></recording></track><track
+        id=\"871aaaf6-b763-3ee6-a43f-2c2b1291b792\"><position>3</position><number>3</number><length>331480</length><recording
+        id=\"72fbb0e2-b02e-4e76-84f5-d296fae7b5a1\"><title>Solo Medley</title><length>331480</length></recording></track><track
+        id=\"45d2b7b6-40f4-3609-9102-385a71a766c2\"><position>4</position><number>4</number><length>369546</length><recording
+        id=\"b29a037e-c108-4376-a684-1eb05f8342d9\"><title>John and Mary</title><length>369546</length></recording></track><track
+        id=\"49efc5f2-fb68-3ff9-8d15-cea0df2f90ac\"><position>5</position><number>5</number><length>579826</length><recording
+        id=\"f1f52c03-cfd5-4577-a24d-63fdebf4a6a6\"><title>Mercy, Mercy, Mercy</title><length>579826</length></recording></track><track
+        id=\"eb606ca4-a6fb-3734-bd14-33a113be8db8\"><position>6</position><number>6</number><length>831213</length><recording
+        id=\"8ba2ea31-557d-48c6-8e25-a87489f4edfb\"><title>So What!/Teen Town</title><length>831213</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"9f03ad83-d7f3-4452-a157-3027d29bb231\"><title>Golden Roads</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1997-03-14</date><country>JP</country><release-event-list
+        count=\"1\"><release-event><date>1997-03-14</date><area id=\"2db42837-c832-3c27-b4a3-08198f75693c\"><name>Japan</name><sort-name>Japan</sort-name><iso-3166-1-code-list><iso-3166-1-code>JP</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"1\" offset=\"0\"><track
+        id=\"accd8a96-a546-3bd7-a57e-2462740f7875\"><position>1</position><number>1</number><length>1770000</length><recording
+        id=\"e802abd4-f22f-45d4-b70e-db5c1723909a\"><title>Golden Roads</title><length>1770000</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"a90cb807-9ed3-4f5f-bf16-36588d44897c\"><title>Invitation</title><status>Official</status><quality>normal</quality><packaging>Jewel
+        Case</packaging><text-representation><language>eng</language><script>Latn</script></text-representation><date>1994-08-12</date><country>DE</country><release-event-list
+        count=\"1\"><release-event><date>1994-08-12</date><area id=\"85752fda-13c4-31a3-bee5-0e5cb1f51dad\"><name>Germany</name><sort-name>Germany</sort-name><iso-3166-1-code-list><iso-3166-1-code>DE</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><barcode>075992387620</barcode><cover-art-archive><artwork>true</artwork><count>1</count><front>true</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"9\" offset=\"0\"><track
+        id=\"9b3bca07-35f5-49b4-93f3-e1ce5661b943\"><position>1</position><number>1</number><length>417960</length><recording
+        id=\"0f50814b-e94d-46f5-94ed-421fb34db227\"><title>Invitation</title><length>417960</length></recording></track><track
+        id=\"334b0206-a019-479b-8eb8-e4f53b899e82\"><position>2</position><number>2</number><length>69333</length><recording
+        id=\"00ff2744-0c5d-4ab6-ae4b-e6843f35c0b4\"><title>Amerika</title><length>69333</length></recording></track><track
+        id=\"b023e068-f530-4ade-9914-6e9216a66fab\"><position>3</position><number>3</number><length>410000</length><recording
+        id=\"3fa5a8db-20a1-4a63-bfb7-1bed4adfea59\"><title>Soul Intro / The Chicken</title><length>409400</length></recording></track><track
+        id=\"31e07389-07d3-4e2e-ab94-c2823e358817\"><position>4</position><number>4</number><length>268373</length><recording
+        id=\"5aa4c702-c300-4054-880d-d4dc773eb0e5\"><title>Continuum</title><length>268373</length></recording></track><track
+        id=\"7ddbef38-c146-40db-89d4-e2e143171851\"><position>5</position><number>5</number><length>275360</length><recording
+        id=\"336d566e-bed4-4542-a761-16e007495f08\"><title>Liberty City</title><length>275360</length></recording></track><track
+        id=\"a68ca168-e08a-4990-9654-c8888e9b10d2\"><position>6</position><number>6</number><length>317600</length><recording
+        id=\"14d689b1-6884-4b72-abec-fd958d99a1ff\"><title>Sophisticated Lady</title><length>317600</length></recording></track><track
+        id=\"eb6104f4-4e9d-4a5c-9e8f-0eabff7c8853\"><position>7</position><number>7</number><length>623666</length><recording
+        id=\"23a5c04e-b08b-4f39-b899-0cff2f1b8360\"><title>Reza / Giant Steps / Reza
+        (reprise)</title><length>623666</length></recording></track><track id=\"fde94c20-fece-4815-8f65-71a08f5b7679\"><position>8</position><number>8</number><length>158306</length><recording
+        id=\"03e896ef-a8b4-4ffe-b009-a6ed794e919a\"><title>Fannie Mae</title><length>158306</length></recording></track><track
+        id=\"07d9652b-2507-4739-80eb-9301a7a8298d\"><position>9</position><number>9</number><length>48733</length><recording
+        id=\"79f31e4e-987d-474d-9028-9dde4bbd293f\"><title>Eleven</title><length>48733</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"b6224978-08ea-4836-add4-c68b51d51cfe\"><title>The Florida Concert</title><status>Bootleg</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1982</date><release-event-list
+        count=\"1\"><release-event><date>1982</date></release-event></release-event-list><barcode>4250079712014</barcode><asin>B0000AIS9B</asin><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"10\" offset=\"0\"><track
+        id=\"ae94ba2b-a0d4-33ff-b135-9f63fc2764b1\"><position>1</position><number>1</number><length>481320</length><recording
+        id=\"cae17336-e1ee-4677-bc8d-c1c8454e1a34\"><title>Soul Intro / The Chicken</title><length>481320</length></recording></track><track
+        id=\"cc25eadf-e856-3f44-8ee9-ba74a3cd1378\"><position>2</position><number>2</number><length>154533</length><recording
+        id=\"8281b22e-3ce0-43c6-a42d-940d1870730f\"><title>Continuum</title><length>154533</length></recording></track><track
+        id=\"8054439e-330b-3757-8b1d-92ad55096a5b\"><position>3</position><number>3</number><length>1063000</length><recording
+        id=\"3b8d8e36-7311-4aa7-a234-7a7984125bc8\"><title>Invitation</title><length>1063000</length></recording></track><track
+        id=\"0f3e8e54-c659-3caa-b104-c813ec6ad86a\"><position>4</position><number>4</number><length>347213</length><recording
+        id=\"21cad76a-e213-4329-9c02-eb072a111760\"><title>Three Views of a Secret</title><length>347213</length></recording></track><track
+        id=\"d1cf202b-cf3f-3a79-aa3d-abb43917ff59\"><position>5</position><number>5</number><length>492240</length><recording
+        id=\"2f4229d9-54bb-4a18-b1ab-cf75c15fd8b0\"><title>Liberty City</title><length>492240</length></recording></track><track
+        id=\"1e08ea0a-dd7d-3730-91d3-c6780e5215d4\"><position>6</position><number>6</number><length>275200</length><recording
+        id=\"347a4049-60cd-4eda-9a8c-03b3d31aeee5\"><title>Punk Jazz</title><length>275200</length></recording></track><track
+        id=\"12edb25b-1801-30cb-9253-c26438390d79\"><position>7</position><number>7</number><length>634853</length><recording
+        id=\"f2b2ec0a-9410-44c5-9a75-28d4cf13d9c8\"><title>Reza</title><length>634853</length></recording></track><track
+        id=\"1257b1d7-a6f9-357c-a4be-abe70be87c90\"><position>8</position><number>8</number><length>336000</length><recording
+        id=\"15ffbfc9-fe7d-4117-b11d-f5342a43cf91\"><title>Domingo</title><length>336000</length></recording></track><track
+        id=\"7b60575b-7d65-3056-8348-f3ec731805ea\"><position>9</position><number>9</number><length>156933</length><recording
+        id=\"123f778e-2e7f-45a0-a8dc-20e68d776f6c\"><title>Band Intros</title><length>156933</length></recording></track><track
+        id=\"1771ab15-9574-3e9c-a588-14d6dfb13766\"><position>10</position><number>10</number><length>103933</length><recording
+        id=\"b17a8080-8bb7-4e45-98af-37511db41dc0\"><title>Amerika</title><length>103933</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"c03e66a7-197b-4f0c-925e-1a08f636a384\"><title>Pastorius / Metheny / Ditmas
+        / Bley</title><status>Official</status><quality>normal</quality><packaging>Cardboard/Paper
+        Sleeve</packaging><text-representation><language>eng</language><script>Latn</script></text-representation><date>1974</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1974</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>true</artwork><count>1</count><front>true</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"9\" offset=\"0\"><track
+        id=\"66602957-2ede-35a4-bfee-88fc48ddc4d7\"><position>1</position><number>1</number><length>595000</length><recording
+        id=\"4c3f1c45-4726-4f85-832e-86ea6671ecef\"><title>Vashkar</title><length>595000</length></recording></track><track
+        id=\"bb3f23fc-7354-35c3-810e-0c99986e3da6\"><position>2</position><number>2</number><length>61000</length><recording
+        id=\"4709c49f-c6b0-4673-9dc8-addd435de82d\"><title>Poconos</title><length>60866</length></recording></track><track
+        id=\"cca6c820-6c0b-39c5-b25f-fe3566fce2e2\"><position>3</position><number>3</number><length>388000</length><recording
+        id=\"bb2b4ffe-d76e-4bea-a227-cb87c823b42c\"><title>Donkey</title><length>388000</length></recording></track><track
+        id=\"6f646243-8bae-3221-a33d-b12bc1634fa5\"><position>4</position><number>4</number><length>434000</length><recording
+        id=\"247c8a09-8b45-4b49-ac71-d1369163bb81\"><title>Vampira</title><length>434000</length></recording></track><track
+        id=\"44b25ef2-4b72-354d-b583-0c9d331d4acf\"><position>5</position><number>5</number><length>65000</length><recording
+        id=\"934e8bb2-3550-4884-828a-d99be1737f3f\"><title>Overtoned</title><length>64733</length></recording></track><track
+        id=\"6ac4d157-92c2-3a9d-af86-938783b8c66d\"><position>6</position><number>6</number><length>225000</length><recording
+        id=\"60c5d466-e729-4abb-b65b-6081b18b4784\"><title>Jaco</title><length>225000</length></recording></track><track
+        id=\"6c8656f6-d433-3fab-89e5-a98e8510471d\"><position>7</position><number>7</number><length>312000</length><recording
+        id=\"3d9b5ebf-7241-41cf-a0d6-2549f8c72081\"><title>Batterie</title><length>312000</length></recording></track><track
+        id=\"28f39c98-9517-3f29-8adf-6c4036afe877\"><position>8</position><number>8</number><length>29000</length><recording
+        id=\"a223917a-4577-4390-b194-1986abfa371d\"><title>King Korn</title><length>28666</length></recording></track><track
+        id=\"6ec5f556-4c8e-3451-80ec-dfd9aafb6d52\"><position>9</position><number>9</number><length>92000</length><recording
+        id=\"932e5548-0de5-42d1-a44d-2be23685ff61\"><title>Blood</title><length>91507</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"cb0b9b0c-e34f-4013-bf73-8e57d958f3ab\"><title>Invitation</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1982</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1982</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><asin>B000056P05</asin><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"9\" offset=\"0\"><track
+        id=\"207268e8-0aed-36f1-80cd-375c40824ca7\"><position>1</position><number>1</number><length>417960</length><recording
+        id=\"0f50814b-e94d-46f5-94ed-421fb34db227\"><title>Invitation</title><length>417960</length></recording></track><track
+        id=\"692a9658-9818-31a2-aa97-b44fc4162d39\"><position>2</position><number>2</number><length>69333</length><recording
+        id=\"00ff2744-0c5d-4ab6-ae4b-e6843f35c0b4\"><title>Amerika</title><length>69333</length></recording></track><track
+        id=\"9cc72996-daae-3fd5-96fa-c5c1df1c5bca\"><position>3</position><number>3</number><length>409400</length><recording
+        id=\"3fa5a8db-20a1-4a63-bfb7-1bed4adfea59\"><title>Soul Intro / The Chicken</title><length>409400</length></recording></track><track
+        id=\"df0b9127-1ea8-3e8e-8878-517872aab172\"><position>4</position><number>4</number><length>268373</length><recording
+        id=\"5aa4c702-c300-4054-880d-d4dc773eb0e5\"><title>Continuum</title><length>268373</length></recording></track><track
+        id=\"3193ec70-0122-37b3-8e83-8d6093973340\"><position>5</position><number>5</number><length>275360</length><recording
+        id=\"336d566e-bed4-4542-a761-16e007495f08\"><title>Liberty City</title><length>275360</length></recording></track><track
+        id=\"89ee26a1-b776-3fb6-af7e-7c7130bebec8\"><position>6</position><number>6</number><length>317600</length><recording
+        id=\"14d689b1-6884-4b72-abec-fd958d99a1ff\"><title>Sophisticated Lady</title><length>317600</length></recording></track><track
+        id=\"77d3ced0-9492-3629-86fa-5f648f35b3d4\"><position>7</position><number>7</number><length>623666</length><recording
+        id=\"23a5c04e-b08b-4f39-b899-0cff2f1b8360\"><title>Reza / Giant Steps / Reza
+        (reprise)</title><length>623666</length></recording></track><track id=\"22d98b99-7888-3d83-b612-439d6385e66d\"><position>8</position><number>8</number><length>158306</length><recording
+        id=\"03e896ef-a8b4-4ffe-b009-a6ed794e919a\"><title>Fannie Mae</title><length>158306</length></recording></track><track
+        id=\"1375a244-d6b5-3300-b8a8-1826393c61bc\"><position>9</position><number>9</number><length>48733</length><recording
+        id=\"79f31e4e-987d-474d-9028-9dde4bbd293f\"><title>Eleven</title><length>48733</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"dba66bb6-32b5-4b79-955b-1ff26d0dd8ea\"><title>Last Flight</title><quality>normal</quality><text-representation><script>Latn</script></text-representation><date>1984</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1984</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"3\" offset=\"0\"><track
+        id=\"35c5fc9d-1fb6-3525-a4a0-163620c6abce\"><position>1</position><number>1</number><length>1614000</length><recording
+        id=\"8f188e83-ba9e-436b-a268-13a5e4c427a1\"><title>Universe Is My Home (Part
+        One)</title><length>1614000</length></recording></track><track id=\"991a0f94-05d4-3b59-82a2-c66f907398a0\"><position>2</position><number>2</number><length>1112000</length><recording
+        id=\"492b9cea-f1c8-4547-87d4-15a7fc81e1b4\"><title>Universe Is My Home (Part
+        Two)</title><length>1112000</length></recording></track><track id=\"1020caff-46af-3754-9422-f6742415f15c\"><position>3</position><number>3</number><length>820000</length><recording
+        id=\"26c61d26-23bb-4ea9-a0eb-f47210433a21\"><title>Galeon</title><length>820000</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"ddb4e658-4faa-48ad-a063-ef3fff3b939c\"><title>Ivanhoe Theatre</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1977</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1977</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"6\" offset=\"0\"><track
+        id=\"f3c8b129-b4cd-3258-adff-d85cc2d11bcb\"><position>1</position><number>1</number><recording
+        id=\"71515766-aa9b-4f0c-ae21-170903d5c32d\"><title>Chameleon</title></recording></track><track
+        id=\"f8180698-0fb4-394e-84d3-4d45579686d7\"><position>2</position><number>2</number><recording
+        id=\"715b09f7-a2e9-49f2-9d00-aab352109780\"><title>Hang up your Hangups</title></recording></track><track
+        id=\"f844b162-2779-327a-9217-ba352badb7e6\"><position>3</position><number>3</number><recording
+        id=\"7bcf6e7a-d59e-48f1-82f7-e6006e0205b1\"><title>Gentle Thoughts</title></recording></track><track
+        id=\"0f26208e-2cb3-33a6-a7b8-ac1f483ec836\"><position>4</position><number>4</number><recording
+        id=\"cd4e1027-6a40-460f-85f7-c97e63eb6fda\"><title>It Remains to be Seen</title></recording></track><track
+        id=\"3b4e0b8e-041f-3e80-b8b8-dbc3035c9121\"><position>5</position><number>5</number><recording
+        id=\"9a727b2a-4565-487d-9145-efad02cbf7d5\"><title>Solo Medley</title></recording></track><track
+        id=\"f9efd6ae-fb13-3699-ba6f-a0ec82a37777\"><position>6</position><number>6</number><recording
+        id=\"440cc581-f6d7-4e61-8dee-7ad49952914a\"><title>Maiden Voyage</title></recording></track></track-list></medium></medium-list></release><release
+        id=\"df6cc90d-2341-4726-8dbd-e77126ef0075\"><title>Live in New York City,
+        Volume 1: Punk Jazz</title><status>Bootleg</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1990</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1990</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><barcode>736589100120</barcode><asin>B0000019U8</asin><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"8\" offset=\"0\"><track
+        id=\"3565ba85-dde3-3660-9b4b-3627bde81fb6\"><position>1</position><number>1</number><length>26506</length><recording
+        id=\"aee3f29f-b449-439d-89fb-90bc0a06660e\"><title>Donna Lee</title><length>26506</length></recording></track><track
+        id=\"8b3cbb57-7859-38f1-9f56-23fb4c765842\"><position>2</position><number>2</number><length>602333</length><recording
+        id=\"ae96123a-a781-43ec-a0f7-32d618d97dd5\"><title>Dania</title><length>602333</length></recording></track><track
+        id=\"36099fd8-e0fa-30f6-a495-275cb09a3da2\"><position>3</position><number>3</number><length>789493</length><recording
+        id=\"91abab4f-531b-4011-8941-9ef629727aa5\"><title>Teen Town</title><length>789493</length></recording></track><track
+        id=\"143121f0-7d70-3d89-855f-fbea19a30b23\"><position>4</position><number>4</number><length>451600</length><recording
+        id=\"f88ac8f3-2e24-4402-beb9-d5f6cf9c2402\"><title>The Chicken</title><length>451600</length></recording></track><track
+        id=\"1be39c4e-1fe6-37c5-8f9a-ac721331bdb6\"><position>5</position><number>5</number><length>636266</length><recording
+        id=\"c22bb05f-e195-4c82-98a5-1e87859b9320\"><title>Invitation</title><length>636266</length></recording></track><track
+        id=\"b00e6a2e-86c3-3e68-b2c7-251ae34ed750\"><position>6</position><number>6</number><length>520133</length><recording
+        id=\"ff158b0c-9e30-493d-bce0-147aabeb0b79\"><title>N.Y.C. Groove #1</title><length>520133</length></recording></track><track
+        id=\"3459f6e7-da40-3c72-82b8-32e7eb5b64d9\"><position>7</position><number>7</number><length>1042173</length><recording
+        id=\"f812705b-05c9-4991-b3ee-c050ef901176\"><title>Punk Jazz</title><length>1042173</length></recording></track><track
+        id=\"814cddcc-6412-33c1-929b-3619dfc847c2\"><position>8</position><number>8</number><length>180733</length><recording
+        id=\"63370bf7-edac-4e88-91ad-f6a13bf2a95d\"><title>Liberty City</title><length>180733</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"e7632547-b3a4-400d-97f6-a1df601c9e90\"><title>Live in New York City,
+        Volume 2: Trio</title><status>Bootleg</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1991</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1991</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><barcode>0736589100229</barcode><asin>B0000019U9</asin><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"10\" offset=\"0\"><track
+        id=\"43122e3a-b142-3082-81b2-602fb15ebc2e\"><position>1</position><number>1</number><length>78760</length><recording
+        id=\"b96ea624-f448-4265-a25e-29633ae730db\"><title>Wipe Out</title><length>78760</length></recording></track><track
+        id=\"7be1e571-c696-3700-a747-f7eaadc31a25\"><position>2</position><number>2</number><length>412173</length><recording
+        id=\"b4998eca-be7e-40d6-8fc1-31474648883c\"><title>Straight Life</title><length>412173</length></recording></track><track
+        id=\"acdad2e3-6cd3-38e7-88a3-ef93e777c24d\"><position>3</position><number>3</number><length>477733</length><recording
+        id=\"021398ae-28ba-4c38-8f69-00dc44ca53f1\"><title>I Shot the Sheriff</title><length>477733</length></recording></track><track
+        id=\"f29d6649-a1ec-3ac4-aaf8-43b00cea5ade\"><position>4</position><number>4</number><length>693866</length><recording
+        id=\"21ad8fb1-382d-4bb9-b9fb-d2bdc381a600\"><title>Teen Town</title><length>693866</length></recording></track><track
+        id=\"3f2d83b5-79ab-3c7c-95b7-a9e4ffe7e56f\"><position>5</position><number>5</number><length>357893</length><recording
+        id=\"68b8ae77-46e8-4554-9a7d-e681227ac31c\"><title>Dear Prudence</title><length>357893</length></recording></track><track
+        id=\"ba453f66-fba9-3577-95cf-183d4db5ce00\"><position>6</position><number>6</number><length>561573</length><recording
+        id=\"ce848be4-158c-49e6-8878-3f0b6d7dd711\"><title>Ode to Billie Joe</title><length>561573</length></recording></track><track
+        id=\"0e7ad4c5-b7b5-324d-b6ac-cb25fb69005b\"><position>7</position><number>7</number><length>355133</length><recording
+        id=\"0122d6fd-4b05-446b-a94a-b731dac9778b\"><title>Continuum</title><length>355133</length></recording></track><track
+        id=\"52cb9a4b-c6e6-3196-8e06-b271cb5ea64a\"><position>8</position><number>8</number><length>570933</length><recording
+        id=\"aa69f0b6-3f55-4314-8809-9f9cc88eeef5\"><title>Son of Creeper</title><length>570933</length></recording></track><track
+        id=\"5987b685-a32d-3920-822e-e5ed4c1f538e\"><position>9</position><number>9</number><length>329693</length><recording
+        id=\"6eab1d9d-3f10-431a-ba29-6e18631cbd7e\"><title>Cissy Strut</title><length>329693</length></recording></track><track
+        id=\"eae6cd6a-5817-3f20-a8e7-58760cb73999\"><position>10</position><number>10</number><length>440200</length><recording
+        id=\"8ea1850a-1655-4607-b101-e0179974f17c\"><title>Three Views of a Secret</title><length>440200</length></recording></track></track-list></medium></medium-list></release></release-list></metadata>"}
+    headers:
+      Access-Control-Allow-Origin: ['*']
+      Connection: [close]
+      Content-Length: ['66870']
+      Content-Type: [application/xml; charset=utf-8]
+      Date: ['Tue, 04 Aug 2015 05:07:26 GMT']
+      ETag: ['"bc451e9c2675daf2d25d36e030750d29"']
+      Server: [nginx/1.1.19]
+    status: {code: 200, message: OK}
+version: 1

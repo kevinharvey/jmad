@@ -29,3 +29,20 @@ class SoloTaskTestCase(TestCase):
 
         self.assertEqual(queryset.count(), 236)
 
+    def test_reject_non_jazz_artists(self):
+        """
+        Test that we do not add non-jazz artists when searched for
+        """
+        with albums_vcr.use_cassette('search-nirvana.yml'):
+            queryset = get_artist_tracks_from_musicbrainz('Nirvana')
+
+        self.assertEqual(queryset.count(), 0)
+
+    def test_instrument_tag_map(self):
+        """
+        Test that we set instrument to 'unknown' if we do not have a reliable mapping for MB tags to jazz instruments
+        """
+        with albums_vcr.use_cassette('search-miles-davis.yml'):
+            queryset = get_artist_tracks_from_musicbrainz('Miles Davis')
+
+        self.assertEqual(queryset[0].instrument, 'unknown')

@@ -1,0 +1,630 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection: [close]
+      Content-Length: ['0']
+      Host: [musicbrainz.org]
+      User-Agent: ['JMAD - https://jmad.us//0.0.1 python-musicbrainzngs/0.5']
+    method: GET
+    uri: http://musicbrainz.org/ws/2/artist/?query=Miles+Davis
+  response:
+    body: {string: '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><metadata
+        created="2015-08-04T04:12:43.654Z" xmlns="http://musicbrainz.org/ns/mmd-2.0#"
+        xmlns:ext="http://musicbrainz.org/ns/ext#-2.0"><artist-list count="1364" offset="0"><artist
+        id="561d854a-6a28-4aa7-8c99-323e6ce46c2a" type="Person" ext:score="100"><name>Miles
+        Davis</name><sort-name>Davis, Miles</sort-name><gender>male</gender><country>US</country><area
+        id="489ce91b-6658-3307-9877-795b68554c98"><name>United States</name><sort-name>United
+        States</sort-name></area><begin-area id="39e1719e-2604-4b59-b698-dab7caf85b33"><name>Alton</name><sort-name>Alton</sort-name></begin-area><end-area
+        id="dbacf2e3-7e3e-4cee-8804-999b109285fa"><name>Santa Monica</name><sort-name>Santa
+        Monica</sort-name></end-area><disambiguation>jazz trumpeter, bandleader, songwriter</disambiguation><ipi-list><ipi>00007619785</ipi></ipi-list><life-span><begin>1926-05-26</begin><end>1991-09-28</end><ended>true</ended></life-span><alias-list><alias
+        sort-name="Miles Davies">Miles Davies</alias><alias sort-name="Miles Dewey
+        Davis III.">Miles Dewey Davis III.</alias><alias sort-name="Favis, Miles">Miles
+        Favis</alias></alias-list><tag-list><tag count="0"><name>miles davis</name></tag><tag
+        count="0"><name>death by pneumonia</name></tag><tag count="3"><name>modal
+        jazz</name></tag><tag count="2"><name>bebop</name></tag><tag count="0"><name>jazz
+        and blues</name></tag><tag count="3"><name>cool jazz</name></tag><tag count="9"><name>jazz</name></tag><tag
+        count="1"><name>american</name></tag><tag count="1"><name>musical</name></tag><tag
+        count="2"><name>hard bop</name></tag><tag count="1"><name>jazz-funk</name></tag><tag
+        count="0"><name>death by stroke</name></tag><tag count="0"><name>george gershwin</name></tag><tag
+        count="4"><name>jazz fusion</name></tag><tag count="1"><name>midnight</name></tag></tag-list></artist><artist
+        id="8e51f2f4-4541-4526-8a2d-c65ecc9c0ee4" type="Person" ext:score="93"><name>Miles
+        Davis</name><sort-name>Davis, Miles</sort-name><gender>male</gender><country>US</country><area
+        id="489ce91b-6658-3307-9877-795b68554c98"><name>United States</name><sort-name>United
+        States</sort-name></area><disambiguation>bassist on Kanye West album 808s
+        &amp; Heartbreaks</disambiguation><life-span><ended>false</ended></life-span></artist><artist
+        id="f137837b-fa55-48d1-8c85-f13961b3ac77" type="Group" ext:score="87"><name>Miles
+        Davis Sextet</name><sort-name>Davis, Miles, Sextet</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id="607d7275-2b92-49e5-a7ee-32f9cc29b076" type="Group" ext:score="87"><name>Miles
+        Davis All Stars</name><sort-name>Davis, Miles, All Stars</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id="03606dee-b333-48fe-b9af-d671c837d40f" type="Group" ext:score="87"><name>Miles
+        Davis Quartet</name><sort-name>Davis, Miles, Quartet</sort-name><life-span><ended>false</ended></life-span><alias-list><alias
+        sort-name="The Miles Davis Quartet">The Miles Davis Quartet</alias></alias-list></artist><artist
+        id="fe7245e7-d734-4ca1-8e26-691883f58201" type="Group" ext:score="87"><name>Miles
+        Davis Quintet</name><sort-name>Davis, Miles, Quintet</sort-name><country>US</country><area
+        id="489ce91b-6658-3307-9877-795b68554c98"><name>United States</name><sort-name>United
+        States</sort-name></area><begin-area id="489ce91b-6658-3307-9877-795b68554c98"><name>United
+        States</name><sort-name>United States</sort-name></begin-area><end-area id="489ce91b-6658-3307-9877-795b68554c98"><name>United
+        States</name><sort-name>United States</sort-name></end-area><disambiguation>US
+        jazz group 1955-58, and 1964-68</disambiguation><life-span><begin>1955</begin><end>1968</end><ended>true</ended></life-span><alias-list><alias
+        sort-name="Miles Davis quintet 1965-''68">Miles Davis quintet 1965-''68</alias><alias
+        sort-name="Miles Davis Quintett">Miles Davis Quintett</alias><alias sort-name="Miles
+        Davis Quintette">Miles Davis Quintette</alias><alias sort-name="Miles Dvis
+        Quintet">Miles Dvis Quintet</alias><alias sort-name="The Miles Davis Quintet">The
+        Miles Davis Quintet</alias><alias sort-name="The New Miles Davis Quintet">The
+        New Miles Davis Quintet</alias></alias-list></artist><artist id="16d2b8e6-8930-4c9e-856f-e6d096479350"
+        type="Group" ext:score="87"><name>The Miles Davis Nonet</name><sort-name>Davis,
+        Miles, Nonet, The</sort-name><begin-area id="74e50e58-5deb-4b99-93a2-decbb365c07f"><name>New
+        York</name><sort-name>New York</sort-name></begin-area><life-span><begin>1948-08</begin><end>1950</end><ended>true</ended></life-span><alias-list><alias
+        sort-name="Miles Davis Nonet">Miles Davis Nonet</alias></alias-list></artist><artist
+        id="c52ff92e-b338-4815-bd63-4e9b89795e84" type="Group" ext:score="80"><name>Miles
+        Davis and His Orchestra</name><sort-name>Davis, Miles and His Orchestra</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id="88130878-7ee9-4ce2-b24b-1dd9da898030" type="Group" ext:score="76"><name>Miles
+        Davis Septet</name><sort-name>Davis, Miles, Septet</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id="72f2e1fe-dc92-4011-93d7-2fb6aff4a2bd" type="Group" ext:score="76"><name>Miles
+        Davis + 19</name><sort-name>Davis, Miles + 19</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id="614f182b-a62a-4a82-93b3-54ade84c3db6" ext:score="76"><name>Miles Davis
+        Quintets</name><sort-name>Miles Davis Quintet</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id="7103c200-fd5c-4890-8685-5328a055f7ba" type="Group" ext:score="74"><name>The
+        Miles Davis / Tadd Dameron Quintet</name><sort-name>Davis, Miles &amp; Dameron,
+        Tadd, Quintet, The</sort-name><life-span><ended>false</ended></life-span><alias-list><alias
+        sort-name="Miles Davis and Tadd Dameron">Miles Davis and Tadd Dameron</alias></alias-list></artist><artist
+        id="47c342e2-5c5f-4b5a-b919-8e0ffc329272" ext:score="70"><name>Miles Davis
+        All Star Sextet</name><sort-name>Miles Davis All Star Sextet</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id="addd7107-3955-4461-a62c-0b346feb5450" ext:score="70"><name>The Shoes Of
+        Miles Davis</name><sort-name>Shoes Of Miles Davis, The</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id="4cd1a02d-9645-4172-8d45-e468e097c23b" type="Group" ext:score="63"><name>Miles
+        Davis and the Lighthouse All-Stars</name><sort-name>Davis, Miles &amp; Lighthouse
+        All-Stars, The</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id="e1b6e38e-ab75-43fc-b994-bfeea9bc7626" type="Group" ext:score="63"><name>Miles
+        Davis &amp; The Modern Jazz Giants</name><sort-name>Davis, Miles &amp; Modern
+        Jazz Giants, The</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id="bfd8a02f-83f6-46ae-89ca-9d21ed2a78c2" ext:score="43"><name>Miles</name><sort-name>Miles</sort-name><disambiguation>unknown</disambiguation><life-span><ended>false</ended></life-span></artist><artist
+        id="86b0cc66-a7d7-4f4d-b59f-b897cc15d3bb" type="Group" ext:score="43"><name>Miles</name><sort-name>Miles</sort-name><country>BD</country><area
+        id="20395c3e-610c-34fd-9995-6b6f299121f2"><name>Bangladesh</name><sort-name>Bangladesh</sort-name></area><disambiguation>Bangladesh</disambiguation><life-span><ended>false</ended></life-span></artist><artist
+        id="7c7b51e4-40b9-416a-aba8-6a7ffe2f111e" ext:score="43"><name>Miles</name><sort-name>Miles</sort-name><disambiguation>Monday
+        Morning</disambiguation><life-span><ended>false</ended></life-span></artist><artist
+        id="28c42c8f-438c-4997-895b-1ef52cf5d9ca" ext:score="43"><name>Miles</name><sort-name>Miles</sort-name><disambiguation>Argentina</disambiguation><life-span><ended>false</ended></life-span></artist><artist
+        id="011249fd-90de-469a-8e6a-605c8bc90828" type="Group" ext:score="39"><name>Miles</name><sort-name>Miles</sort-name><country>DE</country><area
+        id="85752fda-13c4-31a3-bee5-0e5cb1f51dad"><name>Germany</name><sort-name>Germany</sort-name></area><disambiguation>German
+        indie rock band</disambiguation><life-span><begin>1992</begin><ended>false</ended></life-span><tag-list><tag
+        count="1"><name>german</name></tag><tag count="1"><name>indie rock</name></tag></tag-list></artist><artist
+        id="778208aa-248c-4fd1-90f7-72de07b95c0f" ext:score="32"><name>Davis</name><sort-name>Davis</sort-name><life-span><ended>false</ended></life-span><tag-list><tag
+        count="1"><name>classical</name></tag></tag-list></artist><artist id="cb138755-bb4d-4c83-a103-b71d51ca14c0"
+        ext:score="32"><name>Davis</name><sort-name>Davis</sort-name><country>US</country><area
+        id="489ce91b-6658-3307-9877-795b68554c98"><name>United States</name><sort-name>United
+        States</sort-name></area><disambiguation>Serengeti side project</disambiguation><life-span><ended>false</ended></life-span></artist><artist
+        id="b12ba762-0dc2-465d-9c3a-7ba342498767" type="Person" ext:score="28"><name>Lynn
+        Miles</name><sort-name>Miles, Lynn</sort-name><gender>female</gender><country>CA</country><area
+        id="71bbafaa-e825-3e15-8ca9-017dcad1748b"><name>Canada</name><sort-name>Canada</sort-name></area><begin-area
+        id="a510b9b1-404d-4e23-8db8-0f6585909ed8"><name>Quebec</name><sort-name>Quebec</sort-name></begin-area><life-span><ended>false</ended></life-span><tag-list><tag
+        count="1"><name>folk</name></tag></tag-list></artist><artist id="2babb7dc-485f-4133-9beb-22a1d5283adf"
+        type="Person" ext:score="28"><name>Chris Miles</name><sort-name>Miles, Chris</sort-name><gender>male</gender><area
+        id="dce45ea2-f0be-4568-82a6-072837b54cf1"><name>Long Island City</name><sort-name>Long
+        Island City</sort-name></area><begin-area id="74e50e58-5deb-4b99-93a2-decbb365c07f"><name>New
+        York</name><sort-name>New York</sort-name></begin-area><life-span><begin>1999-05-08</begin><ended>false</ended></life-span></artist></artist-list></metadata>'}
+    headers:
+      Access-Control-Allow-Origin: ['*']
+      Connection: [close]
+      Content-Type: [application/xml;charset=UTF-8]
+      Date: ['Tue, 04 Aug 2015 05:16:49 GMT']
+      Last-Modified: ['Tue, 04 Aug 2015 04:12:43 GMT']
+      Server: [nginx/1.1.19]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Connection: [close]
+      Content-Length: ['0']
+      Host: [musicbrainz.org]
+      User-Agent: ['JMAD - https://jmad.us//0.0.1 python-musicbrainzngs/0.5']
+    method: GET
+    uri: http://musicbrainz.org/ws/2/release/?artist=561d854a-6a28-4aa7-8c99-323e6ce46c2a&inc=recordings
+  response:
+    body: {string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><metadata xmlns=\"http://musicbrainz.org/ns/mmd-2.0#\"><release-list
+        count=\"761\"><release id=\"019aaa17-2016-4b36-afe4-aa2bdee2fdbd\"><title>Walkin'</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1954</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1954</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>true</artwork><count>5</count><front>true</front><back>true</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"5\" offset=\"0\"><track
+        id=\"29d6855c-752d-3909-9120-f85dc9740a82\"><position>1</position><number>1</number><length>809000</length><recording
+        id=\"90594a26-0d5b-4053-8e2a-7c05b9c5a447\"><title>Walkin'</title><length>809000</length><disambiguation>1954-4-29:
+        RVG Studio</disambiguation></recording></track><track id=\"e10588e3-3270-3180-9264-fbe640234f0b\"><position>2</position><number>2</number><length>499000</length><recording
+        id=\"80b29c0d-c8b9-4393-97fe-40bc134cdd38\"><title>Blue 'n' Boogie</title><length>499000</length></recording></track><track
+        id=\"103822b2-6041-38e3-aefb-8988101e31a8\"><position>3</position><number>3</number><length>285000</length><recording
+        id=\"87a3e256-7e71-4156-9b95-250eff3730fd\"><title>Solar</title><length>285000</length></recording></track><track
+        id=\"d5c2bc14-6e0e-3155-99a3-9141595d541f\"><position>4</position><number>4</number><length>263000</length><recording
+        id=\"a8a0f0c2-baf9-4c64-9ded-2167617b4e7a\"><title>You Don't Know What Love
+        Is</title><length>263000</length></recording></track><track id=\"a335bb67-1fc1-30f6-aeb0-321308910e36\"><position>5</position><number>5</number><length>415640</length><recording
+        id=\"a900f38a-86e8-48ea-a84a-067574c1e9d4\"><title>Love Me or Leave Me</title><length>415640</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"0f8813ab-3c54-3132-b451-81a1482c2202\"><title>Blue Haze</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1954</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1954</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"8\" offset=\"0\"><track
+        id=\"6291456e-6efd-3085-88df-2b80c93efffa\"><position>1</position><number>1</number><title>I'll
+        Remember April</title><length>476273</length><recording id=\"4de94c95-8fd4-429c-92d7-a43f22b1e93d\"><title>I\u2019ll
+        Remember April</title><length>476273</length></recording></track><track id=\"fe15d172-dae2-38db-b057-39cd3ffa14fd\"><position>2</position><number>2</number><length>244000</length><recording
+        id=\"85481b38-fcdf-485f-ab6c-fa4b82e364d3\"><title>Four</title><length>244000</length></recording></track><track
+        id=\"e7d687c4-d36e-3ea4-9b51-d77cf3b6cbfe\"><position>3</position><number>3</number><length>205000</length><recording
+        id=\"f099d7e2-c65e-46fb-a895-c8d8b29c3a5a\"><title>Old Devil Moon</title><length>205000</length></recording></track><track
+        id=\"320cb773-fcca-305d-9c4e-e14da7966edb\"><position>4</position><number>4</number><length>187000</length><recording
+        id=\"46000c47-1777-4d1e-a6b0-ba9e0ef279fc\"><title>Smooch</title><length>186146</length></recording></track><track
+        id=\"73778656-0b9f-3cc0-9c73-37539586e712\"><position>5</position><number>5</number><length>373000</length><recording
+        id=\"cfe1930f-e6ad-4d72-aa91-ee20fad8f433\"><title>Blue Haze</title><length>373000</length></recording></track><track
+        id=\"9d625ff8-424a-37c3-b99c-928155bc030d\"><position>6</position><number>6</number><length>209000</length><recording
+        id=\"957aefbf-718a-4e86-9c22-44f2ca6bd801\"><title>When Lights Are Low</title><length>208800</length></recording></track><track
+        id=\"6b4041d1-678c-3450-ac3d-a00d360f2ef3\"><position>7</position><number>7</number><length>236736</length><recording
+        id=\"1f5cb8d6-7106-4b6b-ad9e-70e03a799941\"><title>Tune Up</title><length>236736</length></recording></track><track
+        id=\"69df35e4-56f8-3d7c-99f4-75493503181e\"><position>8</position><number>8</number><length>269253</length><recording
+        id=\"b6f41a5e-ffe1-4a1a-8d38-0f15ffe1ced3\"><title>Miles Ahead</title><length>269253</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"16ed7b47-e00c-499d-8866-65e660f4c78f\"><title>Miles Davis, Volume 3</title><status>Official</status><quality>normal</quality><packaging>Cardboard/Paper
+        Sleeve</packaging><text-representation><language>eng</language><script>Latn</script></text-representation><date>1954</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1954</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>true</artwork><count>1</count><front>true</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"6\" offset=\"0\"><track
+        id=\"37e8f384-fd8f-3980-ab99-c69271a21204\"><position>1</position><number>1</number><length>220360</length><recording
+        id=\"add066a7-a7e8-4abe-b329-6fe134e00e17\"><title>Take Off</title><length>220360</length></recording></track><track
+        id=\"60fa3292-611c-319a-9d6b-b9d97c6e1249\"><position>2</position><number>2</number><length>242760</length><recording
+        id=\"83142edc-1c9d-41e5-9580-78c88ae74f6a\"><title>It Never Entered My Mind</title><length>242760</length></recording></track><track
+        id=\"eb18e59b-95f1-3812-bdf9-5b654ec95008\"><position>3</position><number>3</number><length>322560</length><recording
+        id=\"b197e54d-69e7-4e25-aefe-fb3d5cbdb0d9\"><title>Well You Needn't</title><length>322560</length></recording></track><track
+        id=\"3727b327-f283-38d8-8d01-cd3ab449b9eb\"><position>4</position><number>4</number><length>242453</length><recording
+        id=\"274785ca-b72c-4999-a43c-76742db544e3\"><title>Lazy Susan</title><length>242453</length></recording></track><track
+        id=\"b847dd8f-d97d-3507-86b3-c3ff09ef9b0a\"><position>5</position><number>5</number><length>284533</length><recording
+        id=\"8928f8b4-29f7-480a-96ba-aa6d2f9441ef\"><title>Weirdo</title><length>284533</length></recording></track><track
+        id=\"3e21410e-342c-31dc-b0eb-f12c677f9743\"><position>6</position><number>6</number><length>270880</length><recording
+        id=\"6e1ccd4f-de11-48f3-ba26-37bc7a072255\"><title>The Leap</title><length>270880</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"18912530-8252-4ac6-afa4-ea993871aaf2\"><title>Collectors' Items</title><status>Official</status><quality>normal</quality><packaging>Cardboard/Paper
+        Sleeve</packaging><text-representation><language>eng</language><script>Latn</script></text-representation><date>1956</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1956</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>true</artwork><count>1</count><front>true</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"7\" offset=\"0\"><track
+        id=\"bbc0ffdd-55fc-3c5d-9d36-69bfe1f5f491\"><position>1</position><number>A1</number><length>421440</length><recording
+        id=\"0255f999-8742-4ac7-b1b8-5f9b8f5002b4\"><title>Serpents Tooth (take 1)</title><length>421000</length></recording></track><track
+        id=\"22997ef3-777a-378b-a22c-e6077d44dcd6\"><position>2</position><number>A2</number><length>378253</length><recording
+        id=\"8d337d50-8d14-48f6-bf31-4464b03afe96\"><title>Serpents Tooth (take 2)</title><length>378000</length></recording></track><track
+        id=\"0a204723-ef02-3293-b9fa-6638be41e08b\"><position>3</position><number>A3</number><length>426266</length><recording
+        id=\"6e218043-3743-4dff-ba0a-f27d00197942\"><title>'Round Midnight</title><length>426266</length></recording></track><track
+        id=\"e9cfcd4e-9ac6-3bad-ab7e-858164968a79\"><position>4</position><number>A4</number><length>345466</length><recording
+        id=\"180efa97-38bf-449b-b44f-06cd41a28749\"><title>Compulsion</title><length>345466</length></recording></track><track
+        id=\"9cfbe68d-8e95-368a-8479-c5dea403321b\"><position>5</position><number>B1</number><length>340680</length><recording
+        id=\"40616f15-3369-4247-8de2-86db8eb28734\"><title>No Line</title><length>340680</length></recording></track><track
+        id=\"6e25e04f-8fb0-3461-a638-58594a8b1af2\"><position>6</position><number>B2</number><length>413360</length><recording
+        id=\"2e6c8354-45c4-43ed-bbd3-1eddb3bc3ea2\"><title>Vierd Blues</title><length>413360</length></recording></track><track
+        id=\"35c15b38-c8b6-3aa7-b1ec-214be8ef613e\"><position>7</position><number>B3</number><length>275213</length><recording
+        id=\"6689e4d8-8d1f-4468-aae9-3679e031d1c7\"><title>In Your Own Sweet Way</title><length>275213</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"2c6f3c86-0df2-4033-b709-4b4dbaacc120\"><title>Conception</title><status>Official</status><quality>normal</quality><packaging>Cardboard/Paper
+        Sleeve</packaging><text-representation><language>eng</language><script>Latn</script></text-representation><date>1956</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1956</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>true</artwork><count>1</count><front>true</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"12\" offset=\"0\"><track
+        id=\"a16d5de2-3a64-4d94-b3f1-c52205a24f5a\"><position>1</position><number>A1</number><length>172986</length><recording
+        id=\"de7db382-7784-4bc7-9cf5-07203aa1ced6\"><title>Odjenar</title><length>172986</length></recording></track><track
+        id=\"74038d49-9d0c-4ce1-a33b-f2232e7794ad\"><position>2</position><number>A2</number><length>186640</length><recording
+        id=\"7ebf4281-8f1f-48d2-8c7c-7a5fc9d35d79\"><title>Hibeck</title><length>186640</length></recording></track><track
+        id=\"137cc83d-6dd9-4337-92b4-c548f3215300\"><position>3</position><number>A3</number><length>146973</length><recording
+        id=\"a7000a8d-4616-4303-8d94-8785d5ffb328\"><title>Yesterdays</title><length>146973</length></recording></track><track
+        id=\"627617af-aae4-447b-8b72-e55f6a1f9244\"><position>4</position><number>A4</number><length>173640</length><recording
+        id=\"9691fccb-8786-4ff0-9ac0-1f717f3a9c2f\"><title>Ezz-Thetic</title><length>173640</length></recording></track><track
+        id=\"966163f6-95a0-41dc-be51-0445cc3bccb8\"><position>5</position><number>A5</number><length>153666</length><recording
+        id=\"535b88f2-767d-4ac5-b19e-95e3cf57ca0a\"><title>Indian Summer</title><length>153666</length></recording></track><track
+        id=\"82f4c116-9d22-4a31-b581-91ddc3ca8b36\"><position>6</position><number>A6</number><length>159760</length><recording
+        id=\"a1ec7ea8-aeb4-4652-938c-c3fbb1b8f42c\"><title>Duet for Saxophone and
+        Guitar</title><length>159760</length></recording></track><track id=\"d5874b06-8b77-42cb-bfb8-571bb4e89f65\"><position>7</position><number>B1</number><length>249373</length><recording
+        id=\"8da521e6-49cc-492a-bc6b-777295821075\"><title>Conception</title><length>249373</length></recording></track><track
+        id=\"2b3952b7-5a41-41a5-9243-dc2959e100dc\"><position>8</position><number>B2</number><length>395800</length><recording
+        id=\"e7de26be-7e3e-42de-8028-3b6bba6e406e\"><title>My Old Flame</title><length>395800</length></recording></track><track
+        id=\"82cbc50d-db8b-4224-92eb-6e854fad0cdc\"><position>9</position><number>B3</number><length>201586</length><recording
+        id=\"5d1950dc-6bcc-46e1-aba9-006735e0c70b\"><title>Intoit</title><length>201586</length></recording></track><track
+        id=\"91f57fb4-2c6d-4bcc-845e-0e92e361bdd3\"><position>10</position><number>B4</number><length>163053</length><recording
+        id=\"fe21c637-9b3a-4ae9-8003-96294b43e828\"><title>Prezervation</title><length>163053</length></recording></track><track
+        id=\"6e828d4f-0d38-4610-a519-e6d9b4947679\"><position>11</position><number>B5</number><length>208373</length><recording
+        id=\"0b5d011e-b5f6-484b-b479-b8836e16bd0f\"><title>I May Be Wrong</title><length>208373</length></recording></track><track
+        id=\"70d23b5d-287c-4d2d-b755-8e01d9041edd\"><position>12</position><number>B6</number><length>163466</length><recording
+        id=\"b6418e0f-4244-4e9c-8314-959aaf4436dc\"><title>So What</title><length>163466</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"2c9af123-adef-4db0-9db8-145ce9b283c3\"><title>Birth of the Cool</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1957-02</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1957-02</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"11\" offset=\"0\"><track
+        id=\"68e515de-122c-45b3-a641-8d43edbee918\"><position>1</position><number>A1</number><length>152000</length><recording
+        id=\"55932841-4bb3-4f4a-ab1e-455f09148cc1\"><title>Move</title><length>154226</length></recording></track><track
+        id=\"80119850-cb01-408b-b9a8-59f113bbfdcb\"><position>2</position><number>A2</number><length>190000</length><recording
+        id=\"8b349e4f-dc7a-4eb0-84b9-924554dea663\"><title>Jeru</title><length>193000</length><disambiguation>WOR
+        Studios, New York, US: 1949-1-21</disambiguation></recording></track><track
+        id=\"a494f830-ed61-4146-b4f9-c2137137abe0\"><position>3</position><number>A3</number><length>197000</length><recording
+        id=\"68cc5c4d-4fbc-4e21-bd80-dec00859dcf7\"><title>Moon Dreams</title><length>200093</length></recording></track><track
+        id=\"5f2c7e42-0903-4573-b6ef-677f9a8abcff\"><position>4</position><number>A4</number><length>190000</length><recording
+        id=\"1f836e80-9a8c-44a9-ae52-a77b0269d9cb\"><title>Venus de Milo</title><length>191826</length></recording></track><track
+        id=\"63f33a58-c427-4c97-ab59-e30f8f51bcaa\"><position>5</position><number>A5</number><length>152000</length><recording
+        id=\"fd2724c6-e5b3-4b89-8111-41e905db5568\"><title>Budo</title><length>154800</length></recording></track><track
+        id=\"273bf912-63b3-4c6f-bafd-e167d102e258\"><position>6</position><number>A6</number><length>165000</length><recording
+        id=\"da4013ce-ea94-4069-9a38-5b5b58118c26\"><title>Deception</title><length>168000</length></recording></track><track
+        id=\"c89b7f14-65e6-42e5-8271-d4897841057f\"><position>7</position><number>B1</number><length>187000</length><recording
+        id=\"84748f07-5454-43c0-978c-d120b7985119\"><title>Godchild</title><length>190106</length></recording></track><track
+        id=\"88677b32-665d-4366-b34d-3565b54b951a\"><position>8</position><number>B2</number><length>179000</length><recording
+        id=\"242a39de-944d-4fc2-b5ec-1ae4733aa103\"><title>Boplicity</title><length>181560</length></recording></track><track
+        id=\"800aac32-a9d2-4344-8bc6-cc0ac81fed8c\"><position>9</position><number>B3</number><length>183000</length><recording
+        id=\"136a1c2e-fe52-413a-a4d8-b745afae3d37\"><title>Rocker</title><length>186040</length></recording></track><track
+        id=\"11ea2409-69f5-44e0-9885-6fdb170b49ba\"><position>10</position><number>B4</number><length>135000</length><recording
+        id=\"8a2f15de-b51f-4705-a78c-6f33ea4b9c60\"><title>Israel</title><length>138026</length></recording></track><track
+        id=\"1b6732e7-1973-4e05-b3e1-356bf50ca9cb\"><position>11</position><number>B5</number><length>193000</length><recording
+        id=\"11ae3c6a-8ca9-453d-b0ef-1bac810b5de4\"><title>Rouge</title><length>195173</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"30392b21-44b8-3c9b-afd1-fe18d579e756\"><title>'Round About Midnight</title><status>Official</status><quality>normal</quality><packaging>Cardboard/Paper
+        Sleeve</packaging><text-representation><language>eng</language><script>Latn</script></text-representation><date>1957-03-18</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1957-03-18</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>true</artwork><count>1</count><front>true</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"6\" offset=\"0\"><track
+        id=\"5bf273e8-12d7-3ce2-b6e5-92c717be56d5\"><position>1</position><number>A1</number><title>'Round
+        Midnight</title><length>355933</length><recording id=\"0ba4f516-252b-45cd-a6b5-1de7bf843769\"><title>\u2019Round
+        Midnight</title><length>356960</length><disambiguation>studio session, 1956-9-10:
+        Columbia Studio, New York, US</disambiguation></recording></track><track id=\"668cc054-7de7-3f54-b18c-d62b68e80bae\"><position>2</position><number>A2</number><title>Ah-Leu-Cha</title><length>353293</length><recording
+        id=\"def38491-024d-46f3-aec4-42a23b3b64f3\"><title>Ah\u2010Leu\u2010Cha</title><length>351533</length><disambiguation>original
+        studio master</disambiguation></recording></track><track id=\"50ae48f4-be6c-3a63-99b2-a9c1c7ad93fc\"><position>3</position><number>A3</number><length>423106</length><recording
+        id=\"b2d096c1-8ccb-44cf-baf0-97e7fe0dc38e\"><title>All of You</title><length>422000</length><disambiguation>original
+        studio master</disambiguation></recording></track><track id=\"cb6ae79b-198e-3e78-bbdd-204b30bb3d2c\"><position>4</position><number>B1</number><length>476733</length><recording
+        id=\"14b4271d-9aa5-4e12-92bc-741b8b2cd2e1\"><title>Bye Bye Blackbird</title><length>476000</length><disambiguation>studio
+        session, 1956-6-5: Columbia 30th Street Studios, NYC, NY, US</disambiguation></recording></track><track
+        id=\"62d12318-a373-3644-892f-08427e21ace6\"><position>5</position><number>B2</number><title>Tadd's
+        Delight</title><length>269626</length><recording id=\"d02625e0-3656-437a-9d6b-4315e3af72f5\"><title>Tadd\u2019s
+        Delight</title><length>268000</length><disambiguation>original studio master</disambiguation></recording></track><track
+        id=\"9d32f857-be24-36af-a182-8f1f3f372bc6\"><position>6</position><number>B3</number><length>471133</length><recording
+        id=\"8bb7b63c-9188-4e63-8192-16ae289a3ada\"><title>Dear Old Stockholm</title><length>469666</length><disambiguation>original
+        studio master</disambiguation></recording></track></track-list></medium></medium-list></release><release
+        id=\"38bdd071-9f00-41f9-9b90-ea4548f10225\"><title>Dig</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1951</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1951</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"5\" offset=\"0\"><track
+        id=\"40dbeb74-3433-3114-9f84-685c8e428938\"><position>1</position><number>1</number><length>456666</length><recording
+        id=\"3cdd6a56-f399-40a0-9508-6bb553ecaeed\"><title>Dig</title><length>456666</length></recording></track><track
+        id=\"5ec02216-f5ba-3085-af57-00aab691ad07\"><position>2</position><number>2</number><length>326293</length><recording
+        id=\"945f926c-d23f-4150-a556-8bb8c009732c\"><title>It's Only a Paper Moon</title><length>326293</length></recording></track><track
+        id=\"84663826-a004-3eb4-b144-6285fffc9423\"><position>3</position><number>3</number><length>342506</length><recording
+        id=\"c9149dbc-af52-4f24-bc5b-b8b925665046\"><title>Denial</title><length>342506</length></recording></track><track
+        id=\"ca037b01-3b37-35ca-bbc5-360ed44b98f5\"><position>4</position><number>4</number><length>598733</length><recording
+        id=\"360f5bd0-a9a6-4e6d-be78-9b32bd0db14b\"><title>Bluing</title><length>598733</length></recording></track><track
+        id=\"59cb585e-0da4-30e6-bed7-ef7bf8c62d9a\"><position>5</position><number>5</number><length>375026</length><recording
+        id=\"239f3420-f8cd-476e-9068-fa6d5520d0e4\"><title>Out of the Blue</title><length>375026</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"3a3231e9-4d21-4b6e-a9a0-318433442038\"><title>Miles Davis and Horns</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1956</date><release-event-list
+        count=\"1\"><release-event><date>1956</date></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"9\" offset=\"0\"><track
+        id=\"6e244e40-73cc-31ff-8f70-2f87b25f1071\"><position>1</position><number>1</number><length>143000</length><recording
+        id=\"6211c5b0-4500-4c53-86e2-056c3020c603\"><title>Morpheus</title><length>142000</length></recording></track><track
+        id=\"0029c26c-837f-3213-929b-f472bc156cfc\"><position>2</position><number>2</number><length>173000</length><recording
+        id=\"f3c9b89a-5371-4ce8-8257-6af0ef3a9af1\"><title>Down</title><length>173000</length></recording></track><track
+        id=\"ca3ff034-fb0a-3fe6-bdf4-1c293feb5e91\"><position>3</position><number>3</number><length>183000</length><recording
+        id=\"a6a067f3-e9be-44fc-a1c2-d4bfd83aa1e1\"><title>Blue Room (Alternate Take)</title><length>171160</length></recording></track><track
+        id=\"15690b22-52c3-32b0-a640-a674831c176f\"><position>4</position><number>4</number><length>172000</length><recording
+        id=\"1a8de27e-4418-45b5-b33c-e8527716bc5e\"><title>Whispering</title><length>184000</length></recording></track><track
+        id=\"4644ac47-b583-3064-99a8-75123b2170eb\"><position>5</position><number>5</number><length>203000</length><recording
+        id=\"ff127eea-90c6-42b4-a6f8-e693a5af4d2b\"><title>Tasty Pudding</title><length>201866</length></recording></track><track
+        id=\"cd8a0cf3-8d31-3d04-a71d-249484c51580\"><position>6</position><number>6</number><length>269000</length><recording
+        id=\"7171ae84-0034-46ea-932f-86b2823b4bd1\"><title>Willie The Wailer</title><length>267000</length></recording></track><track
+        id=\"d6a1f520-acee-38a8-a145-ffc41702c99d\"><position>7</position><number>7</number><length>363000</length><recording
+        id=\"d7d92297-2545-406f-91cc-6872ba7f3254\"><title>Floppy</title><length>363000</length></recording></track><track
+        id=\"11053baa-120b-3961-9a1a-929dd23619ca\"><position>8</position><number>8</number><length>336000</length><recording
+        id=\"d4c630ab-0035-491d-b368-08f3d9b0982f\"><title>For Adults Only</title><length>334973</length></recording></track><track
+        id=\"eb73945f-2de2-3690-96b8-8df6d08145b3\"><position>9</position><number>9</number><length>183000</length><recording
+        id=\"ad0dce30-1eef-4149-9044-795b22db7d2a\"><title>Blue Room</title><length>180000</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"40f3ef96-454c-4141-bcf2-927a801f7e21\"><title>Miles</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1956-04</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1956-04</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"6\" offset=\"0\"><track
+        id=\"a7a681fb-feeb-4c69-be58-6feb7df60181\"><position>1</position><number>A1</number><length>440000</length><recording
+        id=\"026b563a-b244-416d-8752-53ca2bd2313d\"><title>Just Squeeze Me (But Don't
+        Tease Me)</title><length>440000</length></recording></track><track id=\"0db1f982-da96-466a-95ee-d15513f1d0df\"><position>2</position><number>A2</number><length>447000</length><recording
+        id=\"39048df8-b9c4-4136-bee9-157270f568b6\"><title>There Is No Greater Love</title><length>447000</length></recording></track><track
+        id=\"26b41696-7eda-4a1b-9797-5696df142f9b\"><position>3</position><number>A3</number><length>280000</length><recording
+        id=\"a5e841ab-0121-43e1-8f78-b952eddbed58\"><title>How Am I to Know?</title><length>280000</length></recording></track><track
+        id=\"e0e34dc9-6519-4ab8-9f40-c3df54f3ae05\"><position>4</position><number>B1</number><length>305000</length><recording
+        id=\"84d3c743-60cc-4a50-9c9f-b1d163105181\"><title>S'posin</title><length>305000</length></recording></track><track
+        id=\"8bb581c7-9e23-455a-a5e8-df32143a9ebd\"><position>5</position><number>B2</number><length>345000</length><recording
+        id=\"aebababe-6430-4a15-821c-dcb997dcd324\"><title>The Theme</title><length>345000</length></recording></track><track
+        id=\"f0e97f34-4dd6-476e-b79e-f4e02559e119\"><position>6</position><number>B3</number><length>315000</length><recording
+        id=\"730c1efb-da71-42fc-8750-69235fc191aa\"><title>Stablemates</title><length>315000</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"49aa17f3-c09f-4463-b7c5-210aef36ee3e\"><title>Young Man with a Horn</title><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1952</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1952</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"6\" offset=\"0\"><track
+        id=\"747cfbb9-694f-37fe-a87f-66570665aab8\"><position>1</position><number>1</number><length>256000</length><recording
+        id=\"e4376f58-8454-41bb-852f-33ca717e3104\"><title>Dear Old Stockholm</title><length>256000</length></recording></track><track
+        id=\"6269f0bb-9890-3c2c-8d45-bc29d11b3189\"><position>2</position><number>2</number><length>208000</length><recording
+        id=\"c224c95d-64a2-47c7-a56a-c5943070636c\"><title>Would'n You</title><length>208000</length></recording></track><track
+        id=\"4cd5fbd2-8579-32af-9c73-8f5f15848bbe\"><position>3</position><number>3</number><length>228000</length><recording
+        id=\"7855c25b-ccc2-4648-abf1-e8f9f86744f2\"><title>Yesterdays</title><length>228000</length></recording></track><track
+        id=\"32f452f3-085b-397d-90f1-7968210b14dc\"><position>4</position><number>4</number><length>186000</length><recording
+        id=\"2e8ec728-76e9-4431-9ab6-3264db7c7dc9\"><title>Chance It</title><length>186000</length></recording></track><track
+        id=\"a3354ced-83bf-3ba0-b44f-c454b5e18c29\"><position>5</position><number>5</number><length>197000</length><recording
+        id=\"702d6c41-f03c-42cf-84c7-77876b1d3855\"><title>Donna</title><length>197000</length></recording></track><track
+        id=\"5d56cae5-2118-326e-8d56-4b6c61f0f959\"><position>6</position><number>6</number><length>283000</length><recording
+        id=\"6a0cd7e5-8a16-4ae1-bbeb-03e577d52378\"><title>How Deep Is the Ocean?</title><length>283000</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"596fea39-6340-479a-bc88-0ccc4980203b\"><title>Blue Moods</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1955</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1955</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"4\" offset=\"0\"><track
+        id=\"43c8e259-6f3f-346a-bd56-65939a28416b\"><position>1</position><number>A1</number><length>380840</length><recording
+        id=\"6068dc3e-3f44-469e-b978-5fa5624d43d0\"><title>Nature Boy</title><length>378973</length></recording></track><track
+        id=\"4b7e6084-55da-399b-92ef-8f8d0c6f8248\"><position>2</position><number>A2</number><length>442200</length><recording
+        id=\"a801372d-9049-465f-aa0c-68186b6a38a7\"><title>Alone Together</title><length>442200</length></recording></track><track
+        id=\"e08c22e1-1d3b-3385-a05a-f66c65192def\"><position>3</position><number>B1</number><length>491226</length><recording
+        id=\"58d69f38-dc04-45e2-b098-0a768fb04ea7\"><title>There's No You</title><length>491226</length></recording></track><track
+        id=\"de424193-41b9-3f9a-9595-38b457d04530\"><position>4</position><number>B2</number><length>303920</length><recording
+        id=\"b15705cf-7c85-4035-b97e-7d352f992260\"><title>Easy Living</title><length>303920</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"61a4bb9f-85af-4d31-8665-2043ffa340b1\"><title>Miles Ahead</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1957</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1957</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><barcode
+        /><cover-art-archive><artwork>true</artwork><count>2</count><front>true</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"10\" offset=\"0\"><track
+        id=\"19605415-6519-3ac2-a939-86dd4e5d18da\"><position>1</position><number>A1</number><length>207000</length><recording
+        id=\"8cc43515-eb23-430e-ac07-c7152766bfaa\"><title>Springsville</title><length>207000</length></recording></track><track
+        id=\"7896413b-af9d-3599-9d71-05beb6f6b5ad\"><position>2</position><number>A2</number><length>233000</length><recording
+        id=\"ae589c6f-05e3-477a-92ff-a3949f58c046\"><title>The Maids of Cadiz</title><length>233000</length></recording></track><track
+        id=\"b52a0500-2425-301b-b166-6dd6685eeb1a\"><position>3</position><number>A3</number><length>215000</length><recording
+        id=\"d93ea961-ded2-435f-8833-2894e2f0ab4a\"><title>The Duke</title><length>215000</length></recording></track><track
+        id=\"d9d0addb-bc0e-3c6e-9f8b-a0983893e671\"><position>4</position><number>A4</number><length>268000</length><recording
+        id=\"478f91b9-2522-4d65-91e9-d21de1d46126\"><title>My Ship</title><length>268000</length></recording></track><track
+        id=\"584b6399-a55f-3c99-9d99-6f09f69d9051\"><position>5</position><number>A5</number><length>209000</length><recording
+        id=\"d05254e6-a08a-4552-8e32-a017f91d56ab\"><title>Miles Ahead</title><length>209000</length></recording></track><track
+        id=\"93b58d82-739c-3d06-8063-040c86d2df58\"><position>6</position><number>B1</number><length>318000</length><recording
+        id=\"c409641a-e1ad-4ae4-b321-b49ab968afe6\"><title>Blues for Pablo</title><length>318133</length></recording></track><track
+        id=\"ecd7c285-2e8c-3c5c-90ab-d363de8cf381\"><position>7</position><number>B2</number><length>277000</length><recording
+        id=\"c0767727-10e3-4776-863b-ed2f45e505cd\"><title>New Rhumba</title><length>277000</length></recording></track><track
+        id=\"afa97f4e-6127-3ff1-a38b-a896bc4140b7\"><position>8</position><number>B3</number><length>168000</length><recording
+        id=\"7b339839-b2ab-4a58-ae66-fdc609861250\"><title>The Meaning of the Blues</title><length>168000</length></recording></track><track
+        id=\"56b9c2ef-21c7-36c6-963f-9ac733e87515\"><position>9</position><number>B4</number><length>134000</length><recording
+        id=\"8278d578-9a79-46c6-9b65-7de3c1620dac\"><title>Lament</title><length>134000</length></recording></track><track
+        id=\"141f2bb9-ae21-3f99-b6e3-24cee0baad94\"><position>10</position><number>B5</number><title>I
+        Don't Wanna Be Kissed (by Anyone but You)</title><length>185400</length><recording
+        id=\"729ace3b-8cd1-4ec9-8a95-0ca1f3cf365f\"><title>I Don\u2019t Wanna Be Kissed
+        (by Anyone but You)</title><length>186000</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"6c101d77-8a4c-49a5-ac07-58d4133a34dc\"><title>Budo / Move</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1949-03</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1949-03</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><barcode
+        /><cover-art-archive><artwork>true</artwork><count>2</count><front>true</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"2\" offset=\"0\"><track
+        id=\"7550ae96-12a6-3af4-ac62-b90a7110d123\"><position>1</position><number>A</number><length>151000</length><recording
+        id=\"fd2724c6-e5b3-4b89-8111-41e905db5568\"><title>Budo</title><length>154800</length></recording></track><track
+        id=\"10aa3507-ce7a-3736-b4ee-ad6f8b37a910\"><position>2</position><number>B</number><length>152000</length><recording
+        id=\"55932841-4bb3-4f4a-ab1e-455f09148cc1\"><title>Move</title><length>154226</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"7acd38f4-939f-4e17-9d9e-bf5111d9e11f\"><title>Miles Davis, Volume 1</title><status>Official</status><quality>normal</quality><packaging>Cardboard/Paper
+        Sleeve</packaging><text-representation><language>eng</language><script>Latn</script></text-representation><date>1953</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1953</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><barcode
+        /><cover-art-archive><artwork>true</artwork><count>1</count><front>true</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"12\" offset=\"0\"><track
+        id=\"f6aed270-d19b-4f60-84a2-8f1dfd336eee\"><position>1</position><number>1</number><length>229000</length><recording
+        id=\"b65487de-d814-49b6-bb5c-3cc283195b39\"><title>Tempus Fugit</title><length>229000</length></recording></track><track
+        id=\"a14d7446-06d9-420c-9979-340eb64ff5d0\"><position>2</position><number>2</number><length>197000</length><recording
+        id=\"8ad4da1b-4f9d-46c3-a844-c72ee53d5cf4\"><title>Kelo</title><length>197000</length></recording></track><track
+        id=\"9aed46ac-9524-4339-a627-e28dd4a38d91\"><position>3</position><number>3</number><length>201000</length><recording
+        id=\"e078627c-f0cd-4f56-94cb-0f374482dd4b\"><title>Enigma</title><length>201000</length></recording></track><track
+        id=\"4805d4ad-0913-4018-81c8-c0a26d6ba77f\"><position>4</position><number>4</number><length>224133</length><recording
+        id=\"051c0e64-29a9-459f-b67e-a157ffa52a30\"><title>Ray's Idea</title><length>224133</length></recording></track><track
+        id=\"0199f447-ce81-430f-8b76-cf7e5c39be96\"><position>5</position><number>5</number><length>282800</length><recording
+        id=\"27bc0058-bfc1-44c9-9e2b-dee40e8f1f93\"><title>How Deep Is the Ocean</title><length>282800</length></recording></track><track
+        id=\"3c9880e9-d1f6-498b-8681-0489aa43217e\"><position>6</position><number>6</number><length>197000</length><recording
+        id=\"feb204f4-dccc-4bac-9ec2-724fa4b032ff\"><title>C.T.A. (alternate take)</title><length>197000</length></recording></track><track
+        id=\"553e8f1e-1889-45ad-a99e-a8c1c087905c\"><position>7</position><number>7</number><length>251000</length><recording
+        id=\"1f5d9ce4-b70b-4c21-b05e-704de3917f69\"><title>Dear Old Stockholm</title><length>251000</length></recording></track><track
+        id=\"e1c83488-2d2d-440d-9721-baaf80d736db\"><position>8</position><number>8</number><length>182000</length><recording
+        id=\"15f2bfdb-59bb-4843-b1c1-6604b2d1f484\"><title>Chance It</title><length>182000</length></recording></track><track
+        id=\"8005da53-14a8-4583-96c9-ab98f98986f1\"><position>9</position><number>9</number><length>223000</length><recording
+        id=\"01e64533-141c-4312-b74f-d35c1c22153b\"><title>Yesterdays</title><length>223000</length></recording></track><track
+        id=\"b46bb859-6a56-41c2-9395-fa2a3f432bb0\"><position>10</position><number>10</number><length>189000</length><recording
+        id=\"1d6ac58c-6bde-478d-b90b-fb9a5e3a1fac\"><title>Donna (alternate take)</title><length>189000</length></recording></track><track
+        id=\"782ffcda-d54f-49f8-bc20-4acbd0c0e299\"><position>11</position><number>11</number><length>212000</length><recording
+        id=\"77ab3e07-e4c2-49ad-9191-745521666ca2\"><title>C.T.A.</title><length>212000</length></recording></track><track
+        id=\"41a15649-2bc7-4a27-a8bd-630e6982d590\"><position>12</position><number>12</number><length>205333</length><recording
+        id=\"585839f6-760b-43ae-a5e9-fdae6caf295d\"><title>Would'n You (alternate
+        take)</title><length>205333</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"82925001-ed8a-4582-aff8-9d10fd128cac\"><title>Miles Davis, Volume 2</title><status>Official</status><quality>normal</quality><packaging>Cardboard/Paper
+        Sleeve</packaging><text-representation><language>eng</language><script>Latn</script></text-representation><date>1956</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1956</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>true</artwork><count>1</count><front>true</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"6\" offset=\"0\"><track
+        id=\"8bfec9b7-8feb-3257-b85d-02f0b7a7b37d\"><position>1</position><number>1</number><length>196613</length><recording
+        id=\"3564c295-f2fa-412f-935a-42c8acb6a5cb\"><title>Kelo</title><length>196613</length></recording></track><track
+        id=\"b12cadb8-0ae4-341d-8318-c5f133542e94\"><position>2</position><number>2</number><length>202080</length><recording
+        id=\"3db3b36b-7ea0-4083-bdc5-e39c2da74798\"><title>Enigma</title><length>202080</length></recording></track><track
+        id=\"b0ce3238-e252-3da6-9431-6e24b5a8e215\"><position>3</position><number>3</number><length>223320</length><recording
+        id=\"81168d85-4a5b-4f55-94ff-cbee17de3d6b\"><title>Ray's Idea</title><length>223320</length></recording></track><track
+        id=\"dad46d0a-b27b-3554-9f4b-2a90438d089b\"><position>4</position><number>4</number><length>229226</length><recording
+        id=\"29f907de-a9d8-4d12-93d3-60d223888ea4\"><title>Tempus Fugit</title><length>229226</length></recording></track><track
+        id=\"1a748f2c-9f82-3f94-b7da-655337555ec4\"><position>5</position><number>5</number><length>212733</length><recording
+        id=\"fc7640cf-016a-4655-98b4-ab06e5e0137f\"><title>C.T.A.</title><length>212733</length></recording></track><track
+        id=\"66a5adf1-9807-3f53-8a79-fdc6d8c8c5c8\"><position>6</position><number>6</number><length>208440</length><recording
+        id=\"ed003772-297c-4014-8a48-a13354384f9c\"><title>I Waited for You</title><length>208440</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"98bf409f-28bb-406c-a319-0271ed051b28\"><title>'Round About Midnight</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1957-03-04</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1957-03-04</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>true</artwork><count>4</count><front>true</front><back>true</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"6\" offset=\"0\"><track
+        id=\"7bc07b6b-12de-3f5d-81d5-cd56c37be3d2\"><position>1</position><number>1</number><title>'Round
+        Midnight</title><length>355933</length><recording id=\"0ba4f516-252b-45cd-a6b5-1de7bf843769\"><title>\u2019Round
+        Midnight</title><length>356960</length><disambiguation>studio session, 1956-9-10:
+        Columbia Studio, New York, US</disambiguation></recording></track><track id=\"39df2138-c4c6-3d59-bd52-6aa69626a919\"><position>2</position><number>2</number><title>Ah-Leu-Cha</title><length>353293</length><recording
+        id=\"def38491-024d-46f3-aec4-42a23b3b64f3\"><title>Ah\u2010Leu\u2010Cha</title><length>351533</length><disambiguation>original
+        studio master</disambiguation></recording></track><track id=\"6f67f598-3b31-3fae-876b-b33188ffddfe\"><position>3</position><number>3</number><length>423106</length><recording
+        id=\"b2d096c1-8ccb-44cf-baf0-97e7fe0dc38e\"><title>All of You</title><length>422000</length><disambiguation>original
+        studio master</disambiguation></recording></track><track id=\"351372c5-3a30-358d-b3d5-4a210f1ab25b\"><position>4</position><number>4</number><length>476733</length><recording
+        id=\"14b4271d-9aa5-4e12-92bc-741b8b2cd2e1\"><title>Bye Bye Blackbird</title><length>476000</length><disambiguation>studio
+        session, 1956-6-5: Columbia 30th Street Studios, NYC, NY, US</disambiguation></recording></track><track
+        id=\"66d1c7bf-31d9-394a-b1b4-c6c5fdcb45d0\"><position>5</position><number>5</number><title>Tadd's
+        Delight</title><length>269626</length><recording id=\"d02625e0-3656-437a-9d6b-4315e3af72f5\"><title>Tadd\u2019s
+        Delight</title><length>268000</length><disambiguation>original studio master</disambiguation></recording></track><track
+        id=\"913f0185-1826-35eb-b574-3481945d12f9\"><position>6</position><number>6</number><length>471133</length><recording
+        id=\"8bb7b63c-9188-4e63-8192-16ae289a3ada\"><title>Dear Old Stockholm</title><length>469666</length><disambiguation>original
+        studio master</disambiguation></recording></track></track-list></medium></medium-list></release><release
+        id=\"af3a09c5-d484-4091-abb1-382a06aae029\"><title>Young Man With a Horn</title><status>Official</status><quality>normal</quality><packaging>Cardboard/Paper
+        Sleeve</packaging><text-representation><language>eng</language><script>Latn</script></text-representation><date>1952</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1952</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>true</artwork><count>1</count><front>true</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"6\" offset=\"0\"><track
+        id=\"278f69d6-f5a1-44c5-b2b9-d2b392cffd2e\"><position>1</position><number>A1</number><length>251013</length><recording
+        id=\"b6cc3304-e8a8-4eca-b9b0-e9a9bb2f8cea\"><title>Dear Old Stockholm</title><length>251013</length></recording></track><track
+        id=\"807007c6-5696-4345-834d-e353aee85462\"><position>2</position><number>A2</number><length>182440</length><recording
+        id=\"22d7566d-0114-40d0-b0ed-c94dae290a62\"><title>Chance It</title><length>182440</length></recording></track><track
+        id=\"f8b70cbd-a5ae-4d85-89b5-2d212e2fea96\"><position>3</position><number>A3</number><length>224720</length><recording
+        id=\"d921a59c-d07b-4c95-8cc0-8e0d17d6e5e2\"><title>Yesterdays</title><length>224720</length></recording></track><track
+        id=\"1881f863-a2ce-4eef-a378-19f697bbfe26\"><position>4</position><number>B1</number><length>193146</length><recording
+        id=\"2481921b-bef2-4654-8c01-6f213d357c24\"><title>Donna</title><length>193146</length></recording></track><track
+        id=\"60f460eb-d60f-4ba5-8e7e-5ac9fc5d67ef\"><position>5</position><number>B2</number><length>204266</length><recording
+        id=\"435d0b56-d442-4b6d-8f93-ca551a9fd5c7\"><title>Would'n You</title><length>204266</length></recording></track><track
+        id=\"675d99c9-11df-4bc2-9325-2d630895bb47\"><position>6</position><number>B3</number><length>278773</length><recording
+        id=\"e8e84309-096e-48f5-a043-2225d4631e89\"><title>How Deep Is the Ocean</title><length>278773</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"c2397416-96a5-42a7-a56f-3558dba8c936\"><title>Blue Period</title><status>Official</status><quality>normal</quality><packaging>Cardboard/Paper
+        Sleeve</packaging><text-representation><language>eng</language><script>Latn</script></text-representation><date>1951</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1951</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>true</artwork><count>4</count><front>true</front><back>true</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"3\" offset=\"0\"><track
+        id=\"3640c392-787a-40f4-afbd-fe8ed5bc17e6\"><position>1</position><number>A1</number><length>596240</length><recording
+        id=\"7aa6d7a4-ef61-4a87-80b4-28320563ada5\"><title>Bluing</title><length>596240</length></recording></track><track
+        id=\"6923bbc6-768d-4d3d-8470-635b3b9b84d6\"><position>2</position><number>B1</number><length>169733</length><recording
+        id=\"a947a545-223d-4ea2-85e0-bc737e250a1e\"><title>Blue Room</title><length>169733</length></recording></track><track
+        id=\"e4792276-3e36-4cbb-b037-a616299995e1\"><position>3</position><number>B2</number><length>376573</length><recording
+        id=\"74d6534d-ea12-4343-b96e-f7b7959d82e3\"><title>Out of the Blue</title><length>376573</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"c4c4428a-377b-4c3b-a404-cab3b3313e5d\"><title>Miles Davis and Milt Jackson
+        Quintet/Sextet</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1956</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1956</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"4\" offset=\"0\"><track
+        id=\"56b63550-889f-49d7-b0d1-9a7fc7c815ea\"><position>1</position><number>A1</number><length>539573</length><recording
+        id=\"ae84cda1-d79c-4ccf-95f7-9441efd43ea9\"><title>Dr. Jackle</title><length>539573</length></recording></track><track
+        id=\"1efa32c4-61a8-4c3a-855f-82c6c9f18aa0\"><position>2</position><number>A2</number><length>399533</length><recording
+        id=\"d3816b1d-60ba-4b63-b11c-3d02f5b1cdcc\"><title>Bitty Ditty</title><length>399533</length></recording></track><track
+        id=\"3ce05075-84a3-48da-bf4f-dd3d87e0e00f\"><position>3</position><number>B1</number><length>498666</length><recording
+        id=\"89628dc0-3702-48e2-800a-32e2dfdaa495\"><title>Minor March</title><length>498666</length></recording></track><track
+        id=\"416e526b-bffa-4b92-af36-74ad6baa196b\"><position>4</position><number>B2</number><length>431800</length><recording
+        id=\"9b7a30aa-e913-4656-80b8-80abbe8acd18\"><title>Changes</title><length>431800</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"caaf1bba-b918-4f05-a35d-200f81fb2b6e\"><title>Milestones</title><status>Official</status><quality>normal</quality><packaging>Cardboard/Paper
+        Sleeve</packaging><text-representation><language>eng</language><script>Latn</script></text-representation><date>1958</date><country>GB</country><release-event-list
+        count=\"1\"><release-event><date>1958</date><area id=\"8a754a16-0027-3a29-b6d7-2b40ea0481ed\"><name>United
+        Kingdom</name><sort-name>United Kingdom</sort-name><iso-3166-1-code-list><iso-3166-1-code>GB</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><barcode
+        /><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"6\" offset=\"0\"><track
+        id=\"6ffd954d-ee4a-31fc-919b-27b9d3a64f63\"><position>1</position><number>A1</number><length>350000</length><recording
+        id=\"5f84dd67-74c3-4d4f-852c-8749f8006f55\"><title>Dr. Jackle</title><length>350000</length><disambiguation>original
+        studio master</disambiguation></recording></track><track id=\"3c3adda5-7df7-3cfb-abb8-94a1484a5fa6\"><position>2</position><number>A2</number><title>Sid's
+        Ahead</title><length>787000</length><recording id=\"a2463ab2-c7c4-47b0-b532-61d77e6a1ab3\"><title>Sid\u2019s
+        Ahead</title><length>785346</length><disambiguation>original studio master</disambiguation></recording></track><track
+        id=\"2e5fb6ea-e5a3-31c1-99f4-c84027038db5\"><position>3</position><number>A3</number><length>315000</length><recording
+        id=\"05a4dfe7-8c30-4294-9f00-89b48dc04d2a\"><title>Two Bass Hit</title><length>315000</length><disambiguation>original
+        studio master</disambiguation></recording></track><track id=\"4325d839-7aa2-327d-9193-aab924933b9c\"><position>4</position><number>B1</number><length>344000</length><recording
+        id=\"ae4f577f-e861-4acb-94ab-dd158c7d9bc8\"><title>Milestones</title><length>345000</length><disambiguation>original
+        studio master</disambiguation></recording></track><track id=\"1d9320d3-7d7b-34d9-b0c8-3be3b061acd0\"><position>5</position><number>B2</number><length>435000</length><recording
+        id=\"9f008f95-e3a0-45f1-827a-f782d39f4468\"><title>Billy Boy</title><length>436000</length><disambiguation>original
+        studio master</disambiguation></recording></track><track id=\"5153bd7c-fe12-376b-b912-3124204ac081\"><position>6</position><number>B3</number><length>642000</length><recording
+        id=\"e93b55ee-f0f0-4391-aad6-0c6a4fefc002\"><title>Straight, No Chaser</title><length>640066</length><disambiguation>original
+        studio master</disambiguation></recording></track></track-list></medium></medium-list></release><release
+        id=\"e619fbd9-5432-4b25-a825-86e3d647cf84\"><title>Bags' Groove</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1957</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1957</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"7\" offset=\"0\"><track
+        id=\"a4202dc0-6ad4-43f5-abcc-a2beb7c9df2a\"><position>1</position><number>A1</number><title>Bags'
+        Groove (take 1)</title><length>670493</length><recording id=\"43c4b1b7-e047-4b6c-96e5-477f3c70cc7b\"><title>Bags\u2019
+        Groove (take 1)</title><length>670493</length></recording></track><track id=\"7860df19-152a-4a40-99b5-3e2e2f9a349a\"><position>2</position><number>A2</number><title>Bags'
+        Groove (take 2)</title><length>559000</length><recording id=\"f4de72d5-d7e4-42c7-9594-ccb9b81889c2\"><title>Bags\u2019
+        Groove (take 2)</title><length>559000</length></recording></track><track id=\"3aa1d315-935e-4338-a122-edc9b4801b39\"><position>3</position><number>B1</number><length>299000</length><recording
+        id=\"44220c3a-97a3-4847-8ae7-6ac371c52db9\"><title>Airegin</title><length>299000</length></recording></track><track
+        id=\"d349b8b7-1a02-4c7e-a6a5-f2b12792a067\"><position>4</position><number>B2</number><length>312000</length><recording
+        id=\"807964e3-df93-4ec9-bca2-10740fb9e68f\"><title>Oleo</title><length>312000</length></recording></track><track
+        id=\"cf8abfc3-a95f-4aba-938e-1a8b77a88a66\"><position>5</position><number>B3</number><length>277000</length><recording
+        id=\"fa5ec54c-64cc-417a-994b-2c32c47b2abf\"><title>But Not for Me (take 2)</title><length>277000</length></recording></track><track
+        id=\"f77980a2-415a-493b-ad2c-d7a26d197f3c\"><position>6</position><number>B4</number><length>293000</length><recording
+        id=\"6ff7a110-5c44-4b6d-9c3b-0bdaf575f250\"><title>Doxy</title><length>293000</length></recording></track><track
+        id=\"b3f04054-2f5a-4e46-9bca-e399c8b7a540\"><position>7</position><number>B5</number><length>340240</length><recording
+        id=\"62815e05-1032-4d94-b3f8-6010d82845cb\"><title>But Not for Me (take 1)</title><length>340240</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"ef107a09-9d28-4193-b08b-fa57d03d9765\"><title>The Complete Blue Note
+        Sessions</title><status>Official</status><quality>normal</quality><date>1952</date><country>IT</country><release-event-list
+        count=\"1\"><release-event><date>1952</date><area id=\"c6500277-9a3d-349b-bf30-41afdbf42add\"><name>Italy</name><sort-name>Italy</sort-name><iso-3166-1-code-list><iso-3166-1-code>IT</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><asin>B00028HBPC</asin><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"2\"><medium><position>1</position><track-list count=\"15\" offset=\"0\"><track
+        id=\"e0ac24d5-628a-4155-ab53-324368d2acdb\"><position>1</position><number>1</number><length>250621</length><recording
+        id=\"e08bb6c7-9e52-4dde-a3b3-9ecbe319f7d7\"><title>Dear Old Stockholm</title><length>250621</length></recording></track><track
+        id=\"321cf164-d0fc-43da-9164-8a975ce29170\"><position>2</position><number>2</number><length>180457</length><recording
+        id=\"addf988f-3432-4c81-8c36-295aa4660927\"><title>Chance It</title><length>180457</length></recording></track><track
+        id=\"664060b2-8467-4fe9-a702-e254aa24a04e\"><position>3</position><number>3</number><length>190488</length><recording
+        id=\"fce33f55-bc3b-4209-bd2f-66e8c0ac7a8f\"><title>Donna</title><length>190488</length></recording></track><track
+        id=\"fd8fe3b4-e531-4143-9394-b7bae2ff5b7f\"><position>4</position><number>4</number><length>202190</length><recording
+        id=\"3b322b26-b812-420f-981e-f4532f1959c3\"><title>Woody 'n' You</title><length>202190</length></recording></track><track
+        id=\"da017a5b-f784-4331-a85f-8128208fd68d\"><position>5</position><number>5</number><length>222514</length><recording
+        id=\"ef0f569a-120c-4fd9-bb82-b9ec9ed79808\"><title>Yesterdays</title><length>222514</length></recording></track><track
+        id=\"f04ad77f-865c-4c7f-86df-46c4ce3280f9\"><position>6</position><number>6</number><length>276169</length><recording
+        id=\"e96d302c-3a9f-4552-88ff-b0829315048f\"><title>How Deep Is The Ocean?</title><length>276169</length></recording></track><track
+        id=\"47c22b89-1c1d-45f0-a81c-980edf588fc3\"><position>7</position><number>7</number><length>171862</length><recording
+        id=\"a7c37142-e689-45a3-be60-8c780b050775\"><title>Chance It (Alternate Take)</title><length>171862</length></recording></track><track
+        id=\"3ffd6e7a-71ca-4b1f-b73b-3bfe8c2e237d\"><position>8</position><number>8</number><length>188581</length><recording
+        id=\"cb069f2c-253f-4d84-949d-24c82c5b7182\"><title>Donna (Alternate Take)</title><length>188581</length></recording></track><track
+        id=\"e52f6360-75ed-4fce-9f7e-56022d94928a\"><position>9</position><number>9</number><length>199996</length><recording
+        id=\"042b2d2e-1024-4144-a3e5-8c9cbd1e29d7\"><title>Woody 'n' You #Alternate
+        Take#</title><length>199996</length></recording></track><track id=\"072f98f6-f0eb-4817-be05-930ae736b14d\"><position>10</position><number>10</number><length>217707</length><recording
+        id=\"66c2246d-0ba7-4845-8a0c-eb47e4759b4c\"><title>Take Off</title><length>217707</length></recording></track><track
+        id=\"25c74236-15f7-4153-a227-f1b660ebf6f5\"><position>11</position><number>11</number><length>240721</length><recording
+        id=\"c7211816-4951-44d9-a4ee-d436fd5d958e\"><title>Lazy Susan</title><length>240721</length></recording></track><track
+        id=\"f77cb97a-4be7-46b3-8935-b1e27030659f\"><position>12</position><number>12</number><length>268672</length><recording
+        id=\"11687bb3-bbcb-4bcf-9f40-16a0dc35b3b7\"><title>The Leap</title><length>268672</length></recording></track><track
+        id=\"08374a97-96ae-463c-b2d9-45e114faa578\"><position>13</position><number>13</number><length>320630</length><recording
+        id=\"cc64447f-4aeb-4286-92c4-cd5a1aa6bbd6\"><title>Well You Needn't</title><length>320630</length></recording></track><track
+        id=\"09aedf78-9141-464d-a994-ce27fafca099\"><position>14</position><number>14</number><length>282543</length><recording
+        id=\"df6e2bca-e3fe-458b-9f50-9532b7a26170\"><title>Weirdo</title><length>282543</length></recording></track><track
+        id=\"aa3b02ac-1e49-485d-90b3-542e95c3ea9e\"><position>15</position><number>15</number><length>242706</length><recording
+        id=\"b07083c5-e45f-4fed-b995-8dbd6907fb2a\"><title>It Never Entered My Mind</title><length>242706</length></recording></track></track-list></medium><medium><position>2</position><track-list
+        count=\"11\" offset=\"0\"><track id=\"175665b6-b4d4-4c47-b4df-19b15bb799f1\"><position>1</position><number>1</number><length>196078</length><recording
+        id=\"862e9a18-de23-4b7c-a950-a86c892608ef\"><title>Kelo</title><length>196078</length></recording></track><track
+        id=\"56ea57c7-8cb7-428b-924e-d1f582fa7efa\"><position>2</position><number>2</number><length>200466</length><recording
+        id=\"9611fd04-e760-42fe-97b7-8537e877defa\"><title>Enigma</title><length>200466</length></recording></track><track
+        id=\"e806e13f-2b22-4b13-a49f-f0d2eef61cb4\"><position>3</position><number>3</number><length>221547</length><recording
+        id=\"c6ad4e38-2979-4cd2-b0b5-38b39da73e06\"><title>Ray's Idea</title><length>221547</length></recording></track><track
+        id=\"84e338c1-8c8d-4504-bf1a-53d038f4ccc3\"><position>4</position><number>4</number><length>227399</length><recording
+        id=\"86d09798-3fdb-42ae-ac2b-3be5e4f534b3\"><title>Tempus Fugit</title><length>227399</length></recording></track><track
+        id=\"880d1920-36b7-432f-9664-bda1ac7dadae\"><position>5</position><number>5</number><length>210968</length><recording
+        id=\"05f9ab9c-cc1f-4c64-9144-22ebc83fb38c\"><title>C.T.A</title><length>210968</length></recording></track><track
+        id=\"a80e3977-58e8-44c5-b4b3-c8f698406a56\"><position>6</position><number>6</number><length>206919</length><recording
+        id=\"d29ff195-84cd-4ae0-9e08-f704512dfae6\"><title>I Waited For You</title><length>206919</length></recording></track><track
+        id=\"5355bd29-a4e9-4687-97d3-b572656bf5c9\"><position>7</position><number>7</number><length>203497</length><recording
+        id=\"4117f023-d76c-4a87-89f2-6e46dcfd662f\"><title>Kelo (Alternate Take)</title><length>203497</length></recording></track><track
+        id=\"74002f29-79b0-4b88-ae94-bc0c89870972\"><position>8</position><number>8</number><length>203679</length><recording
+        id=\"be6f887f-ea6e-42be-9423-2e38e8b9837f\"><title>Enigma (Alternate Take)</title><length>203679</length></recording></track><track
+        id=\"3c7aaa6d-88b6-447f-b7e3-83afa3c67684\"><position>9</position><number>9</number><length>228182</length><recording
+        id=\"5ccaf329-a89c-4f2b-ad2f-fb77a9c40014\"><title>Ray's Idea (Alternate Take)</title><length>228182</length></recording></track><track
+        id=\"6df848b4-f587-46b2-bac0-bf8d11b31fe1\"><position>10</position><number>10</number><length>235209</length><recording
+        id=\"f47ab971-a4e9-474a-93f4-de9b23cedebd\"><title>Tempus Fugit (Alternate
+        Take)</title><length>235209</length></recording></track><track id=\"30f788ed-4756-4be0-8615-af5d1882e6cc\"><position>11</position><number>11</number><length>195817</length><recording
+        id=\"ba1b1b6c-2bdc-4f1c-8aeb-063b8d4b7b99\"><title>C.T.A (Alternate Take)</title><length>195817</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"f247c510-83e7-4851-8ec1-8664a97fd605\"><title>Miles Davis and Milt Jackson
+        Quintet/Sextet</title><status>Official</status><quality>normal</quality><packaging>Cardboard/Paper
+        Sleeve</packaging><text-representation><language>eng</language><script>Latn</script></text-representation><date>1955</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1955</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>true</artwork><count>4</count><front>true</front><back>true</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"4\" offset=\"0\"><track
+        id=\"b0f19fbc-4ae3-41be-8c24-a354f30e9442\"><position>1</position><number>A1</number><length>534000</length><recording
+        id=\"ae84cda1-d79c-4ccf-95f7-9441efd43ea9\"><title>Dr. Jackle</title><length>539573</length></recording></track><track
+        id=\"e2286906-71d3-40d2-8684-a3af0cd32a33\"><position>2</position><number>A2</number><length>397000</length><recording
+        id=\"d3816b1d-60ba-4b63-b11c-3d02f5b1cdcc\"><title>Bitty Ditty</title><length>399533</length></recording></track><track
+        id=\"edb351e7-58b7-4895-a1a7-5f0cbac65bda\"><position>3</position><number>B1</number><length>498000</length><recording
+        id=\"89628dc0-3702-48e2-800a-32e2dfdaa495\"><title>Minor March</title><length>498666</length></recording></track><track
+        id=\"63568884-7d32-4218-b13a-5bb0ee87db81\"><position>4</position><number>B2</number><length>430000</length><recording
+        id=\"9b7a30aa-e913-4656-80b8-80abbe8acd18\"><title>Changes</title><length>431800</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"f89a8a88-6c25-485d-9e30-42ab0e3fb7f7\"><title>The Musings of Miles</title><status>Official</status><quality>normal</quality><packaging>Cardboard/Paper
+        Sleeve</packaging><text-representation><language>eng</language><script>Latn</script></text-representation><date>1955</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1955</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>true</artwork><count>3</count><front>true</front><back>true</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"6\" offset=\"0\"><track
+        id=\"55585afa-28e8-3d5f-aa84-f7a30befb11b\"><position>1</position><number>A1</number><length>383186</length><recording
+        id=\"3f51437d-2ea3-4325-be92-1c631c17734b\"><title>Will You Still Be Mine?</title><length>383186</length></recording></track><track
+        id=\"f4bb9c9d-9b2e-3e37-8422-d1566480128d\"><position>2</position><number>A2</number><length>286506</length><recording
+        id=\"24806300-ff6b-44df-a831-9e72372076c4\"><title>I See Your Face Before
+        Me</title><length>286506</length></recording></track><track id=\"e9c47096-ab72-3897-bcf6-f2b67ad55e10\"><position>3</position><number>A3</number><length>366560</length><recording
+        id=\"9049aa46-905f-4da9-a5be-a6ffe4abcc7d\"><title>I Didn't</title><length>366560</length></recording></track><track
+        id=\"9fdb2aea-6026-3d7b-856f-7b3092769760\"><position>4</position><number>B1</number><length>318320</length><recording
+        id=\"448ecb3d-b4fc-42d2-a698-1d7ab052278d\"><title>A Gal in Calico</title><length>318320</length></recording></track><track
+        id=\"d7495a71-95eb-3360-a631-04b53bc9b2cf\"><position>5</position><number>B2</number><length>444000</length><recording
+        id=\"572e035e-055c-4ecf-99a0-f1744231f235\"><title>A Night in Tunisia</title><length>444000</length></recording></track><track
+        id=\"57cfa37e-7512-3b59-88cc-55944d83f490\"><position>6</position><number>B3</number><length>350106</length><recording
+        id=\"fc601e1f-af64-40eb-aa16-f141f1d27d58\"><title>Green Haze</title><length>350106</length></recording></track></track-list></medium></medium-list></release></release-list></metadata>"}
+    headers:
+      Access-Control-Allow-Origin: ['*']
+      Connection: [close]
+      Content-Length: ['65562']
+      Content-Type: [application/xml; charset=utf-8]
+      Date: ['Tue, 04 Aug 2015 05:16:52 GMT']
+      ETag: ['"db825182a3afffee64d5d2cdea9b3b49"']
+      Server: [nginx/1.1.19]
+    status: {code: 200, message: OK}
+version: 1

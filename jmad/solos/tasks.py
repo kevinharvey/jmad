@@ -20,9 +20,14 @@ def get_artist_tracks_from_musicbrainz(artist):
     """
     search_results = mb.search_artists(artist)
     best_result = search_results['artist-list'][0]
+
+    if 'jazz' not in [d['name'] for d in best_result['tag-list']]:
+        return Solo.objects.none()
+
     instrument = Solo.get_instrument_from_musicbrainz_tags(best_result['tag-list'])
 
     for album_dict in mb.browse_releases(best_result['id'], includes=['recordings'])['release-list']:
+
         album = Album.objects.create(name=album_dict['title'], artist=artist, slug=slugify(album_dict['title']))
 
         for track_dict in album_dict['medium-list'][0]['track-list']:

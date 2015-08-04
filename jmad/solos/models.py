@@ -38,4 +38,7 @@ class Solo(models.Model):
             'piano jazz': 'piano',
             'bassist': 'bass'
         }
-        return map[set(map.keys()).intersection([tag['name'] for tag in tag_list]).pop()]
+        try:
+            return map[set(map.keys()).intersection([tag['name'] for tag in tag_list]).pop()]
+        except KeyError:
+            return 'unknown'

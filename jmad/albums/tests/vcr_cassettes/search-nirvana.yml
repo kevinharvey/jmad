@@ -1,0 +1,122 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection: [close]
+      Content-Length: ['0']
+      Host: [musicbrainz.org]
+      User-Agent: ['JMAD - https://jmad.us//0.0.1 python-musicbrainzngs/0.5']
+    method: GET
+    uri: http://musicbrainz.org/ws/2/artist/?query=Nirvana
+  response:
+    body: {string: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><metadata
+        created=\"2015-08-04T03:12:14.012Z\" xmlns=\"http://musicbrainz.org/ns/mmd-2.0#\"
+        xmlns:ext=\"http://musicbrainz.org/ns/ext#-2.0\"><artist-list count=\"13\"
+        offset=\"0\"><artist id=\"9282c8b4-ca0b-4c6b-b7e3-4f7762dfc4d6\" type=\"Group\"
+        ext:score=\"100\"><name>Nirvana</name><sort-name>Nirvana</sort-name><country>GB</country><area
+        id=\"8a754a16-0027-3a29-b6d7-2b40ea0481ed\"><name>United Kingdom</name><sort-name>United
+        Kingdom</sort-name></area><begin-area id=\"f03d09b3-39dc-4083-afd6-159e3f0d462f\"><name>London</name><sort-name>London</sort-name></begin-area><disambiguation>60s
+        band from the UK</disambiguation><life-span><begin>1967</begin><ended>false</ended></life-span><tag-list><tag
+        count=\"1\"><name>rock</name></tag><tag count=\"1\"><name>pop</name></tag><tag
+        count=\"1\"><name>progressive rock</name></tag><tag count=\"1\"><name>orchestral</name></tag><tag
+        count=\"1\"><name>british</name></tag><tag count=\"1\"><name>power pop</name></tag><tag
+        count=\"1\"><name>psychedelic rock</name></tag><tag count=\"1\"><name>soft
+        rock</name></tag><tag count=\"1\"><name>symphonic rock</name></tag><tag count=\"1\"><name>english</name></tag></tag-list></artist><artist
+        id=\"85af0709-95db-4fbc-801a-120e9f4766d0\" type=\"Group\" ext:score=\"100\"><name>Nirvana</name><sort-name>Nirvana</sort-name><country>FI</country><area
+        id=\"6a264f94-6ff1-30b1-9a81-41f7bfabd616\"><name>Finland</name><sort-name>Finland</sort-name></area><disambiguation>Early
+        1980's Finnish punk band</disambiguation><life-span><ended>false</ended></life-span><tag-list><tag
+        count=\"1\"><name>punk</name></tag><tag count=\"1\"><name>finland</name></tag></tag-list></artist><artist
+        id=\"5b11f4ce-a62d-471e-81fc-a69a8278c7da\" type=\"Group\" ext:score=\"90\"><name>Nirvana</name><sort-name>Nirvana</sort-name><country>US</country><area
+        id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United States</name><sort-name>United
+        States</sort-name></area><begin-area id=\"a640b45c-c173-49b1-8030-973603e895b5\"><name>Aberdeen</name><sort-name>Aberdeen</sort-name></begin-area><disambiguation>90s
+        US grunge band</disambiguation><life-span><begin>1988-01</begin><end>1994-04-05</end><ended>true</ended></life-span><alias-list><alias
+        sort-name=\"Nirvana US\">Nirvana US</alias></alias-list><tag-list><tag count=\"2\"><name>punk</name></tag><tag
+        count=\"0\"><name>legendary</name></tag><tag count=\"1\"><name>90</name></tag><tag
+        count=\"2\"><name>seattle</name></tag><tag count=\"1\"><name>northwest</name></tag><tag
+        count=\"1\"><name>alternative</name></tag><tag count=\"0\"><name>rock and
+        indie</name></tag><tag count=\"0\"><name>am\xE9ricain</name></tag><tag count=\"2\"><name>usa</name></tag><tag
+        count=\"7\"><name>american</name></tag><tag count=\"1\"><name>united states</name></tag><tag
+        count=\"0\"><name>kurt cobain</name></tag><tag count=\"2\"><name>90s</name></tag><tag
+        count=\"4\"><name>alternative rock</name></tag><tag count=\"0\"><name>band</name></tag><tag
+        count=\"8\"><name>rock</name></tag><tag count=\"12\"><name>grunge</name></tag><tag
+        count=\"1\"><name>acoustic rock</name></tag><tag count=\"1\"><name>noise rock</name></tag><tag
+        count=\"0\"><name>nirvana</name></tag></tag-list></artist><artist id=\"f2dfdff9-3862-4be0-bf85-9c833fa3059e\"
+        type=\"Group\" ext:score=\"65\"><name>Nirvana 2002</name><sort-name>Nirvana
+        2002</sort-name><country>SE</country><area id=\"23d10872-f5ae-3f0c-bf55-332788a16ecb\"><name>Sweden</name><sort-name>Sweden</sort-name></area><disambiguation>Swedish
+        death metal band</disambiguation><life-span><begin>1988</begin><ended>false</ended></life-span><alias-list><alias
+        sort-name=\"Nirvana\">Nirvana</alias><alias sort-name=\"Prophet 2002\">Prophet
+        2002</alias></alias-list></artist><artist id=\"b305320e-c158-43f4-b5be-4450e2f99a32\"
+        ext:score=\"62\"><name>El Nirvana</name><sort-name>Nirvana, El</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id=\"c3a64a25-251b-4d03-afba-1471440245b8\" type=\"Group\" ext:score=\"62\"><name>Approaching
+        Nirvana</name><sort-name>Approaching Nirvana</sort-name><country>US</country><area
+        id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United States</name><sort-name>United
+        States</sort-name></area><life-span><ended>false</ended></life-span></artist><artist
+        id=\"86f9ae24-ba2a-4d55-9275-0b89b85f6e3a\" ext:score=\"62\"><name>Weed Nirvana</name><sort-name>Weed
+        Nirvana</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id=\"329c04ae-3b73-4ca3-996f-75608ab1befb\" type=\"Person\" ext:score=\"58\"><name>Nirvana
+        Singh</name><sort-name>Singh, Nirvana</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id=\"206419e0-3a7a-49ce-8437-4e757767d02b\" type=\"Person\" ext:score=\"58\"><name>Nirvana
+        Savoury</name><sort-name>Savoury, Nirvana</sort-name><gender>female</gender><country>US</country><area
+        id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United States</name><sort-name>United
+        States</sort-name></area><life-span><ended>false</ended></life-span></artist><artist
+        id=\"e1388435-f80d-434a-9980-f1c9f5aa9b90\" ext:score=\"45\"><name>Nirvana
+        Sitar &amp; String Group</name><sort-name>Nirvana Sitar &amp; String Group</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id=\"477a19b3-6d80-4622-bde9-29a49c10dbd7\" type=\"Group\" ext:score=\"32\"><name>\u039D\u03B9\u03C1\u03B2\u03AC\u03BD\u03B1</name><sort-name>Nirvana</sort-name><country>GR</country><area
+        id=\"803db0ca-b6ed-3bbc-aeb8-f89efd0a2168\"><name>Greece</name><sort-name>Greece</sort-name></area><life-span><ended>false</ended></life-span></artist><artist
+        id=\"56cfe6aa-b464-43d2-bec7-8ec52f313e7d\" type=\"Group\" ext:score=\"16\"><name>Vitamin
+        String Quartet</name><sort-name>Vitamin String Quartet</sort-name><country>US</country><area
+        id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United States</name><sort-name>United
+        States</sort-name></area><life-span><begin>1999</begin><ended>false</ended></life-span><alias-list><alias
+        sort-name=\"String Quartet Tribute\">String Quartet Tribute</alias><alias
+        sort-name=\"String Tribute\">String Tribute</alias><alias sort-name=\"The
+        Angry String Orchestra\">The Angry String Orchestra</alias><alias sort-name=\"The
+        String Quartet Tribute\">The String Quartet Tribute</alias><alias sort-name=\"The
+        String Quartet Tribute\">The String Quartet Tribute</alias><alias sort-name=\"The
+        String Quartet Tribute to 3 Doors Down\">The String Quartet Tribute to 3 Doors
+        Down</alias><alias sort-name=\"The String Quartet Tribute to Bj\xF6rk\">The
+        String Quartet Tribute to Bj\xF6rk</alias><alias sort-name=\"The String Quartet
+        Tribute To Black Sabbath\">The String Quartet Tribute To Black Sabbath</alias><alias
+        sort-name=\"The String Quartet Tribute to Celine Dion\">The String Quartet
+        Tribute to Celine Dion</alias><alias sort-name=\"The String Quartet Tribute
+        to Creed\">The String Quartet Tribute to Creed</alias><alias sort-name=\"The
+        String Quartet Tribute to Iron Maiden\">The String Quartet Tribute to Iron
+        Maiden</alias><alias sort-name=\"The String Quartet Tribute To Jimi Hendrix\">The
+        String Quartet Tribute To Jimi Hendrix</alias><alias sort-name=\"The String
+        Quartet Tribute to Korn\">The String Quartet Tribute to Korn</alias><alias
+        sort-name=\"The String Quartet Tribute to Marilyn Manson\">The String Quartet
+        Tribute to Marilyn Manson</alias><alias sort-name=\"The String Quartet Tribute
+        to Massive Attack\">The String Quartet Tribute to Massive Attack</alias><alias
+        sort-name=\"The String Quartet Tribute to Nirvana\">The String Quartet Tribute
+        to Nirvana</alias><alias sort-name=\"The String Quartet Tribute to No Doubt\">The
+        String Quartet Tribute to No Doubt</alias><alias sort-name=\"The String Quartet
+        Tribute to Oasis\">The String Quartet Tribute to Oasis</alias><alias sort-name=\"The
+        String Quartet Tribute to Peter Gabriel\">The String Quartet Tribute to Peter
+        Gabriel</alias><alias sort-name=\"The String Quartet Tribute to Pink Floyd\">The
+        String Quartet Tribute to Pink Floyd</alias><alias sort-name=\"The String
+        Quartet Tribute to Radiohead\">The String Quartet Tribute to Radiohead</alias><alias
+        sort-name=\"The String Quartet Tribute to Sarah McLachlan\">The String Quartet
+        Tribute to Sarah McLachlan</alias><alias sort-name=\"The String Quartet Tribute
+        To Slayer\">The String Quartet Tribute To Slayer</alias><alias sort-name=\"The
+        String Quartet Tribute to Staind\">The String Quartet Tribute to Staind</alias><alias
+        sort-name=\"The String Quartet Tribute to The Cure\">The String Quartet Tribute
+        to The Cure</alias><alias sort-name=\"The String Quartet Tribute to The Pixies\">The
+        String Quartet Tribute to The Pixies</alias><alias sort-name=\"The String
+        Quartet Tribute to The Rolling Stones\">The String Quartet Tribute to The
+        Rolling Stones</alias><alias sort-name=\"The Tallywood Strings\">The Tallywood
+        Strings</alias><alias sort-name=\"The Vitamin String Quartet\">The Vitamin
+        String Quartet</alias></alias-list><tag-list><tag count=\"1\"><name>classical</name></tag><tag
+        count=\"1\"><name>special purpose artist</name></tag><tag count=\"1\"><name>strings</name></tag><tag
+        count=\"1\"><name>chamber</name></tag><tag count=\"1\"><name>cover</name></tag><tag
+        count=\"1\"><name>rock and indie</name></tag><tag count=\"1\"><name>tribute</name></tag><tag
+        count=\"1\"><name>string quartet</name></tag></tag-list></artist><artist id=\"9cedb029-b130-4c33-abb7-fa4494e4a67b\"
+        type=\"Group\" ext:score=\"14\"><name>Negative Creep</name><sort-name>Negative
+        Creep (Nirvana Tribute Band)</sort-name><area id=\"05f68b4c-10f3-49b5-b28c-260a1b707043\"><name>Massachusetts</name><sort-name>Massachusetts</sort-name></area><life-span><ended>false</ended></life-span></artist></artist-list></metadata>"}
+    headers:
+      Access-Control-Allow-Origin: ['*']
+      Connection: [close]
+      Content-Type: [application/xml;charset=UTF-8]
+      Date: ['Tue, 04 Aug 2015 04:58:05 GMT']
+      Last-Modified: ['Tue, 04 Aug 2015 03:12:14 GMT']
+      Server: [nginx/1.1.19]
+    status: {code: 200, message: OK}
+version: 1

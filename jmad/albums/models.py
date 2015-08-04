@@ -2,9 +2,9 @@ from django.db import models
 
 
 class Album(models.Model):
-    name = models.CharField(max_length=100)
-    artist = models.CharField(max_length=100) 
-    slug = models.SlugField()
+    name = models.CharField(max_length=200)
+    artist = models.CharField(max_length=200)
+    slug = models.SlugField(max_length=200)
 
     class Meta:
         ordering = ['name']
@@ -14,10 +14,10 @@ class Album(models.Model):
 
 
 class Track(models.Model):
-    name = models.CharField(max_length=100)
+    name = models.CharField(max_length=200)
     album = models.ForeignKey(Album)
     track_number = models.PositiveIntegerField(blank=True, null=True) 
-    slug = models.SlugField()
+    slug = models.SlugField(max_length=200)
 
     class Meta:
         ordering = ['album', 'track_number']

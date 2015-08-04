@@ -1,0 +1,742 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection: [close]
+      Content-Length: ['0']
+      Host: [musicbrainz.org]
+      User-Agent: ['JMAD - https://jmad.us//0.0.1 python-musicbrainzngs/0.5']
+    method: GET
+    uri: http://musicbrainz.org/ws/2/artist/?query=Oscar+Peterson
+  response:
+    body: {string: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><metadata
+        created=\"2015-08-04T03:12:14.012Z\" xmlns=\"http://musicbrainz.org/ns/mmd-2.0#\"
+        xmlns:ext=\"http://musicbrainz.org/ns/ext#-2.0\"><artist-list count=\"600\"
+        offset=\"0\"><artist id=\"ed801bdd-f057-41c0-94fb-76cb5676cd59\" type=\"Person\"
+        ext:score=\"100\"><name>Oscar Peterson</name><sort-name>Peterson, Oscar</sort-name><gender>male</gender><country>CA</country><area
+        id=\"71bbafaa-e825-3e15-8ca9-017dcad1748b\"><name>Canada</name><sort-name>Canada</sort-name></area><begin-area
+        id=\"c3cc624e-b963-49cf-ad0b-e318cb341963\"><name>Montreal</name><sort-name>Montreal</sort-name></begin-area><end-area
+        id=\"2747553f-b44d-44c4-a7c3-b67412b6f10b\"><name>Ontario</name><sort-name>Ontario</sort-name></end-area><life-span><begin>1925-08-15</begin><end>2007-12-23</end><ended>true</ended></life-span><alias-list><alias
+        sort-name=\"Peterson, Oscar Emmanuel\" type=\"Legal name\">Oscar Emmanuel
+        Peterson</alias><alias sort-name=\"Oscar Petersen\">Oscar Petersen</alias><alias
+        sort-name=\"Petterson, Oscar\">Oscar Petterson</alias></alias-list><tag-list><tag
+        count=\"1\"><name>piano jazz</name></tag><tag count=\"0\"><name>death by kidney
+        failure</name></tag><tag count=\"2\"><name>jazz</name></tag><tag count=\"1\"><name>canadian</name></tag></tag-list></artist><artist
+        id=\"d845e4bd-7555-4179-8522-db616cca103a\" type=\"Group\" ext:score=\"87\"><name>Oscar
+        Peterson Quartet</name><sort-name>Oscar Peterson Quartet</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id=\"e6265612-b7c2-4ac9-8731-754d7a0f776b\" type=\"Group\" ext:score=\"87\"><name>The
+        Oscar Peterson Trio</name><sort-name>Peterson, Oscar Trio, The</sort-name><country>US</country><area
+        id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United States</name><sort-name>United
+        States</sort-name></area><disambiguation>all others</disambiguation><life-span><ended>false</ended></life-span><alias-list><alias
+        sort-name=\"Oscar Petersen Trio\">Oscar Petersen Trio</alias></alias-list></artist><artist
+        id=\"b083ec9b-27e0-4fda-801d-cb40861a0578\" type=\"Group\" ext:score=\"87\"><name>The
+        Oscar Peterson Trio</name><sort-name>Peterson, Oscar, Trio, The</sort-name><country>US</country><area
+        id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United States</name><sort-name>United
+        States</sort-name></area><disambiguation>the \"classic\" trio with Brown and
+        Ellis/Thigpen</disambiguation><life-span><begin>1951</begin><end>1965</end><ended>true</ended></life-span><alias-list><alias
+        sort-name=\"Oscar Peterson Trio\">Oscar Peterson Trio</alias></alias-list></artist><artist
+        id=\"4b3437c3-8149-4085-a909-3e1fbab7d2a3\" type=\"Group\" ext:score=\"84\"><name>The
+        Oscar Peterson Big 4</name><sort-name>Peterson, Oscar, Big 4</sort-name><disambiguation>a.k.a.
+        \"Oscar Peterson Quartet\" - Peterson, Pass, NH\xD8P, Drew</disambiguation><life-span><ended>false</ended></life-span><alias-list><alias
+        sort-name=\"Oscar Peterson Four\">Oscar Peterson Four</alias><alias sort-name=\"Oscar
+        Peterson Quartet\">Oscar Peterson Quartet</alias></alias-list></artist><artist
+        id=\"a6f2c59b-87e0-4436-a9bc-4f589f3342a9\" type=\"Group\" ext:score=\"76\"><name>The
+        Oscar Peterson Trio</name><sort-name>Peterson, Oscar, Trio, The</sort-name><country>US</country><area
+        id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United States</name><sort-name>United
+        States</sort-name></area><disambiguation>trio with Jiri Mraz &amp; Ray Price</disambiguation><life-span><ended>false</ended></life-span></artist><artist
+        id=\"f50b6490-f4be-4318-9197-435ef107762f\" type=\"Group\" ext:score=\"74\"><name>Lester
+        Young With The Oscar Peterson Trio</name><sort-name>Young, Lester With Peterson,
+        Oscar, Trio, The</sort-name><life-span><ended>false</ended></life-span><alias-list><alias
+        sort-name=\"Lester Young &amp; Oscar Peterson\">Lester Young &amp; Oscar Peterson</alias></alias-list></artist><artist
+        id=\"3987a89d-a408-47c4-8a1a-2924d9b2276e\" ext:score=\"40\"><name>Peterson</name><sort-name>Peterson</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id=\"2bc5f487-2e4a-4d67-92f9-46044675fa95\" ext:score=\"35\"><name>Oscar</name><sort-name>Oscar</sort-name><disambiguation>Eurobeat
+        artist</disambiguation><life-span><ended>false</ended></life-span></artist><artist
+        id=\"fa92fd92-f61e-4a43-ad24-a9b97aacf223\" type=\"Group\" ext:score=\"35\"><name>Oscar</name><sort-name>Oscar</sort-name><disambiguation>David
+        Hachour &amp; Florent Sabaton; house music</disambiguation><life-span><ended>false</ended></life-span></artist><artist
+        id=\"5be3a218-309c-49e9-a7e8-17e2f5772022\" type=\"Person\" ext:score=\"35\"><name>Oscar</name><sort-name>Oscar</sort-name><country>DE</country><area
+        id=\"85752fda-13c4-31a3-bee5-0e5cb1f51dad\"><name>Germany</name><sort-name>Germany</sort-name></area><disambiguation>German
+        techno DJ &amp; producer</disambiguation><life-span><ended>false</ended></life-span></artist><artist
+        id=\"8f39520f-51b1-4f85-98a2-405ce5033103\" type=\"Person\" ext:score=\"32\"><name>Oscar</name><sort-name>Oscar</sort-name><country>GB</country><area
+        id=\"8a754a16-0027-3a29-b6d7-2b40ea0481ed\"><name>United Kingdom</name><sort-name>United
+        Kingdom</sort-name></area><disambiguation>UK musician Paul Nicholas</disambiguation><life-span><begin>1945-12-03</begin><ended>false</ended></life-span><alias-list><alias
+        sort-name=\"Oscar (aka Paul Nicholas)\">Oscar (aka Paul Nicholas)</alias></alias-list></artist><artist
+        id=\"bf9adf34-c386-4790-a853-92e96058cbde\" type=\"Person\" ext:score=\"32\"><name>Oscar</name><sort-name>Oscar</sort-name><gender>male</gender><country>GB</country><area
+        id=\"8a754a16-0027-3a29-b6d7-2b40ea0481ed\"><name>United Kingdom</name><sort-name>United
+        Kingdom</sort-name></area><begin-area id=\"f03d09b3-39dc-4083-afd6-159e3f0d462f\"><name>London</name><sort-name>London</sort-name></begin-area><disambiguation>Oscar
+        Scheller</disambiguation><life-span><ended>false</ended></life-span><alias-list><alias
+        sort-name=\"Scheller, Oscar\" type=\"Legal name\">Oscar Scheller</alias></alias-list></artist><artist
+        id=\"6d291c26-7f68-4f9c-9d39-15409ec7f47e\" type=\"Person\" ext:score=\"31\"><name>Oscar</name><sort-name>Oscar</sort-name><gender>male</gender><area
+        id=\"94ac34d2-aa01-49d9-b697-bbf738544bd4\"><name>Comunidad de Madrid</name><sort-name>Comunidad
+        de Madrid</sort-name></area><disambiguation>Reversal</disambiguation><life-span><ended>false</ended></life-span></artist><artist
+        id=\"e5f5cfcb-865b-48c3-bb67-11f1a9603e94\" ext:score=\"27\"><name>Oscar Rygh</name><sort-name>Rygh,
+        Oscar</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id=\"d4d5ab9e-5bd5-4d6c-b047-f215fa328f8e\" type=\"Person\" ext:score=\"26\"><name>Skye
+        Peterson</name><sort-name>Peterson, Skye</sort-name><gender>female</gender><country>US</country><area
+        id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United States</name><sort-name>United
+        States</sort-name></area><life-span><ended>false</ended></life-span></artist><artist
+        id=\"0bbb152d-9f06-4751-817e-716bc790294f\" type=\"Person\" ext:score=\"26\"><name>Roger
+        Peterson</name><sort-name>Peterson, Roger</sort-name><gender>male</gender><country>AW</country><area
+        id=\"ae8222dd-0b5b-3962-9671-30375b625ce9\"><name>Aruba</name><sort-name>Aruba</sort-name></area><begin-area
+        id=\"ae8222dd-0b5b-3962-9671-30375b625ce9\"><name>Aruba</name><sort-name>Aruba</sort-name></begin-area><disambiguation>lead
+        vocalist of Intwine</disambiguation><life-span><begin>1980-12-01</begin><ended>false</ended></life-span></artist><artist
+        id=\"11b04937-ae0b-4708-9767-bd9226fd0cff\" type=\"Person\" ext:score=\"26\"><name>Ralph
+        Peterson</name><sort-name>Peterson, Ralph</sort-name><gender>male</gender><country>AU</country><area
+        id=\"106e0bec-b638-3b37-b731-f53d507dc00e\"><name>Australia</name><sort-name>Australia</sort-name></area><disambiguation>Australian
+        radio personality</disambiguation><life-span><end>1996</end><ended>true</ended></life-span></artist><artist
+        id=\"55d9ba5b-2f16-40a6-bcef-f786d5a86d6f\" type=\"Person\" ext:score=\"26\"><name>Griffin
+        Peterson</name><sort-name>Peterson, Griffin</sort-name><gender>male</gender><area
+        id=\"e68879f9-bd95-41ff-96ba-c082ff37cc74\"><name>Nashville</name><sort-name>Nashville</sort-name></area><life-span><ended>false</ended></life-span></artist><artist
+        id=\"f83d4f5d-5a8b-4365-a69b-1891a59f66a9\" type=\"Person\" ext:score=\"26\"><name>Judy
+        Peterson</name><sort-name>Peterson, Judy</sort-name><gender>female</gender><life-span><ended>false</ended></life-span></artist><artist
+        id=\"dc3c48b1-017e-42c6-a392-45d6a32b5acf\" type=\"Person\" ext:score=\"26\"><name>Michael
+        Peterson</name><sort-name>Peterson, Michael</sort-name><gender>male</gender><country>US</country><area
+        id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United States</name><sort-name>United
+        States</sort-name></area><life-span><begin>1959</begin><ended>false</ended></life-span></artist><artist
+        id=\"726dc076-e114-4bac-811e-54d6b467ff82\" type=\"Person\" ext:score=\"26\"><name>Ray
+        Peterson</name><sort-name>Peterson, Ray</sort-name><gender>male</gender><country>US</country><area
+        id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United States</name><sort-name>United
+        States</sort-name></area><disambiguation>US pop singer</disambiguation><life-span><begin>1939-04-23</begin><end>2005-01-25</end><ended>true</ended></life-span><alias-list><alias
+        sort-name=\"Ray Petersen\">Ray Petersen</alias></alias-list></artist><artist
+        id=\"f4de1bcd-46eb-4635-9d64-f4123ebbf473\" type=\"Person\" ext:score=\"26\"><name>Lucky
+        Peterson</name><sort-name>Peterson, Lucky</sort-name><gender>male</gender><country>US</country><area
+        id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United States</name><sort-name>United
+        States</sort-name></area><life-span><begin>1964-12-13</begin><ended>false</ended></life-span></artist><artist
+        id=\"56a18b17-985f-40c0-9eff-15aab6f5d613\" type=\"Person\" ext:score=\"26\"><name>Earl
+        Peterson</name><sort-name>Peterson, Earl</sort-name><life-span><ended>false</ended></life-span></artist><artist
+        id=\"862d8742-13e7-4b05-a3fe-d0fdf6ce0464\" type=\"Person\" ext:score=\"26\"><name>Ricky
+        Peterson</name><sort-name>Peterson, Ricky</sort-name><country>US</country><area
+        id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United States</name><sort-name>United
+        States</sort-name></area><life-span><ended>false</ended></life-span><tag-list><tag
+        count=\"1\"><name>american</name></tag><tag count=\"1\"><name>usa</name></tag><tag
+        count=\"1\"><name>producer</name></tag><tag count=\"1\"><name>am\xE9ricain</name></tag><tag
+        count=\"1\"><name>producteur</name></tag></tag-list></artist></artist-list></metadata>"}
+    headers:
+      Access-Control-Allow-Origin: ['*']
+      Connection: [close]
+      Content-Type: [application/xml;charset=UTF-8]
+      Date: ['Tue, 04 Aug 2015 04:54:10 GMT']
+      Last-Modified: ['Tue, 04 Aug 2015 03:12:14 GMT']
+      Server: [nginx/1.1.19]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Connection: [close]
+      Content-Length: ['0']
+      Host: [musicbrainz.org]
+      User-Agent: ['JMAD - https://jmad.us//0.0.1 python-musicbrainzngs/0.5']
+    method: GET
+    uri: http://musicbrainz.org/ws/2/release/?artist=ed801bdd-f057-41c0-94fb-76cb5676cd59&inc=recordings
+  response:
+    body: {string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><metadata xmlns=\"http://musicbrainz.org/ns/mmd-2.0#\"><release-list
+        count=\"233\"><release id=\"0790458a-58ed-329d-b979-03b788e98c92\"><title>Exclusively
+        for My Friends, Volume 4: My Favorite Instrument</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1968</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1968</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"9\" offset=\"0\"><track
+        id=\"079e60a3-b310-3b11-ba79-a0c352f99125\"><position>1</position><number>1</number><length>258000</length><recording
+        id=\"df48c63d-ef60-4e92-bd40-1265e93443e2\"><title>Someone to Watch Over Me</title><length>258000</length></recording></track><track
+        id=\"4f4dbec0-731b-3927-96dc-4bd781d32859\"><position>2</position><number>2</number><length>377000</length><recording
+        id=\"75aa5dfc-302c-4916-b690-c6847a4d6ffa\"><title>Perdido</title><length>377000</length></recording></track><track
+        id=\"c91cecc1-1afa-32a5-8d50-f3c0b897f706\"><position>3</position><number>3</number><length>276000</length><recording
+        id=\"6f963a48-7f0b-49ed-aeda-8bd488102ed0\"><title>Body and Soul</title><length>276000</length></recording></track><track
+        id=\"b5dd4ec5-433c-35de-82ce-8ed5e7f9724f\"><position>4</position><number>4</number><length>302000</length><recording
+        id=\"f29499d7-101a-4850-9074-ee9448eea8e4\"><title>Who Can I Turn To</title><length>302000</length></recording></track><track
+        id=\"915c1c4e-0d6c-35ba-b5e0-72ce9e538f39\"><position>5</position><number>5</number><length>296000</length><recording
+        id=\"480e0284-4ffe-42d3-8197-4bf9f6cfbeb4\"><title>Bye, Bye Blackbird</title><length>296000</length></recording></track><track
+        id=\"6e611147-000e-3293-bbd7-2030e8b08d90\"><position>6</position><number>6</number><length>288000</length><recording
+        id=\"0982e87a-24d0-4b58-998d-0486f30d6a26\"><title>I Should Care</title><length>288000</length></recording></track><track
+        id=\"8aaf14f2-0b65-35eb-a784-8981f2150acb\"><position>7</position><number>7</number><length>130000</length><recording
+        id=\"37e94a3a-6e33-49d2-b547-651930131c76\"><title>Lulu's Back in Town</title><length>130000</length></recording></track><track
+        id=\"4cc5e548-867d-3fa6-b563-03731c5bb6c1\"><position>8</position><number>8</number><length>367000</length><recording
+        id=\"9073cea6-e4a2-4c9f-a5b9-8289be8c8bb6\"><title>Little Girl Blue</title><length>367000</length></recording></track><track
+        id=\"22ede63d-17e8-365b-ace3-3350fbe18453\"><position>9</position><number>9</number><length>159160</length><recording
+        id=\"922a065a-b818-4591-830e-bde3ec67af05\"><title>Take the &quot;A&quot;
+        Train</title><length>159160</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"11115b3a-d426-4244-ad19-2efccd987cf9\"><title>Tracks</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1970</date><country>DE</country><release-event-list
+        count=\"1\"><release-event><date>1970</date><area id=\"85752fda-13c4-31a3-bee5-0e5cb1f51dad\"><name>Germany</name><sort-name>Germany</sort-name><iso-3166-1-code-list><iso-3166-1-code>DE</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>true</artwork><count>1</count><front>true</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"10\" offset=\"0\"><track
+        id=\"d2fa8b75-ab9d-44b0-a504-a407d6b82b57\"><position>1</position><number>1</number><length>243600</length><recording
+        id=\"d4516ede-5856-4a57-842a-da81c605ed6c\"><title>Give Me the Simple Life</title><length>243600</length></recording></track><track
+        id=\"1ff5a768-7eff-46e3-b7cb-42f155917f28\"><position>2</position><number>2</number><length>259800</length><recording
+        id=\"7276f5d9-c990-4ac7-a430-204d6f0dfd39\"><title>Basin Street Blues</title><length>259800</length></recording></track><track
+        id=\"3f276445-cfaf-4262-89ff-e1942d52f078\"><position>3</position><number>3</number><length>190093</length><recording
+        id=\"7b7ba21f-16b0-43a0-ba13-1f5a9e43a92f\"><title>Honeysuckle Rose</title><length>190093</length></recording></track><track
+        id=\"c46e792a-e1cd-465a-92dc-d0a89accac38\"><position>4</position><number>4</number><length>311906</length><recording
+        id=\"bcc3c57b-16be-477e-84f6-5f31beacefc7\"><title>Dancing on the Ceiling</title><length>311906</length></recording></track><track
+        id=\"71373a3e-2c42-4dfc-950c-0d04e2fdee52\"><position>5</position><number>5</number><length>161026</length><recording
+        id=\"8718273e-b250-4e08-b6c2-3dc1736d8b2f\"><title>A Child Is Born</title><length>161026</length></recording></track><track
+        id=\"8d104a25-58dc-4044-a8d3-b5c0483815bb\"><position>6</position><number>6</number><length>323640</length><recording
+        id=\"e9abae6e-e18a-4616-b2ed-fdc3e4512c10\"><title>If I Should Lose You</title><length>323640</length></recording></track><track
+        id=\"59f9f347-756e-4dc9-971a-022dc3ef1feb\"><position>7</position><number>7</number><length>167800</length><recording
+        id=\"cb86676f-c871-474b-9726-1c051784610c\"><title>A Little Jazz Exercise</title><length>167800</length></recording></track><track
+        id=\"9346131c-b387-41e6-a0d7-c4e23d6736f4\"><position>8</position><number>8</number><length>320493</length><recording
+        id=\"d8003328-7b4f-438d-a2f3-44ed3261ce8b\"><title>Django</title><length>320493</length></recording></track><track
+        id=\"80a5af08-9377-4e35-8583-16c17c834fcb\"><position>9</position><number>9</number><length>261906</length><recording
+        id=\"9268f4c9-6796-466e-bbc8-cf7043e559c1\"><title>Ja-Da</title><length>261906</length></recording></track><track
+        id=\"ff0293f8-a278-4291-92c2-bec76f97d22c\"><position>10</position><number>10</number><length>327200</length><recording
+        id=\"b6779be8-4e74-4a28-b3f3-ed7e2d1cd8cb\"><title>Just a Gigolo</title><length>327200</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"2221838a-b71c-4a16-9129-94e7bc5cb260\"><title>Oscar Peterson Plays Cole
+        Porter</title><status>Official</status><quality>normal</quality><date>1953</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1953</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>true</artwork><count>1</count><front>true</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"12\" offset=\"0\"><track
+        id=\"f233f07a-f243-4656-84e6-6c07fedb3c9c\"><position>1</position><number>A1</number><recording
+        id=\"b7c6553b-def7-4a70-a98d-6d3b196ee56c\"><title>What Is This Thing Called
+        Love</title></recording></track><track id=\"b784680f-0cbb-4e2e-a450-5ee2a6620d02\"><position>2</position><number>A2</number><recording
+        id=\"6d23f2af-3705-406f-9957-1b4cc57cf6c0\"><title>Begin The Beguine</title></recording></track><track
+        id=\"d900b2cd-6b51-4d6d-9997-2a80daf43e0f\"><position>3</position><number>A3</number><recording
+        id=\"6fb77214-b03d-41cc-a8f6-70bfb08ba258\"><title>I've Got You Under My Skin</title></recording></track><track
+        id=\"1fef0b2a-fa84-4fc2-8331-c0868e036795\"><position>4</position><number>A4</number><recording
+        id=\"3cdb0774-4744-442a-886d-974bb640ecd2\"><title>Love For Sale</title></recording></track><track
+        id=\"7af5db7d-d22f-4574-ad49-ae4019252b8b\"><position>5</position><number>A5</number><recording
+        id=\"f7c7adf6-2757-4f97-9709-f99d599932e8\"><title>Let's Do It</title></recording></track><track
+        id=\"c1fae908-6d2d-4a24-99c3-b37ac27107ce\"><position>6</position><number>A6</number><recording
+        id=\"de4658f8-dd02-4e1d-b500-3ed6cb4fb2ba\"><title>I Love You</title></recording></track><track
+        id=\"f7b6d582-e828-4206-bb84-d9ff6e7948b0\"><position>7</position><number>B1</number><recording
+        id=\"2f810ac9-198d-4a28-88e6-bb041494c850\"><title>So Near And Yet So Far</title></recording></track><track
+        id=\"d845693b-ca01-435d-8151-9f94912a0007\"><position>8</position><number>B2</number><recording
+        id=\"90ea85b4-b2cb-4c77-8f2f-a104a4de8134\"><title>Just One Of Those Things</title></recording></track><track
+        id=\"9920b6e4-af0c-4c16-8ddd-d4cfbda8863f\"><position>9</position><number>B3</number><recording
+        id=\"0210b1b5-4190-4657-95af-31413cd117a0\"><title>In The Still Of The Night</title></recording></track><track
+        id=\"c23ff038-f0ae-489f-a8cf-be6051cda263\"><position>10</position><number>B4</number><recording
+        id=\"0ff03d52-ff28-4ee7-b3f2-d12219e70dfc\"><title>Night And Day</title></recording></track><track
+        id=\"dc53a47d-9a90-43c2-b06b-c7d4eecb69cb\"><position>11</position><number>B5</number><recording
+        id=\"97a7bf5f-c585-4dc0-8e1f-8ff888a0c87e\"><title>Ev'ry Time We Say Goodbye</title></recording></track><track
+        id=\"60528b4f-b491-4ce9-8dd7-8573833c0d45\"><position>12</position><number>B6</number><recording
+        id=\"8ac8bc42-b440-4bf2-80e7-20cfc82ff7fd\"><title>Anything Goes</title></recording></track></track-list></medium></medium-list></release><release
+        id=\"2fd03558-e5e2-4760-b183-495fdb3b7092\"><title>Recital by Oscar Peterson</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1954</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1954</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>true</artwork><count>4</count><front>true</front><back>true</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"9\" offset=\"0\"><track
+        id=\"05960fa9-b9aa-471c-9359-89c0aa414c9c\"><position>1</position><number>A1</number><length>405000</length><recording
+        id=\"0e6087bd-6158-4a1d-abc1-4c31355f9e5f\"><title>Pompton Turnpike</title><length>405000</length></recording></track><track
+        id=\"50435f2e-a437-4acf-8675-717dc2138ebf\"><position>2</position><number>A2</number><length>325000</length><recording
+        id=\"1a1962fc-9dc2-478f-a664-7ea566371830\"><title>Cherokee</title><length>325000</length></recording></track><track
+        id=\"a15728c9-650f-47b3-83a7-1826b2f5c28c\"><position>3</position><number>A3</number><length>199000</length><recording
+        id=\"fab1d98f-fc6a-4c1e-9273-46d55f93185b\"><title>Willow Weep for Me</title><length>199000</length></recording></track><track
+        id=\"b95e0e1b-6bb1-43df-8c6e-5f544783b483\"><position>4</position><number>A4</number><length>379000</length><recording
+        id=\"0e233561-7484-4950-b56e-f031c9ab9c84\"><title>Soft Winds</title><length>379000</length></recording></track><track
+        id=\"07fd0db3-a0a3-4927-a68c-148e24975cdd\"><position>5</position><number>A5</number><length>147000</length><recording
+        id=\"0e9b7807-5509-45b6-a9eb-c05e9cb3b8f8\"><title>Alone Together</title><length>147000</length></recording></track><track
+        id=\"b4edb506-7cdf-4486-bf5d-64a39cbd8852\"><position>6</position><number>B1</number><length>338000</length><recording
+        id=\"1bc3e558-0537-4e84-975c-5f57ce5b5a72\"><title>Simple Life</title><length>338000</length></recording></track><track
+        id=\"c35703b9-2700-4078-bf36-323952db2116\"><position>7</position><number>B2</number><length>356000</length><recording
+        id=\"a245df36-4d78-484e-8fc9-f039d492a5b4\"><title>Singin' in the Rain</title><length>356000</length></recording></track><track
+        id=\"b50e15d0-a565-4712-a295-c402be1cca29\"><position>8</position><number>B3</number><length>364000</length><recording
+        id=\"01ba9306-f2e9-4fb3-a689-23bf020d0372\"><title>Love You Madly</title><length>364000</length></recording></track><track
+        id=\"2e7e4e52-fec0-4e4f-90ef-1e1700b9e5bc\"><position>9</position><number>B4</number><length>238000</length><recording
+        id=\"514e23e3-1b5a-401f-baad-4fb9ec1c0620\"><title>The Continental</title><length>238000</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"31881116-d4e0-32cf-ae77-e56af774971d\"><title>Reunion Blues</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1971-06</date><country>DE</country><release-event-list
+        count=\"1\"><release-event><date>1971-06</date><area id=\"85752fda-13c4-31a3-bee5-0e5cb1f51dad\"><name>Germany</name><sort-name>Germany</sort-name><iso-3166-1-code-list><iso-3166-1-code>DE</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"7\" offset=\"0\"><track
+        id=\"2bf49fa9-f23d-3115-9c7e-adadad681f36\"><position>1</position><number>1</number><length>244000</length><recording
+        id=\"4fd3fe5a-443d-4ce2-96fc-8eb357cd17fe\"><title>(I Can't Get No) Satisfaction</title><length>244000</length></recording></track><track
+        id=\"eea46703-27f9-3c40-bc63-7fcc253cdb4c\"><position>2</position><number>2</number><length>257000</length><recording
+        id=\"f6617e8e-98a2-4b28-9e6e-bdaa3bc3d2c9\"><title>Dream of You</title><length>257000</length></recording></track><track
+        id=\"e9722405-a05f-3e44-b7b4-5ccab5e6ee29\"><position>3</position><number>3</number><length>371000</length><recording
+        id=\"b16d548d-5b8b-4817-880c-aace432a84b0\"><title>Someday My Prince Will
+        Come</title><length>371000</length></recording></track><track id=\"9117d9af-8fff-38aa-81f5-863d03ca7469\"><position>4</position><number>4</number><length>328000</length><recording
+        id=\"d03f43d6-4eed-4980-a4fb-40df07fc4fea\"><title>A Time for Love</title><length>328000</length></recording></track><track
+        id=\"3a0ceebb-9f40-3a6d-aeb1-8469ecd1ff5e\"><position>5</position><number>5</number><length>399000</length><recording
+        id=\"3f33e14a-5120-42b8-8812-f6dd5e3010a9\"><title>Reunion Blues</title><length>399000</length></recording></track><track
+        id=\"f9736822-f8fa-3655-89f2-c9971f3ba56f\"><position>6</position><number>6</number><length>314000</length><recording
+        id=\"d6544b59-b2d1-42e4-9e35-e0849569b848\"><title>When I Fall in Love</title><length>314000</length></recording></track><track
+        id=\"cc1bed35-4dd0-3a03-a199-0c0fd9dff80a\"><position>7</position><number>7</number><length>525000</length><recording
+        id=\"3e2099be-0f2b-44fc-ae23-29cbf90a61df\"><title>Red Top</title><length>525000</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"3656989b-5d94-391d-a19e-7fbf3c855af7\"><title>The Trio</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1973</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1973</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"5\" offset=\"0\"><track
+        id=\"88f88c53-fc48-3817-9403-ed381683960c\"><position>1</position><number>A1</number><length>331000</length><recording
+        id=\"64b19261-7d47-4e74-bc00-397994c43df9\"><title>Blues Etude</title><length>331000</length></recording></track><track
+        id=\"e498ef88-2865-3149-aba4-c26f59892870\"><position>2</position><number>A2</number><length>834000</length><recording
+        id=\"d0958e0b-0c04-4720-bf2c-0cbc8cb3f318\"><title>Chicago Blues</title><length>834000</length></recording></track><track
+        id=\"5bc27ac1-4d4b-3f1f-993c-53727f7e8a8c\"><position>3</position><number>B1</number><length>473000</length><recording
+        id=\"f7606aa0-de49-4b44-b2fc-956655d47f54\"><title>Easy Listening Blues</title><length>473000</length></recording></track><track
+        id=\"1a05d1eb-e23e-364c-8302-2dae1fb544b2\"><position>4</position><number>B2</number><length>226000</length><recording
+        id=\"f3ed51ab-4e1c-4b6d-9f0f-67c1d4228e12\"><title>Come Sunday</title><length>226000</length></recording></track><track
+        id=\"3e52b22b-24e5-3dfa-9bd6-b6971b1b57c3\"><position>5</position><number>B3</number><length>435000</length><recording
+        id=\"2d3f5f55-94c1-42ae-8550-a9650678a2a2\"><title>Secret Love</title><length>435000</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"46598044-843f-354d-835a-bc852da44806\"><title>The Oscar Peterson Big
+        6 at Montreux</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1975</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1975</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"4\" offset=\"0\"><track
+        id=\"4de0ca31-4c84-35be-9389-50bf52fba9e8\"><position>1</position><number>A1</number><length>688906</length><recording
+        id=\"55a77fca-eab1-446c-bb23-004263fc5274\"><title>Au Privave</title><length>688906</length></recording></track><track
+        id=\"c0c0d695-ac60-3af9-8fbe-9de9fa9b42c3\"><position>2</position><number>A2</number><length>635013</length><recording
+        id=\"ff5f9432-eebb-4f36-8a8e-934d7a8b612b\"><title>Here's That Rainy Day</title><length>635013</length></recording></track><track
+        id=\"ca329b8f-7ae1-3deb-a000-4e70685aff8f\"><position>3</position><number>B1</number><length>952813</length><recording
+        id=\"50d79220-ccc4-45ad-b725-ce980fd145fc\"><title>Poor Butterfly</title><length>952813</length></recording></track><track
+        id=\"aa28d81a-6160-3d80-8b38-a268556c8763\"><position>4</position><number>B2</number><length>837267</length><recording
+        id=\"e8c764ea-d6b5-4220-a415-82c0b88af32d\"><title>Reunion Blues</title><length>837267</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"50fac435-aed8-412d-8f89-888dddb8d15b\"><title>Oscar Peterson &amp; Nelson
+        Riddle</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1963</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1963</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"10\" offset=\"0\"><track
+        id=\"d41b2d40-b660-33af-abbc-f5bc390becf7\"><position>1</position><number>A1</number><length>300000</length><recording
+        id=\"e3fc4d3a-445f-403d-9c7f-3eb43c463604\"><title>My Foolish Heart</title><length>300000</length></recording></track><track
+        id=\"f88a1bb5-a287-3223-a14c-11efc47be898\"><position>2</position><number>A2</number><length>219000</length><recording
+        id=\"53e1fc3c-fe71-492c-a2a7-d0e2e1a2354e\"><title>Judy</title><length>219000</length></recording></track><track
+        id=\"daae885c-f912-3b8a-91ca-b067d7383c95\"><position>3</position><number>A3</number><length>249000</length><recording
+        id=\"7574bd72-18cd-4ab0-ac12-13971f66e0bf\"><title>'Round Midnight</title><length>249000</length></recording></track><track
+        id=\"d5c6a66d-fd80-3292-99c3-bbd168a4652f\"><position>4</position><number>A4</number><length>173000</length><recording
+        id=\"63a7b140-eb08-4cd3-bcd1-cb32a0723d13\"><title>Someday My Prince Will
+        Come</title><length>173000</length></recording></track><track id=\"9f626c42-8a1a-3da7-a38a-8eaa22bb70c1\"><position>5</position><number>A5</number><length>204000</length><recording
+        id=\"b99a6cb9-9c4c-4004-96f8-1e11b8a5d10f\"><title>Come Sunday</title><length>204000</length></recording></track><track
+        id=\"37e002f7-1f0d-3d8a-a0dd-077338b7751c\"><position>6</position><number>B1</number><length>254000</length><recording
+        id=\"a86c7408-5bc4-4ea0-981d-30601f0e8102\"><title>Nightingale</title><length>254000</length></recording></track><track
+        id=\"8e2dece9-9b6c-34f2-adde-00b6e47f2214\"><position>7</position><number>B2</number><length>343000</length><recording
+        id=\"b9873652-8a4d-4cfb-936c-526e5db34ec8\"><title>My Ship</title><length>343000</length></recording></track><track
+        id=\"b99d40d6-c5f9-3d6d-8ee8-28613b863992\"><position>8</position><number>B3</number><length>223000</length><recording
+        id=\"af5872d0-e576-4c51-8841-71e43cc09ad0\"><title>A Sleeping Bee</title><length>223000</length></recording></track><track
+        id=\"2e68f0a7-d144-33a8-84ad-756d32d90804\"><position>9</position><number>B4</number><length>268000</length><recording
+        id=\"38e97052-f867-4544-a64a-4311ab6e8dd0\"><title>Portrait Of Jenny</title><length>268000</length></recording></track><track
+        id=\"8a61b112-170e-37b6-baef-30ce101a287e\"><position>10</position><number>B5</number><length>246000</length><recording
+        id=\"359c0cf8-f423-471f-801a-87150f931dea\"><title>Goodbye</title><length>246000</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"75105e67-f317-47c7-8f56-846d67474bdb\"><title>Soul Espa\xF1ol</title><status>Official</status><quality>normal</quality><text-representation><language>mul</language><script>Latn</script></text-representation><date>1966</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1966</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"10\" offset=\"0\"><track
+        id=\"ed02e52c-8adb-3c8d-aac1-1d66ccbf0c6e\"><position>1</position><number>1</number><length>147693</length><recording
+        id=\"f244ea86-da39-4135-96de-0445c43c51e5\"><title>Mas que nada</title><length>147693</length></recording></track><track
+        id=\"9ee03b37-1e52-30d7-b0e7-53666c476961\"><position>2</position><number>2</number><length>225200</length><recording
+        id=\"84d3218a-bb5f-4bdc-ae2f-482e148fe11d\"><title>Manh\xE3 de carnaval</title><length>225200</length></recording></track><track
+        id=\"ca2e108d-4160-3c58-92cd-ea1c7c544ea8\"><position>3</position><number>3</number><length>319800</length><recording
+        id=\"6e4d23b2-d9d8-4d68-84bb-39246ab85b85\"><title>Call Me</title><length>319800</length></recording></track><track
+        id=\"472977e0-116a-308a-b3fc-52181cb5f2eb\"><position>4</position><number>4</number><length>242906</length><recording
+        id=\"b1601583-8560-4143-a863-b67beb72ffd9\"><title>How Insensitive</title><length>242906</length></recording></track><track
+        id=\"993d68c1-e095-3345-b3e2-acc66fd6fdff\"><position>5</position><number>5</number><length>271933</length><recording
+        id=\"df51a669-27eb-4bfe-a272-a854a2930b47\"><title>Carioca</title><length>271933</length></recording></track><track
+        id=\"e105ea1c-ca8b-3376-a119-7d56b105033f\"><position>6</position><number>6</number><length>145360</length><recording
+        id=\"414e0b4e-0fb7-4ac0-9588-e16f13f510ae\"><title>Soulville Samba</title><length>145360</length></recording></track><track
+        id=\"87d7e9ab-305d-3c6e-9fc7-ca5c40937549\"><position>7</position><number>7</number><length>261866</length><recording
+        id=\"700899a0-310f-4970-b97d-e686dabd18c8\"><title>Amanh\xE3 (Tomorrow)</title><length>261866</length></recording></track><track
+        id=\"8919f71e-2c26-333d-b5e7-239503e1928e\"><position>8</position><number>8</number><length>255466</length><recording
+        id=\"00670430-3fcf-46ba-8867-0245b3dc458c\"><title>Meditation</title><length>255466</length></recording></track><track
+        id=\"299cbfb6-cd88-3fc2-a13a-c49d744a9016\"><position>9</position><number>9</number><length>200466</length><recording
+        id=\"bf5fcd38-8002-4077-bb90-d5719574ba39\"><title>Samba Sensitive</title><length>200466</length></recording></track><track
+        id=\"3ae217ad-c4be-36df-af61-3bab3bab5bf1\"><position>10</position><number>10</number><length>231106</length><recording
+        id=\"b6dd303d-8e2e-4ec8-b89f-489620c0ff6a\"><title>Samba de Orfeu</title><length>231106</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"79aa06e3-ccb8-4e00-8e95-094e61b30a01\"><title>Great Connection</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1971-10</date><country>JP</country><release-event-list
+        count=\"1\"><release-event><date>1971-10</date><area id=\"2db42837-c832-3c27-b4a3-08198f75693c\"><name>Japan</name><sort-name>Japan</sort-name><iso-3166-1-code-list><iso-3166-1-code>JP</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"7\" offset=\"0\"><track
+        id=\"d3195119-4437-3b6b-9c30-5380514cc79a\"><position>1</position><number>1</number><length>324000</length><recording
+        id=\"ae214428-e36b-4a4b-98ea-79fab3f4c4f9\"><title>Younger Than Springtime</title><length>324000</length></recording></track><track
+        id=\"f48223e7-5dba-3625-8c39-ae72f4fead56\"><position>2</position><number>2</number><length>353000</length><recording
+        id=\"bcf6e6b9-807b-4607-9ab9-c1790eba31f9\"><title>Where Do I Go from Here?</title><length>353000</length></recording></track><track
+        id=\"8d96835f-0d43-3116-a393-541295b9c445\"><position>3</position><number>3</number><length>239000</length><recording
+        id=\"4c2c6749-06e0-467e-b41b-cc404ea48b97\"><title>Smile</title><length>239000</length></recording></track><track
+        id=\"1d0cbb86-830b-38f8-ac98-71ad8a934168\"><position>4</position><number>4</number><length>404000</length><recording
+        id=\"2018b427-0591-474f-af13-971e55d6d5d8\"><title>Soft Winds</title><length>404000</length></recording></track><track
+        id=\"6947a2e8-1deb-3810-822f-af8e1140307e\"><position>5</position><number>5</number><length>448000</length><recording
+        id=\"c4507866-baec-46bf-a736-3867a7dc4480\"><title>Just Squeeze Me</title><length>448000</length></recording></track><track
+        id=\"9e2d0a32-2371-3475-b2a0-a61afaa5df8c\"><position>6</position><number>6</number><length>351000</length><recording
+        id=\"c7d26577-ab74-4ea7-a639-d61e47caea3e\"><title>On the Trail</title><length>351000</length></recording></track><track
+        id=\"9932d6f1-7439-34cf-b873-81eaddaf6d2e\"><position>7</position><number>7</number><length>431000</length><recording
+        id=\"94f2480f-4aa0-4a14-9878-8b4dcac3ce25\"><title>Wheatland</title><length>431000</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"9ab7d8d1-acf2-4077-bd76-1a2f5f31f0c7\"><title>Oscar Peterson Plays the
+        George Gershwin Songbook</title><status>Official</status><quality>normal</quality><packaging>Cardboard/Paper
+        Sleeve</packaging><text-representation><language>eng</language><script>Latn</script></text-representation><date>1959</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1959</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>true</artwork><count>1</count><front>true</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"12\" offset=\"0\"><track
+        id=\"c96147a1-2942-3942-8543-fa030bf08086\"><position>1</position><number>1</number><length>168906</length><recording
+        id=\"0c222fbd-acbd-4a25-9a29-88482357e538\"><title>It Ain't Necessarily So</title><length>168906</length></recording></track><track
+        id=\"b7cd5165-ccd5-3bf1-a580-a151fa0bef5b\"><position>2</position><number>2</number><length>189133</length><recording
+        id=\"1ebd2239-8a9f-43d4-a202-8cc4517890a1\"><title>The Man I Love</title><length>189133</length></recording></track><track
+        id=\"1fc5b86a-0cd4-31ca-a596-5aa6fad1bcde\"><position>3</position><number>3</number><length>169200</length><recording
+        id=\"de96fa4d-b7b6-44dd-9ac0-42175e8f4c4a\"><title>Love Walked In</title><length>169200</length></recording></track><track
+        id=\"c620c3c3-a13d-3247-b4d0-23041d017e66\"><position>4</position><number>4</number><length>170800</length><recording
+        id=\"22475954-b117-449a-ae14-a7b1ba546963\"><title>I Was Doing All Right</title><length>170800</length></recording></track><track
+        id=\"022d767e-9351-3124-9a47-258bb858c4d8\"><position>5</position><number>5</number><length>175360</length><recording
+        id=\"29078a56-597e-4365-9ce3-db7e597505fd\"><title>A Foggy Day</title><length>175360</length></recording></track><track
+        id=\"60adc933-59bd-30c0-9ef5-06c20a8d418b\"><position>6</position><number>6</number><length>182440</length><recording
+        id=\"6989ffc2-726f-472c-839a-b566950ed37f\"><title>Oh, Lady Be Good</title><length>182440</length></recording></track><track
+        id=\"970c1a48-2bd2-3bd5-b3a8-1e6727546efd\"><position>7</position><number>7</number><length>179360</length><recording
+        id=\"d7380869-c84a-4a26-bf28-7695fa46dc5c\"><title>Our Love Is Here to Stay</title><length>179360</length></recording></track><track
+        id=\"1acb24bb-e926-354d-962d-b5f705c48b1e\"><position>8</position><number>8</number><length>151706</length><recording
+        id=\"e5cc8900-b215-4012-a04d-552414106ab0\"><title>They All Laughed</title><length>151706</length></recording></track><track
+        id=\"6fc5abaa-f2d4-3bde-939a-06965a2720a2\"><position>9</position><number>9</number><length>140226</length><recording
+        id=\"24795d2d-1e01-4e5f-977f-7a845c10f025\"><title>Let's Call the Whole Thing
+        Off</title><length>140226</length></recording></track><track id=\"0cb066f5-dd60-3938-b3d1-a399f2a9d120\"><position>10</position><number>10</number><length>178133</length><recording
+        id=\"2359396c-a291-49a6-8133-ad3ff69b8568\"><title>Summertime</title><length>178133</length></recording></track><track
+        id=\"a1eb2412-5618-3d2b-86f5-45fd15fc4da3\"><position>11</position><number>11</number><length>127906</length><recording
+        id=\"10bb59d9-240c-49bd-850a-09ef113bb675\"><title>Nice Work If You Can Get
+        It</title><length>127906</length></recording></track><track id=\"3d2d323d-ca67-32ff-8eff-cc13e87218a3\"><position>12</position><number>12</number><length>138906</length><recording
+        id=\"56f7dda8-5772-4897-8986-b2c63ee32c30\"><title>Shall We Dance</title><length>138906</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"a8ac510a-13da-49ed-9c7c-77b0b51c6c6b\"><title>Oscar Peterson Plays Porgy
+        &amp; Bess</title><status>Official</status><quality>normal</quality><packaging>Cardboard/Paper
+        Sleeve</packaging><text-representation><language>eng</language><script>Latn</script></text-representation><date>1959</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1959</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>true</artwork><count>1</count><front>true</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"10\" offset=\"0\"><track
+        id=\"053349c2-1c4e-3716-a6e5-e95c627e2629\"><position>1</position><number>1</number><length>386000</length><recording
+        id=\"acc37438-af72-4617-96f0-be0a886e4546\"><title>I Got Plenty O' Nuttin'</title><length>386000</length></recording></track><track
+        id=\"66b977dd-a55e-3477-bb68-9a7a0027face\"><position>2</position><number>2</number><length>382000</length><recording
+        id=\"60aa244e-d384-4030-9e46-eb591ef28a7e\"><title>I Wants to Stay Here (a.k.a.
+        I Loves You, Porgy)</title><length>382000</length></recording></track><track
+        id=\"9fa3c589-02e6-3f3b-b4ec-2270cb654a84\"><position>3</position><number>3</number><length>231000</length><recording
+        id=\"1ef3a1ba-2cdb-4e5f-97a6-31b711cb8154\"><title>Summertime</title><length>231000</length></recording></track><track
+        id=\"f0b41886-da11-3b22-9feb-0ef3b7282790\"><position>4</position><number>4</number><length>56000</length><recording
+        id=\"c56235ff-5661-4544-8cfc-3d8358959876\"><title>Oh Dey's So Fresh and Fine
+        (Strawberry Woman)</title><length>56000</length></recording></track><track
+        id=\"5ae31f67-2847-309f-a40f-93149768b2f5\"><position>5</position><number>5</number><length>156000</length><recording
+        id=\"21b23016-087b-47a6-914f-5eb4eb9ba47e\"><title>Oh Lawd, I'm on My Way!</title><length>156000</length></recording></track><track
+        id=\"07b7e899-1d65-3d1a-a572-ea9f207268c9\"><position>6</position><number>6</number><length>242000</length><recording
+        id=\"aadc1e26-5a77-4993-855f-48ed0bcf20b5\"><title>It Ain't Necessarily So</title><length>240440</length></recording></track><track
+        id=\"a0b42f37-1842-38f1-9138-1540617821b5\"><position>7</position><number>7</number><length>434000</length><recording
+        id=\"00714b0e-be7f-478f-8751-02c38bbc28e7\"><title>There's a Boat Dat's Leavin'
+        Soon for New York</title><length>434000</length></recording></track><track
+        id=\"a75763a8-e10d-33f0-95bc-9e599cf955bc\"><position>8</position><number>8</number><length>297000</length><recording
+        id=\"3f3eef53-e1b7-471c-b3fb-ca042a681173\"><title>Oh Bess, Oh Where's My
+        Bess?</title><length>297000</length></recording></track><track id=\"3ce7e444-84c9-3cf8-b4c3-f4eeb35dbb1b\"><position>9</position><number>9</number><length>71000</length><recording
+        id=\"1c54a759-d354-4c6f-9bfb-72e9cb9b5b08\"><title>Here Come de Honey Man</title><length>71000</length></recording></track><track
+        id=\"eb1a155c-6f43-390b-bf43-30b75a14b720\"><position>10</position><number>10</number><length>208000</length><recording
+        id=\"1213878a-893f-4e5e-9b9d-6dd02386d6fc\"><title>Bess, You Is My Woman Now</title><length>208000</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"addca91f-fc9e-4fcc-bfdf-d3f36ec64cd9\"><title>Oscar Peterson Plays Jimmy
+        McHugh</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1955</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1955</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"9\" offset=\"0\"><track
+        id=\"857689a0-fa2b-4a1a-8326-2c1eb478de9f\"><position>1</position><number>A1</number><length>206000</length><recording
+        id=\"217a3ba5-d41d-4bb9-92e2-1734d83ad999\"><title>When My Sugar Walks Down
+        the Street</title><length>206000</length></recording></track><track id=\"20ccebb9-3f5e-4f4a-9297-9c2e430c448d\"><position>2</position><number>A2</number><length>214000</length><recording
+        id=\"278aebea-8162-4c3b-8f56-e798c3ba41bf\"><title>I Can't Believe That You're
+        in Love With Me</title><length>214000</length></recording></track><track id=\"e86291ee-e766-493a-8d44-4c06fef24eb7\"><position>3</position><number>A3</number><length>230000</length><recording
+        id=\"5d0f308b-ff0b-4f65-bcc4-bae8342ec5cb\"><title>Sunny Side of the Street</title><length>230000</length></recording></track><track
+        id=\"c5d57777-03b4-4491-8970-7984f995996c\"><position>4</position><number>A4</number><length>186000</length><recording
+        id=\"c71e6493-e7c4-4078-854e-9c4afc41f3d3\"><title>Don't Blame Me</title><length>186000</length></recording></track><track
+        id=\"55d3d111-0e1b-427e-a3cb-49b476aa4d31\"><position>5</position><number>A5</number><length>235000</length><recording
+        id=\"0660e372-9b7c-43f5-b147-0004d84e3386\"><title>I'm in the Mood for Love</title><length>235533</length></recording></track><track
+        id=\"60dfc84e-58b6-419a-942d-9deb501271c7\"><position>6</position><number>B1</number><length>325000</length><recording
+        id=\"98ab514e-caf8-4948-84d3-ec8270724002\"><title>I Can't Give You Anything
+        but Love</title><length>325000</length></recording></track><track id=\"b4b485df-cf8c-4a70-bd5a-daf683df1a34\"><position>7</position><number>B2</number><length>214000</length><recording
+        id=\"4410162b-ea37-4d65-bfc2-6e4bd308e341\"><title>I Couldn't Sleep a Wink
+        Last Night</title><length>214000</length></recording></track><track id=\"054330b0-6f42-4095-8266-c92127cbf5e4\"><position>8</position><number>B3</number><length>304000</length><recording
+        id=\"037c6761-cf0d-455e-bce6-d12aff2b5200\"><title>Digga Digga Doo</title><length>304000</length></recording></track><track
+        id=\"427cc6df-9447-418b-afba-fb1903ad8c59\"><position>9</position><number>B4</number><length>284000</length><recording
+        id=\"49fa9842-1744-48e5-a152-9fb4bfc30c69\"><title>You're a Sweetheart</title><length>284000</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"b0e7f4fb-7827-46b8-8515-c64810c5e95b\"><title>Oscar Peterson Plays the
+        Jerome Kern Songbook</title><status>Official</status><quality>normal</quality><packaging>Cardboard/Paper
+        Sleeve</packaging><text-representation><language>eng</language><script>Latn</script></text-representation><date>1959</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1959</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"12\" offset=\"0\"><track
+        id=\"72815e8f-defc-3e2c-9e88-10aa5cbfdd73\"><position>1</position><number>A1</number><length>152000</length><recording
+        id=\"77624ff5-13a7-4ae0-8438-56777eae1b8f\"><title>I Won't Dance</title><length>152000</length></recording></track><track
+        id=\"d415a53a-7bcd-3a4c-ac56-7b4ece4ca040\"><position>2</position><number>A2</number><length>178000</length><recording
+        id=\"1ebff061-37f9-48b1-894b-33d3d6158f05\"><title>Bill</title><length>178000</length></recording></track><track
+        id=\"2d41c511-24b8-30a7-b5f5-663c401de31c\"><position>3</position><number>A3</number><length>184000</length><recording
+        id=\"75dc6c68-72d2-4b6b-8f62-efaaefad1220\"><title>The Song Is You</title><length>184000</length></recording></track><track
+        id=\"8524e545-e0ee-3a98-bcf0-6a755e80d7f4\"><position>4</position><number>A4</number><length>189000</length><recording
+        id=\"ddf56043-679f-47e3-a06e-1a84b8b4374f\"><title>A Fine Romance</title><length>189000</length></recording></track><track
+        id=\"d9f8d2fe-3a64-3f4d-b36d-2d679c9c42dd\"><position>5</position><number>A5</number><length>165000</length><recording
+        id=\"ab9c5b52-458e-426d-8b77-bd09e5e5adf7\"><title>Can't Help Lovin' Dat Man</title><length>165000</length></recording></track><track
+        id=\"c917026f-5075-3465-a7d2-3b591da505dc\"><position>6</position><number>A6</number><length>158000</length><recording
+        id=\"1636332e-e42b-4ce4-8dbf-964f75f7a63a\"><title>Ol' Man River</title><length>158000</length></recording></track><track
+        id=\"d31a4331-25ae-3f11-83a6-652be42b30cf\"><position>7</position><number>B1</number><length>155000</length><recording
+        id=\"ec6a357e-33a1-4bcc-9308-3273c4760a93\"><title>Long Ago (And Far Away)</title><length>155000</length></recording></track><track
+        id=\"b9a63417-1b69-36e3-ab12-aa5d07337973\"><position>8</position><number>B2</number><length>168000</length><recording
+        id=\"2c1669bb-f61e-49cf-af3e-209257b29719\"><title>Lovely to Look At</title><length>168000</length></recording></track><track
+        id=\"812aae20-4797-3dcf-9e3e-947e293d05f9\"><position>9</position><number>B3</number><length>132000</length><recording
+        id=\"b002dd88-a1c5-4a03-accc-f9024c818573\"><title>Pick Yourself Up</title><length>132000</length></recording></track><track
+        id=\"c8766bc6-c5e0-39f1-9fc0-4c2f7dd12d7a\"><position>10</position><number>B4</number><length>169000</length><recording
+        id=\"2424f713-d2fb-4379-8bb0-809a9787c714\"><title>Smoke Gets in Your Eyes</title><length>169000</length></recording></track><track
+        id=\"2f241209-427e-3312-a882-fe2e2835d145\"><position>11</position><number>B5</number><length>221000</length><recording
+        id=\"6b79501b-1920-4ecb-90c3-1da0bf389a69\"><title>The Way You Look Tonight</title><length>221000</length></recording></track><track
+        id=\"e7d157d8-3e0f-34d8-a5cd-3b210c22856f\"><position>12</position><number>B6</number><length>200000</length><recording
+        id=\"c69676a9-3ac4-4611-a8d9-631bc0e3675a\"><title>Yesterdays</title><length>197000</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"b6a06a89-4e88-4ef4-88d3-f35de133ef25\"><title>Louis Armstrong Meets Oscar
+        Peterson</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1957</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1957</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"12\" offset=\"0\"><track
+        id=\"5574de49-8861-3583-b925-4f98ad927cfc\"><position>1</position><number>1</number><length>162000</length><recording
+        id=\"ee3f2707-d5b4-4bf5-8d91-c5ebeeaf7967\"><title>That Old Feeling</title><length>164733</length></recording></track><track
+        id=\"a528d77b-dfd4-3d83-a118-5a59148d5b3d\"><position>2</position><number>2</number><length>194000</length><recording
+        id=\"38d53b68-0e85-484d-9e39-4e06b6d17e7e\"><title>Let's Fall in Love</title><length>196600</length></recording></track><track
+        id=\"82ffd0df-9285-39e9-a567-fdb746c5a858\"><position>3</position><number>3</number><length>209000</length><recording
+        id=\"27a06585-ab7e-4a9d-9c4d-86adce7714e5\"><title>I'll Never Be the Same</title><length>211600</length></recording></track><track
+        id=\"300c6285-912d-3148-b568-1062ee5dbbee\"><position>4</position><number>4</number><title>Blues
+        in the Night</title><length>310000</length><recording id=\"065bc9d4-7364-4358-ae80-726d538b33e7\"><title>Blues
+        in the Night (My Mama Done Tol' Me)</title><length>313400</length></recording></track><track
+        id=\"7be43cc4-317c-3d25-a883-9935b9ca498b\"><position>5</position><number>5</number><length>356000</length><recording
+        id=\"1ca59fa9-bcd0-4562-8b58-b0385585a9dd\"><title>How Long Has This Been
+        Going On?</title><length>358733</length></recording></track><track id=\"bae78a20-21b9-309d-adee-3e745840704c\"><position>6</position><number>6</number><length>200000</length><recording
+        id=\"dedff9a9-86d4-4680-a7d1-98a1a758751a\"><title>I Was Doing All Right</title><length>202000</length></recording></track><track
+        id=\"f5cabe64-0ec7-3aaa-88c4-462dfc74888f\"><position>7</position><number>7</number><length>160000</length><recording
+        id=\"e3715e34-f289-4dfc-8676-2fcd92b7a8e0\"><title>What's New</title><length>162840</length></recording></track><track
+        id=\"a197a3e5-084d-372a-8731-ab84dba21a56\"><position>8</position><number>8</number><length>271000</length><recording
+        id=\"4cdbc61b-96fd-46b1-ae37-22205fe1cbd4\"><title>Moon Song</title><length>274293</length></recording></track><track
+        id=\"8abea952-6d5c-38fd-8910-ec8aabcac33d\"><position>9</position><number>9</number><length>242000</length><recording
+        id=\"d76a36fc-20f3-49d8-878b-2baa20b9c05b\"><title>Just One of Those Things</title><length>245133</length></recording></track><track
+        id=\"18a8fda1-92bb-396b-976c-0424ea9e23e8\"><position>10</position><number>10</number><length>134000</length><recording
+        id=\"e4a619fb-e31e-4ec7-9669-bd6cd13ffd68\"><title>There's No You</title><length>137000</length></recording></track><track
+        id=\"812335d6-e2b8-3034-9957-30bf073f0396\"><position>11</position><number>11</number><length>384000</length><recording
+        id=\"0f5a920b-894c-4cf1-8c64-d9b77f967cb2\"><title>You Go to My Head</title><length>386266</length></recording></track><track
+        id=\"ec7f61ef-908b-3851-aa75-2d584dd11d8f\"><position>12</position><number>12</number><length>311000</length><recording
+        id=\"0a9b7eff-2c28-4f61-b010-42c61f54f046\"><title>Sweet Lorraine</title><length>314066</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"db5c4697-7b18-4f10-8f21-ca0dafe600bb\"><title>Oscar Peterson Plays the
+        Duke Ellington Song Book</title><status>Official</status><quality>normal</quality><packaging>Cardboard/Paper
+        Sleeve</packaging><text-representation><language>eng</language><script>Latn</script></text-representation><date>1959</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1959</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>true</artwork><count>1</count><front>true</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"12\" offset=\"0\"><track
+        id=\"b349a8ce-291b-38f3-8db8-d5f5da38e71d\"><position>1</position><number>1</number><length>144920</length><recording
+        id=\"c9b26fbd-f7c2-4a61-915a-ff5b7ad4b16b\"><title>Cotton Tail</title><length>144920</length></recording></track><track
+        id=\"230e8718-e71b-33fd-9b7d-c7afc29efcdd\"><position>2</position><number>2</number><length>178853</length><recording
+        id=\"d8dca616-cfe2-4cdc-92d8-652f4edf4f9f\"><title>Just A-Sittin' and A-Rockin'</title><length>178853</length></recording></track><track
+        id=\"7f360ccc-d413-3426-81d7-b156674e414f\"><position>3</position><number>3</number><length>185826</length><recording
+        id=\"903ead8f-e1b7-4858-96a8-5be755031347\"><title>Take the a Train</title><length>185826</length></recording></track><track
+        id=\"a7f3237c-623b-3b4a-a555-22762937091b\"><position>4</position><number>4</number><length>156920</length><recording
+        id=\"306671bf-3f2c-41fb-95e0-93fb150c4f73\"><title>John Hardy's Wife</title><length>156920</length></recording></track><track
+        id=\"42cdbef3-f1da-33ed-8061-7724ae31e157\"><position>5</position><number>5</number><length>147613</length><recording
+        id=\"1a075360-dd6b-403e-8667-4ebfcabd8570\"><title>Sophisticated Lady</title><length>147613</length></recording></track><track
+        id=\"262007fc-8ae2-3376-b05a-d2a2aee5ca19\"><position>6</position><number>6</number><length>154613</length><recording
+        id=\"4e6c3e37-b54b-4dbc-adee-844d87e3d8a4\"><title>Don't Get Around Much Anymore</title><length>154613</length></recording></track><track
+        id=\"64acff0f-beec-3878-bb7d-f661033ad577\"><position>7</position><number>7</number><length>136786</length><recording
+        id=\"a888306c-4cad-4a04-a71a-2d0c361ef0a9\"><title>Rockin' in Rhythm</title><length>136786</length></recording></track><track
+        id=\"202d5f08-5199-36f4-8e3e-a9707b658be5\"><position>8</position><number>8</number><length>153133</length><recording
+        id=\"c3de6958-73c3-4ee7-bb4b-f3146e825578\"><title>Prelude to a Kiss</title><length>153133</length></recording></track><track
+        id=\"9ee3a420-1811-33f1-8d8c-a50bb3937984\"><position>9</position><number>9</number><length>224280</length><recording
+        id=\"f8ec6941-2cbd-4c50-b8dc-182f7762b348\"><title>In a Mellow Tone</title><length>224280</length></recording></track><track
+        id=\"629f0f47-5750-31b0-ba77-6639de41284b\"><position>10</position><number>10</number><length>188346</length><recording
+        id=\"bc503ddb-9d76-41a3-9b77-a016cdf47d1d\"><title>Things Ain't What They
+        Used to Be</title><length>188346</length></recording></track><track id=\"b95abf9f-fe6b-3611-b2ea-c0ad0808f46e\"><position>11</position><number>11</number><length>194186</length><recording
+        id=\"886d5fd1-9e85-496c-a9a4-275444789a7c\"><title>Got It Bad (And That Ain't
+        Good)</title><length>194186</length></recording></track><track id=\"26166260-941f-3652-be01-0dac471c030c\"><position>12</position><number>12</number><length>135160</length><recording
+        id=\"7c100aa9-27f2-48bf-a5c1-ce7bae3cc0fe\"><title>Do Nothin' Till You Hear
+        From Me</title><length>135160</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"e12f0cb8-2f94-48d8-adf5-301de1ca865e\"><title>Oscar Peterson &amp; Friends
+        - Compact Jazz</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1958</date><country>NL</country><release-event-list
+        count=\"1\"><release-event><date>1958</date><area id=\"ef1b7cc0-cd26-36f4-8ea0-04d9623786c7\"><name>Netherlands</name><sort-name>Netherlands</sort-name><iso-3166-1-code-list><iso-3166-1-code>NL</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><barcode>042283531529</barcode><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"11\" offset=\"0\"><track
+        id=\"f14c6d7b-a09b-3641-b934-2a3162ce161d\"><position>1</position><number>1</number><length>465000</length><recording
+        id=\"71c80bc6-d90a-4151-bb3c-6f1b464cfb14\"><title>Tea for Two</title><length>465000</length></recording></track><track
+        id=\"85a3bce3-62ff-359f-8626-73a7d45d3fe5\"><position>2</position><number>2</number><length>298000</length><recording
+        id=\"507a3500-1405-4f75-a466-67d74fc7f9f5\"><title>A Wonderful Guy</title><length>298000</length></recording></track><track
+        id=\"774608ca-9978-3630-b78c-0522c1640344\"><position>3</position><number>3</number><length>224000</length><recording
+        id=\"15bf597c-285f-482c-b875-993f6ab9b9b5\"><title>You Turned the Tables on
+        Me</title><length>224000</length></recording></track><track id=\"c8b44526-edbf-38cd-a175-9d93a0a10bdf\"><position>4</position><number>4</number><length>262000</length><recording
+        id=\"bcf8a990-c09b-4656-8dfa-1622a5b3e2c3\"><title>Scrapple From the Apple</title><length>262000</length></recording></track><track
+        id=\"483bf623-e3c6-3902-92e3-93cb8c2d3f78\"><position>5</position><number>5</number><length>346000</length><recording
+        id=\"a276799d-5c38-4924-a9d3-90b224a58c89\"><title>A Foggy Day</title><length>346000</length></recording></track><track
+        id=\"a97f3f59-ac6d-348c-bd9a-fd6df6dcefcd\"><position>6</position><number>6</number><length>179000</length><recording
+        id=\"83914fbe-a06b-4be5-b37b-287f89047f7c\"><title>No Strings</title><length>179000</length></recording></track><track
+        id=\"2aa500f9-66f1-3358-b2da-667c43bc3063\"><position>7</position><number>7</number><length>399000</length><recording
+        id=\"4087f30f-4cc5-4fe9-bc62-6ed8c256ee63\"><title>Three Little Words</title><length>399000</length></recording></track><track
+        id=\"43cb1115-eaa2-3278-b7fb-77ce82f12144\"><position>8</position><number>8</number><length>263000</length><recording
+        id=\"1b9e1d08-c982-4d5a-9b24-a71eef0d1a86\"><title>Topsy</title><length>263000</length></recording></track><track
+        id=\"770b797f-1f13-3b0a-b89c-bdb2fbacd25b\"><position>9</position><number>9</number><length>445000</length><recording
+        id=\"abf5372f-4210-4dc4-9718-4f96b53d2c27\"><title>'s Wonderful</title><length>445000</length></recording></track><track
+        id=\"7f1168d2-4223-35f0-9615-40a66fa6cd90\"><position>10</position><number>10</number><length>380000</length><recording
+        id=\"f42a8500-a340-4e88-8f60-3f43d9740a79\"><title>The Touch of Your Lips</title><length>380000</length></recording></track><track
+        id=\"176e45c0-c5c2-32e7-87fc-945ccba4b070\"><position>11</position><number>11</number><length>217000</length><recording
+        id=\"11037453-8d10-4795-b961-585f848a5513\"><title>Lush Life</title><length>217000</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"e3d65cd3-944e-3b76-8c49-6aeb4a0932c3\"><title>Oscar Peterson Plays the
+        Cole Porter Songbook</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1959</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1959</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"12\" offset=\"0\"><track
+        id=\"f531616d-3268-32b0-8d91-7bf80131e688\"><position>1</position><number>A1</number><length>173400</length><recording
+        id=\"75888294-296a-423c-b4d4-bf9b64f54a25\"><title>In the Still of the Night</title><length>173400</length></recording></track><track
+        id=\"df5a26b9-cd06-3cc4-9c72-f3f4c3f4be85\"><position>2</position><number>A2</number><length>175400</length><recording
+        id=\"bb8fd89b-5ed2-40a3-8d7f-4044a4795166\"><title>It's All Right With Me</title><length>175400</length></recording></track><track
+        id=\"860c9133-cef0-33c9-acac-826e1a48b6b3\"><position>3</position><number>A3</number><length>210600</length><recording
+        id=\"df0db78a-88e3-4b68-aa72-44c49043fa30\"><title>Love for Sale</title><length>210600</length></recording></track><track
+        id=\"5c29cb24-a90d-3066-bd7b-c829449d0238\"><position>4</position><number>A4</number><length>145066</length><recording
+        id=\"4e478496-2340-4d13-9cb2-56cacc0623eb\"><title>Just One of Those Things</title><length>145066</length></recording></track><track
+        id=\"b9d60724-3221-3e5a-b743-a3da44667801\"><position>5</position><number>A5</number><length>171773</length><recording
+        id=\"4fa252b6-45d8-47ef-8a46-7e3c580d613a\"><title>I've Got You Under My Skin</title><length>171773</length></recording></track><track
+        id=\"0c5bb954-4467-3047-8ba7-ed4599d66b42\"><position>6</position><number>A6</number><length>141733</length><recording
+        id=\"367e3fd8-3c2a-47c0-9419-953e4796439e\"><title>Ev'ry Time We Say Goodbye</title><length>141733</length></recording></track><track
+        id=\"b52b2266-e834-3dd0-90ef-08133a057b1e\"><position>7</position><number>B1</number><length>154666</length><recording
+        id=\"50272517-64ce-4349-922b-1fa4bad2c704\"><title>Night and Day</title><length>154666</length></recording></track><track
+        id=\"b5a7226b-ef9e-30ae-a1fa-b65893f10e96\"><position>8</position><number>B2</number><length>158000</length><recording
+        id=\"78f68726-3c43-4160-9b1b-7e4d5d151817\"><title>Easy to Love</title><length>158000</length></recording></track><track
+        id=\"dd725206-388a-3389-9bb8-4ae996cafce1\"><position>9</position><number>B3</number><length>182226</length><recording
+        id=\"10ac01db-2f8d-402a-a539-2c0697295244\"><title>Why Can't You Behave</title><length>182226</length></recording></track><track
+        id=\"cd740963-5552-3173-9665-d5a4aa85c824\"><position>10</position><number>B4</number><length>133240</length><recording
+        id=\"85cc5791-316c-4682-8da7-c8fbd92d213a\"><title>I Love Paris</title><length>132800</length></recording></track><track
+        id=\"ae532811-fd7b-392a-8b1e-beb2225ecd7c\"><position>11</position><number>B5</number><length>192760</length><recording
+        id=\"5cb4e92a-a68e-4861-badb-99bed6845ab4\"><title>I Concentrate on You</title><length>192760</length></recording></track><track
+        id=\"5de2cbb6-9e29-317f-9d01-2f608bb71904\"><position>12</position><number>B6</number><length>148800</length><recording
+        id=\"65b61900-d7cf-4183-b777-a9a4d2ba62c1\"><title>It's De-Lovely</title><length>148800</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"e453dc2d-1a15-418f-a838-c433cf8b6dc9\"><title>Oscar Peterson Plays the
+        Jerome Kern Songbook</title><status>Official</status><quality>normal</quality><packaging>Cardboard/Paper
+        Sleeve</packaging><text-representation><language>eng</language><script>Latn</script></text-representation><date>1959</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1959</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>true</artwork><count>1</count><front>true</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"12\" offset=\"0\"><track
+        id=\"ff32143b-7c8f-3f07-b733-35aa8c76fdb7\"><position>1</position><number>1</number><length>152573</length><recording
+        id=\"45872e64-b3d6-4569-8cd8-3b071136192d\"><title>I Won't Dance</title><length>152573</length></recording></track><track
+        id=\"a855f672-75e7-3867-a7d2-7ddd84b9ede7\"><position>2</position><number>2</number><length>178293</length><recording
+        id=\"dd1e53b4-6576-4764-9905-89b204b4e7ed\"><title>Bill</title><length>178293</length></recording></track><track
+        id=\"e75e9bef-5a88-39f2-bff4-344e4b1e3e01\"><position>3</position><number>3</number><length>184573</length><recording
+        id=\"fe095408-1ad8-42b3-8d30-06f8f6f518b3\"><title>The Song Is You</title><length>184573</length></recording></track><track
+        id=\"339a8382-65e0-300a-985c-a82a6d926b58\"><position>4</position><number>4</number><length>189546</length><recording
+        id=\"8eea5bc8-6635-4344-99a1-49b622623358\"><title>A Fine Romance</title><length>189546</length></recording></track><track
+        id=\"4221924c-7b88-301c-99e5-ac4585d3d361\"><position>5</position><number>5</number><length>165800</length><recording
+        id=\"a62bd56e-a3a2-4f19-9d07-742fe9fd3714\"><title>Can't Help Lovin' Dat Man</title><length>165800</length></recording></track><track
+        id=\"8dab3424-b841-3f0e-a607-d0141579385f\"><position>6</position><number>6</number><length>158120</length><recording
+        id=\"d70c992e-bea9-4cc8-b9b4-fae9233a9d6f\"><title>Old Man River</title><length>158120</length></recording></track><track
+        id=\"c7e31821-58ee-36f6-aa6f-b1bc28a82d7a\"><position>7</position><number>7</number><length>155906</length><recording
+        id=\"6141a1a1-7a34-4750-bae6-56045eb0d418\"><title>Long Ago and Far Away</title><length>155906</length></recording></track><track
+        id=\"97b1f1a5-2e18-387b-b046-47f3af58967b\"><position>8</position><number>8</number><length>168186</length><recording
+        id=\"e1c32012-8204-428e-84b6-5a87f94841cb\"><title>Lovely to Look At</title><length>168186</length></recording></track><track
+        id=\"0feb7c00-cef1-3204-804b-5224c9a8e655\"><position>9</position><number>9</number><length>132480</length><recording
+        id=\"51941a53-abb3-4ac8-a91f-1b3e317451b4\"><title>Pick Yourself Up</title><length>132480</length></recording></track><track
+        id=\"6ce9145b-24a5-30a2-a1e3-e3a72b79c2d9\"><position>10</position><number>10</number><length>169600</length><recording
+        id=\"7b5c0fd4-9dfe-4389-9f5b-5e320cbdf957\"><title>Smoke Gets in Your Eyes</title><length>169600</length></recording></track><track
+        id=\"b5af3d36-0537-3a1d-810c-697a4f1d873d\"><position>11</position><number>11</number><length>221000</length><recording
+        id=\"d6368d10-2f88-496f-9ff4-7d931b9bfd6f\"><title>The Way You Look Tonight</title><length>221000</length></recording></track><track
+        id=\"3542c2fe-ef20-3282-9304-b56da93fde0b\"><position>12</position><number>12</number><length>200413</length><recording
+        id=\"93da785d-f853-43e9-b578-dd1f4e5c3493\"><title>Yesterdays</title><length>200413</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"eb692ad5-0f9c-34ef-aca2-2fa006ebb4ec\"><title>Ella and Oscar</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1976</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1976</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"9\" offset=\"0\"><track
+        id=\"16e01e80-2029-3a99-8339-58ef2b5f1d36\"><position>1</position><number>1</number><length>210400</length><recording
+        id=\"3808cf2d-444c-492b-bb7d-f624ca6691ae\"><title>Mean to Me</title><length>210400</length></recording></track><track
+        id=\"765719a3-075d-32bc-b04c-a1df4ca188bd\"><position>2</position><number>2</number><length>299066</length><recording
+        id=\"b1160dba-7e55-4eee-ad02-223e60f04077\"><title>How Long Has This Been
+        Going On?</title><length>299066</length></recording></track><track id=\"50ddbe2b-a5cb-3980-9530-f20ee4c04b70\"><position>3</position><number>3</number><length>298426</length><recording
+        id=\"63a69b5f-3d43-4218-973e-7d9bf8a2419d\"><title>When Your Lover Has Gone</title><length>298426</length></recording></track><track
+        id=\"ca402328-6619-3942-982a-27205acecfea\"><position>4</position><number>4</number><length>277306</length><recording
+        id=\"6e92c695-2872-484b-b724-b7241471e69d\"><title>More Than You Know</title><length>277306</length></recording></track><track
+        id=\"5f5b7bb5-1b04-3980-895e-b709a2d3d5e6\"><position>5</position><number>5</number><length>298533</length><recording
+        id=\"23d7a539-ef74-4efa-9108-6dba80a37402\"><title>There's a Lull in My Life</title><length>298533</length></recording></track><track
+        id=\"cd9c950b-54b9-3df5-ace5-21bc8e9809cb\"><position>6</position><number>6</number><length>220493</length><recording
+        id=\"16c16d4d-e7f7-4a68-a707-7f2b55a72f3d\"><title>Midnight Sun</title><length>220493</length></recording></track><track
+        id=\"58396823-c3b5-3070-a0d4-006e5b9336cc\"><position>7</position><number>7</number><length>312240</length><recording
+        id=\"0b718b11-318e-43d3-a831-d38802f76d91\"><title>I Hear Music</title><length>312240</length></recording></track><track
+        id=\"b1063963-8243-3eb4-88c0-0f7e29f9ae0b\"><position>8</position><number>8</number><length>248293</length><recording
+        id=\"29b179a9-902b-4a1a-80ba-30cae91888e5\"><title>Street of Dreams</title><length>248293</length></recording></track><track
+        id=\"b6166f9e-8eb3-341b-bea5-d6d83f485315\"><position>9</position><number>9</number><length>517266</length><recording
+        id=\"12939671-2145-4a27-a8b6-435b7812b1e2\"><title>April in Paris</title><length>517266</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"f15ccf0d-4d9a-4165-96b5-79ff2d57482e\"><title>Oscar Peterson Plays the
+        Cole Porter Songbook</title><status>Official</status><quality>normal</quality><packaging>Cardboard/Paper
+        Sleeve</packaging><text-representation><language>eng</language><script>Latn</script></text-representation><date>1959</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1959</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>true</artwork><count>1</count><front>true</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"12\" offset=\"0\"><track
+        id=\"b5f61f09-495d-3f6f-98be-9e69671206f0\"><position>1</position><number>1</number><length>173413</length><recording
+        id=\"3b90610a-7b1c-48fd-9aaf-e079f4f9a7ac\"><title>In the Still of the Night</title><length>173413</length></recording></track><track
+        id=\"48b32a5a-065d-3b74-9a66-75ba3bb244b0\"><position>2</position><number>2</number><length>175386</length><recording
+        id=\"861dadeb-debe-42e3-ba28-45d9e296aa76\"><title>It's All Right With Me</title><length>175386</length></recording></track><track
+        id=\"e72deea4-66bc-3498-b72a-067c56f6e00d\"><position>3</position><number>3</number><length>210640</length><recording
+        id=\"0eb3a2be-4234-40fb-bbbf-413204d78ff4\"><title>Love for Sale</title><length>210640</length></recording></track><track
+        id=\"d4067c8b-9e4b-3261-af74-3dc35675c789\"><position>4</position><number>4</number><length>145080</length><recording
+        id=\"2fd0672e-151a-494c-b157-5a3d1de5c9cf\"><title>Just One of Those Things</title><length>145080</length></recording></track><track
+        id=\"fcc33a3c-7f34-3390-b814-3807ab59bdce\"><position>5</position><number>5</number><length>171706</length><recording
+        id=\"f9f9a6b5-b5c1-4aa7-ac7c-a98fb890985e\"><title>I've Got You Under My Skin</title><length>171706</length></recording></track><track
+        id=\"68f0575a-dbf4-3545-ac03-85c9aa50c885\"><position>6</position><number>6</number><length>141773</length><recording
+        id=\"e8ae8f81-9e15-48c8-bc5f-83fb51cd1ab7\"><title>Ev'ry Time We Say Goodbye</title><length>141773</length></recording></track><track
+        id=\"31d0846c-a1bb-34bf-94c2-7c687b93ce15\"><position>7</position><number>7</number><length>154666</length><recording
+        id=\"0b81ce3b-8a46-4eda-8626-adfd1d38d713\"><title>Night and Day</title><length>154666</length></recording></track><track
+        id=\"2e44ff72-40a7-3c75-b13a-97f6b8914d13\"><position>8</position><number>8</number><length>158000</length><recording
+        id=\"792e5100-58a3-474f-8d7d-3a49d660c64c\"><title>You'd Be So Easy to Love</title><length>158000</length></recording></track><track
+        id=\"21f20123-20cc-31b1-b060-9ef41dce50aa\"><position>9</position><number>9</number><length>182200</length><recording
+        id=\"b6d98821-ab57-46a8-8388-4d4a23d0242c\"><title>Why Can't You Behave?</title><length>182200</length></recording></track><track
+        id=\"2c7076e8-b773-3edd-a3b4-9b6702a603ae\"><position>10</position><number>10</number><length>133240</length><recording
+        id=\"faf0f570-a224-48b7-8a81-d91b9e8bd1f1\"><title>I Love Paris</title><length>133240</length></recording></track><track
+        id=\"53625092-3f65-3d76-9169-e59f1f4a0364\"><position>11</position><number>11</number><length>192746</length><recording
+        id=\"2d22e358-3e8d-4826-b57e-2747547ed49f\"><title>I Concentrate on You</title><length>192746</length></recording></track><track
+        id=\"eedea484-8b52-31ac-a26c-cd2e8ac2e0de\"><position>12</position><number>12</number><length>148973</length><recording
+        id=\"11bfdb60-1551-4bc6-b928-1ea64f7e3f2e\"><title>It's De-Lovely</title><length>148973</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"f16988fd-e1ab-42ad-8f35-e38905004a7f\"><title>Bursting Out With the All
+        Star Big Band!</title><status>Official</status><quality>normal</quality><text-representation><language>eng</language><script>Latn</script></text-representation><date>1962</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1962</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"9\" offset=\"0\"><track
+        id=\"c6e97c16-22cf-3556-98a4-0cff22f2c9ba\"><position>1</position><number>A1</number><length>359026</length><recording
+        id=\"c4f6a71d-bc74-4260-8dc8-30b612859986\"><title>Blues for Big Scotia</title><length>359026</length></recording></track><track
+        id=\"fc695440-1bfc-3fd1-aba3-553694916fc7\"><position>2</position><number>A2</number><length>246000</length><recording
+        id=\"a7b466f9-f08f-42c4-9498-9474a49a08e6\"><title>West Coast Blues</title><length>246000</length></recording></track><track
+        id=\"e737e911-89b3-3ee2-9d70-a17a131fb4af\"><position>3</position><number>A3</number><length>252240</length><recording
+        id=\"a4beff9a-be15-468a-9a5d-215bb7143658\"><title>Here's That Rainy Day</title><length>252240</length></recording></track><track
+        id=\"96d8e2d3-1c75-3ca5-9895-d8cab87da0e2\"><position>4</position><number>A4</number><length>160066</length><recording
+        id=\"4f8370dd-ae63-44ff-b502-74665e0669f1\"><title>I Love You</title><length>160066</length></recording></track><track
+        id=\"7f492b15-fa48-3de6-a941-3fed764c073b\"><position>5</position><number>A5</number><length>179066</length><recording
+        id=\"b5b71eb9-2586-44bf-a204-4d464fb413cd\"><title>Daahoud</title><length>179066</length></recording></track><track
+        id=\"7c3ef0af-11aa-3e67-8bcb-3fae34e33f8b\"><position>6</position><number>B1</number><length>258933</length><recording
+        id=\"28a79218-3a1c-482c-84b5-2fcd6b8ed62d\"><title>Tricotism</title><length>258933</length></recording></track><track
+        id=\"74743521-5a13-316e-abf6-632e5d2b2318\"><position>7</position><number>B2</number><length>272160</length><recording
+        id=\"7a018239-9563-4088-87bd-53e17399c4a7\"><title>I'm Old Fashioned</title><length>272160</length></recording></track><track
+        id=\"c9b7f299-69e8-3e99-8e39-967b2b79965e\"><position>8</position><number>B3</number><length>299666</length><recording
+        id=\"47e12e2f-a3df-458b-b749-d910c21d87b0\"><title>Young and Foolish</title><length>299666</length></recording></track><track
+        id=\"06eed6cb-128b-38bf-a82d-db9ec08c4d86\"><position>9</position><number>B4</number><length>240506</length><recording
+        id=\"f8baa70a-5de3-463e-a7e0-1face92ceee0\"><title>Manteca</title><length>240506</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"f7e53345-9185-4688-8476-8b1ae8c6b976\"><title>Oscar Peterson Plays the
+        Harold Arlen Song Book</title><status>Official</status><quality>normal</quality><packaging>Cardboard/Paper
+        Sleeve</packaging><text-representation><language>eng</language><script>Latn</script></text-representation><date>1959</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1959</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>true</artwork><count>1</count><front>true</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"12\" offset=\"0\"><track
+        id=\"e967af77-92b3-3535-acd1-1182652a2cb4\"><position>1</position><number>1</number><length>145746</length><recording
+        id=\"e2624b71-6c25-49e5-958a-6ea819099850\"><title>As Long as I Live</title><length>145746</length></recording></track><track
+        id=\"ce3c8c22-fc49-3f98-a321-2785b75e5163\"><position>2</position><number>2</number><length>156986</length><recording
+        id=\"3c89bb40-3437-4330-95f3-99acf5b2426d\"><title>Come Rain or Come Shine</title><length>156986</length></recording></track><track
+        id=\"7fba8e20-7817-37dc-b746-49a148ee25e0\"><position>3</position><number>3</number><length>121706</length><recording
+        id=\"8cbe8312-4e41-49d3-a850-bf7afc79552b\"><title>Ac-Cent-Tchu-Ate the Positive</title><length>121706</length></recording></track><track
+        id=\"d3833fe3-3081-382b-958f-3e5a7e83f4a7\"><position>4</position><number>4</number><length>162573</length><recording
+        id=\"52c3fed8-3a0e-4e66-b0a0-cf6623e14ddc\"><title>Between the Devil and the
+        Deep Blue Sea</title><length>162573</length></recording></track><track id=\"03015c0b-5f73-3f1b-bb10-9c70a25ac889\"><position>5</position><number>5</number><length>148720</length><recording
+        id=\"8acf1064-c194-4358-ab95-733ce84a5c5a\"><title>I've Got the World on a
+        String</title><length>148720</length></recording></track><track id=\"1aa2372e-2310-3da4-803c-d28e8fb5d1d0\"><position>6</position><number>6</number><length>181026</length><recording
+        id=\"31e63b51-d2a0-4659-830a-e64af65db41a\"><title>That Old Black Magic</title><length>181026</length></recording></track><track
+        id=\"0caaf6dc-654a-395b-bae7-aba7a157a834\"><position>7</position><number>7</number><length>137746</length><recording
+        id=\"661c75e8-4c72-436b-9b73-49a74a13ee6d\"><title>Let's Fall in Love</title><length>137746</length></recording></track><track
+        id=\"b3788b7f-bf2f-34f2-9b77-c6bf3873fcc9\"><position>8</position><number>8</number><length>163293</length><recording
+        id=\"245f1986-97a4-495d-ad8b-8c2f68ed439d\"><title>Stormy Weather</title><length>163293</length></recording></track><track
+        id=\"b3b71c37-3fab-3498-9438-e35497b705a3\"><position>9</position><number>9</number><length>138013</length><recording
+        id=\"7379a427-7308-481a-8fa8-e6df7d8ea7c0\"><title>Over the Rainbow</title><length>138013</length></recording></track><track
+        id=\"457fc486-2c2d-368f-a206-dad63e6bd95e\"><position>10</position><number>10</number><length>133400</length><recording
+        id=\"958d7a45-8e42-4c94-a371-10c93334c661\"><title>Happiness Is a Thing Called
+        Joe</title><length>133400</length></recording></track><track id=\"aa075db1-dff5-3fea-b0ff-5a645f662130\"><position>11</position><number>11</number><length>159200</length><recording
+        id=\"81f7f134-51fb-4bec-82f6-22217b1b6fcb\"><title>The Man That Got Away</title><length>159200</length></recording></track><track
+        id=\"03a4bf17-f87f-37aa-bb0f-ca91cd869616\"><position>12</position><number>12</number><length>151506</length><recording
+        id=\"8cdd3a32-7a5d-46d0-aad2-325c97fb60d5\"><title>Ill Wind</title><length>151506</length></recording></track></track-list></medium></medium-list></release><release
+        id=\"f9ad3361-7782-4458-a587-5f876033aa14\"><title>Oscar Peterson Plays George
+        Gershwin</title><status>Official</status><quality>normal</quality><packaging>Cardboard/Paper
+        Sleeve</packaging><text-representation><language>eng</language><script>Latn</script></text-representation><date>1954</date><country>SE</country><release-event-list
+        count=\"1\"><release-event><date>1954</date><area id=\"23d10872-f5ae-3f0c-bf55-332788a16ecb\"><name>Sweden</name><sort-name>Sweden</sort-name><iso-3166-1-code-list><iso-3166-1-code>SE</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><barcode
+        /><cover-art-archive><artwork>false</artwork><count>0</count><front>false</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"4\" offset=\"0\"><track
+        id=\"46970aea-af4a-336f-b766-33f18dc601ee\"><position>1</position><number>1</number><recording
+        id=\"741b677a-e5af-4abb-8972-946cb0510be4\"><title>Man I Love</title></recording></track><track
+        id=\"71b562d0-0840-356d-905a-efbbedb33d14\"><position>2</position><number>2</number><recording
+        id=\"5c45ddd5-2f1a-4c3c-a68c-e9fb508f9f02\"><title>It Ain\u2019t Necessarily
+        So</title></recording></track><track id=\"309ac878-9d55-318e-bd6f-1d25f36bc3ce\"><position>3</position><number>3</number><recording
+        id=\"328168b5-0e5d-4aa5-8360-708d832e29e9\"><title>Strike Up the Band!</title></recording></track><track
+        id=\"087e6a69-7933-3a50-aa65-7c4d3fb2b36b\"><position>4</position><number>4</number><recording
+        id=\"304debe5-2b68-47c9-9f06-5abd57bdd4d0\"><title>A Foggy Day</title></recording></track></track-list></medium></medium-list></release><release
+        id=\"fe6eb18a-aac4-47b0-911c-8d7fc88ecabf\"><title>The Jazz Soul of Oscar
+        Peterson</title><status>Official</status><quality>normal</quality><packaging>Cardboard/Paper
+        Sleeve</packaging><text-representation><language>eng</language><script>Latn</script></text-representation><date>1959</date><country>US</country><release-event-list
+        count=\"1\"><release-event><date>1959</date><area id=\"489ce91b-6658-3307-9877-795b68554c98\"><name>United
+        States</name><sort-name>United States</sort-name><iso-3166-1-code-list><iso-3166-1-code>US</iso-3166-1-code></iso-3166-1-code-list></area></release-event></release-event-list><cover-art-archive><artwork>true</artwork><count>1</count><front>true</front><back>false</back></cover-art-archive><medium-list
+        count=\"1\"><medium><position>1</position><track-list count=\"5\" offset=\"0\"><track
+        id=\"00e17e2f-e51b-3ba0-a208-0fbafa5a91dc\"><position>1</position><number>1</number><length>272000</length><recording
+        id=\"fd4117b5-a766-4245-b0fa-93caf12b2f9a\"><title>Liza</title><length>272000</length></recording></track><track
+        id=\"de708d01-8779-36c6-8ff0-9826b7a09958\"><position>2</position><number>2</number><length>418466</length><recording
+        id=\"bdaf4535-f635-4dee-9c6b-edc8bff6bb78\"><title>Con Alma</title><length>418466</length></recording></track><track
+        id=\"e13c0b70-c395-3e4d-b787-9e18c070514f\"><position>3</position><number>3</number><length>345560</length><recording
+        id=\"0adbd78a-fcd1-4ef8-b160-db5f2ab9c052\"><title>Close Your Eyes</title><length>345560</length></recording></track><track
+        id=\"a1edb089-d772-3041-93b3-3d944002294f\"><position>4</position><number>4</number><length>463066</length><recording
+        id=\"6715b171-1164-4820-b4f5-bf7c03c07709\"><title>The Maidens of Cadiz</title><length>463066</length></recording></track><track
+        id=\"7e5a998e-c8b7-3792-9aef-a99fdd0d1841\"><position>5</position><number>5</number><length>343266</length><recording
+        id=\"da047a33-ca86-4494-8614-74ab8963a49d\"><title>My Heart Stood Still</title><length>343266</length></recording></track></track-list></medium></medium-list></release></release-list></metadata>"}
+    headers:
+      Access-Control-Allow-Origin: ['*']
+      Connection: [close]
+      Content-Length: ['77308']
+      Content-Type: [application/xml; charset=utf-8]
+      Date: ['Tue, 04 Aug 2015 04:54:11 GMT']
+      ETag: ['"86b72612c35cc2cb7336ba04bdfd8fcc"']
+      Server: [nginx/1.1.19]
+    status: {code: 200, message: OK}
+version: 1
